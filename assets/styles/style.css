@@ -292,7 +292,7 @@ button {
 	display: grid;
 }
 .contact-block {
-
+	text-transform: uppercase;
 }
 .contact-block-line {
 	width: 1px;
@@ -318,10 +318,13 @@ button {
 .contact button:active {
 	opacity: .3;
 }
+.contact-block-address {
+	grid-column: 5;
+}
 .contact-block-social {
 	text-align: right;
 }
-.contact-social {
+.contact-block-social a {
 	text-decoration: underline !important;
 	text-decoration-thickness: 1px;
 	text-underline-offset: .1em;
@@ -330,16 +333,16 @@ button {
 	.contact {
 		grid-template-columns: repeat(5, 1fr);
 	}
-	.contact-spacer {
-		display: none;
+	.contact-block-address {
+		grid-column: 4;
 	}
 }
 @media only screen and (max-width: 1300px) {
 	.contact {
 		grid-template-columns: repeat(4, 1fr);
 	}
-	.contact-spacer {
-		display: block;
+	.contact-block-address {
+		grid-column: 1;
 	}
 	.contact-block-social {
 		text-align: left;

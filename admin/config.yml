@@ -7,7 +7,7 @@ public_folder: "assets/uploads"
 
 collections:
   - name: "content"
-    label: "Site Content"
+    label: "All site content"
     format: "json"
     extension: "json"
     delete: false
@@ -15,7 +15,7 @@ collections:
       preview: false
     files:
       - name: "content"
-        label: "Content JSON"
+        label: "Edit all site content"
         file: "content.json"
         fields:
           - { label: "About | Bio", name: "about-bio", widget: "markdown" }
@@ -27,6 +27,15 @@ collections:
                 { label: "Sort Order", name: "sorting", widget: "string" }
               ]
             }
+          - { label: "Contact", name: "contact", widget: "list", fields:
+              [
+                { label: "Name", name: "name", widget: "string" },
+                { label: "Phone", name: "phone", widget: "string" },
+                { label: "Email", name: "email", widget: "string" }
+              ]
+            }
+          - { label: "Address", name: "address", widget: "markdown" }
+          - { label: "Social", name: "social", widget: "markdown" }
           - { label: "Directors", name: "directors", widget: "list", fields:
               [
                 { label: "Name", name: "name", widget: "string" },

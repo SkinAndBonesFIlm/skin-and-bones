@@ -27,35 +27,26 @@ const meta = `
 `;
 
 // Contact
+let contactInfo = ''
+for (let info of content['contact']) {
+	contactInfo += `
+		<div class="contact-block">
+			<div class="contact-block-line"></div>
+			<div>${info['name']}</div>
+			<div>${info['phone']}</div>
+			<div><a href="mailto:${info['email']}">${info['email']}</a></div>
+		</div>
+	`;
+}
+
 const contact = `
 	<div class="contact">
-		<div class="contact-block">
-			<div class="contact-block-line"></div>
-			<div>GENERAL</div>
-			<div>+1 416-639-5920</div>
-			<div><a href="mailto:info@skinandbonesfilm.com">INFO@SKINANDBONESFILM.COM</a></div>
-		</div>
-		<div class="contact-block">
-			<div class="contact-block-line"></div>
-			<div>LIANE THOMAS</div>
-			<div>+1 416-471-1354</div>
-			<div><a href="mailto:liane@skinandbonesfilm.com">LIANE@SKINANDBONESFILM.COM</a></div>
-		</div>
-		<div class="contact-block">
-			<div class="contact-block-line"></div>
-			<div>JOAN BELL</div>
-			<div>+1 416-994-8562</div>
-			<div><a href="mailto:liane@skinandbonesfilm.com">JOAN@SKINANDBONESFILM.COM</a></div>
-		</div>
-		<div class="contact-spacer">
-
-		</div>
-		<div class="contact-block">
-			<div>1028 QUEEN ST. W. #200</div>
-			<div>TORONTO, ON M6J 1H6, CANADA</div>
+		${contactInfo}
+		<div class="contact-block contact-block-address">
+			${marked(content['address'])}
 		</div>
 		<div class="contact-block contact-block-social">
-			<div>FOLLOW US ON <a href="https://www.instagram.com/skinandbonesfilm/" target="_blank" class="contact-social">INSTAGRAM</a></div>
+			${marked(content['social'])}
 		</div>
 		<button class="contact-close" onclick="toggleContact();">[CLOSE]</button>
 	</div>

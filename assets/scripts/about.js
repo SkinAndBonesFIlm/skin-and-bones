@@ -57,3 +57,11 @@ function toggleAwards() {
 		awards.dataset.active = 0;
 	}
 }
+
+// Force award links to open in new tab
+for (let awardLink of document.querySelectorAll('.about-text-awards a')) {
+	awardLink.addEventListener('click', (e) => {
+		e.preventDefault();
+		window.open(awardLink.href, '_blank').focus();
+	})
+}

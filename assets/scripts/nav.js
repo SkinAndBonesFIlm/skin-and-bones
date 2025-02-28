@@ -84,17 +84,17 @@ window.addEventListener('wheel', (event) => {
 });
 
 // Force news links to open in new tab
-// for (let newsLink of document.querySelectorAll('.news a')) {
-// 	newsLink.addEventListener('click', (e) => {
-// 		e.preventDefault();
-// 		window.open(newsLink.href, '_blank').focus();
-// 	})
-// }
-
-// Force ALL links to open in a new tab
-for (let link of document.querySelectorAll('a')) {
-	link.addEventListener('click', (e) => {
+for (let newsLink of document.querySelectorAll('.news a')) {
+	newsLink.addEventListener('click', (e) => {
 		e.preventDefault();
-		window.open(link.href, '_blank').focus();
+		window.open(newsLink.href, '_blank').focus();
+	})
+}
+
+// Force social links to open in new tab
+for (let socialLink of document.querySelectorAll('.contact-block-social a')) {
+	socialLink.addEventListener('click', (e) => {
+		e.preventDefault();
+		window.open(socialLink.href, '_blank').focus();
 	})
 }

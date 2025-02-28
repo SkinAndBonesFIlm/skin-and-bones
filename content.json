@@ -13,6 +13,25 @@
 			"sorting": 2
 		}
 	],
+	"contact": [
+		{
+			"name": "General",
+			"phone": "+1 416-639-5920",
+			"email": "info@skinandbonesfilm.com"
+		},
+		{
+			"name": "Liane Thomas",
+			"phone": "+1 416-471-1354",
+			"email": "liane@skinandbonesfilm.com"
+		},
+		{
+			"name": "Joan Bell",
+			"phone": "+1 416-994-8562",
+			"email": "joan@skinandbonesfilm.com"
+		}
+	],
+	"address": "1028 Queen St. W. #200  \nToronto, ON M6J 1H6, Canada",
+	"social": "Follow us on [Instagram](https://www.instagram.com/skinandbonesfilm/)",
 	"directors": [
 		{
 			"sorting": "david-quinn",
