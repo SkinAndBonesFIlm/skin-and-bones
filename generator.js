@@ -428,7 +428,7 @@ function generateDirectorPortfolioPage(director) {
 				<main class="director-portfolio">
 					<section class="director-portfolio-info">
 						<h1 class="director-portfolio-info-title">${directorData['name']}</h1>
-						${directorData['bio']}
+						${marked(directorData['bio'])}
 						${awardsDesktop}
 					</section>
 

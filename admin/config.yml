@@ -43,6 +43,7 @@ collections:
                 { label: "Homepage | Image", name: "home-image", widget: "image" },
                 { label: "Homepage | Video", name: "home-video", widget: "file" },
                 { label: "Simian ID", name: "simian-id", widget: "string" },
+                { label: "Bio", name: "bio", widget: "markdown" },
                 { label: "Awards", name: "awards", widget: "list", field:
                   { label: "Award", name: "award", widget: "string" }
                 },
