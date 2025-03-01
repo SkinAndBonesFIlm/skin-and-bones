@@ -1,12 +1,12 @@
-import fs from 'fs'; // file management
-import path from 'path'; // file paths
-import axios from 'axios'; // download images
-import sharp from 'sharp'; // image compression
-import { marked } from "marked"; // convert markdown to js
-import { DOMParser } from 'xmldom'; // parse Simian XML data
+const fs = require('fs'); // file management
+const path = require('path'); // file paths
+const axios = require('axios'); // download images
+const sharp = require('sharp'); // image compression
+const { marked } = require("marked"); // convert markdown to js
+const { DOMParser } = require('xmldom'); // parse Simian XML data
 
 // Site content
-import content from './content.json' assert { type: 'json' };
+const content = require('./content.json');
 const directors = content['directors'];
 
 // Sort directors
