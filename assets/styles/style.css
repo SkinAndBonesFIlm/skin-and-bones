@@ -410,7 +410,7 @@ button {
 	display: none;
 	background-color: #F1F1F1;
 	padding: 0 var(--padding) var(--padding) var(--padding);
-	height: 100vh;
+	height: 100dvh;
 	overflow: hidden;
 	--container-width: calc(100dvw - calc(var(--padding) * 2));
 	--cell-width: calc(calc(var(--container-width) - calc(var(--padding) * 5)) / 6);
