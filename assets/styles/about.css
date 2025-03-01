@@ -144,8 +144,8 @@
 	padding-right: 40%;
 	text-wrap: pretty;
 }
-.about-text-awards br {
-	content: "";
+.about-text-awards a::before {
+	content: " ";
 	margin: calc(var(--line-height) * .5);
 	display: block;
 }
@@ -195,6 +195,10 @@
 		flex-direction: column;
 		gap: var(--line-height);
 		opacity: .3;
+	}
+	.about-text-footer-mobile div {
+		font-size: calc(var(--font-size) * .8);
+		line-height: 1.3em;
 	}
 }
 
