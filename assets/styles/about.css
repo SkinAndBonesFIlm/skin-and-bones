@@ -87,7 +87,7 @@
 	}
 	.about-media-big {
 		grid-column: auto;
-		height: 80vmin;
+		height: 100vmin;
 	}
 	.about-media-small {
 		grid-column: auto;

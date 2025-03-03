@@ -276,7 +276,11 @@ function volumeDown() {
 // Fullscreen
 function toggleFullscreen() {
 	const video = document.querySelector('.director-portfolio-lightbox-media-video');
-	video.requestFullscreen();
+	if (video.webkitEnterFullScreen) {
+        video.webkitEnterFullScreen();
+    } else {
+		video.requestFullscreen();
+	}
 }
 function checkFullscreen() {
 	return document.fullscreenElement === video;

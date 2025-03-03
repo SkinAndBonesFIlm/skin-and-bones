@@ -78,8 +78,10 @@ async function downloadImage(url, filename, folder) {
 	// Ensure directory exists
 	if (!fs.existsSync(folder)) fs.mkdirSync(folder, { recursive: true });
 
-	// Skip if compressed image already exists
-	const filePath = path.join(folder, "thumbnail-"+filename);
+	let newName = replaceExtensionWithJPG("thumbnail-"+filename);
+
+	// Skip if image already exists
+	const filePath = path.join(folder, filename);
 	if (fs.existsSync(filePath)) {
 		return
 	}
@@ -89,11 +91,17 @@ async function downloadImage(url, filename, folder) {
 	// console.log(`Downloaded: ${filename}`);
 
 	// Compress file and overwrite original
-	const compressedPath = path.join(folder, "thumbnail-"+filename);
+	const compressedPath = path.join(folder, newName);
+	console.log(compressedPath);
 	await sharp(filePath)
 		.resize(800) // Resize width to 800px (adjust as needed)
-		.toFormat('webp', { quality: 80 }) // Convert to WebP with 80% quality
+		.toFormat('jpg', { quality: 80 }) // Convert to WebP with 80% quality
 		.toFile(compressedPath);
+}
+
+// Replace file extension
+function replaceExtensionWithJPG(filename) {
+    return filename.replace(/\.[^/.]+$/, ".jpg");
 }
 
 // Get client and project name using regular expression
@@ -124,6 +132,8 @@ async function generatePages() {
 
 				const slug = director['slug'];
 				const path = `./directors/${slug}/`;
+
+				console.log(slug + " starting...");
 				
 				// Make folder for director
 				if (!fs.existsSync(path)) fs.mkdirSync(path, { recursive: true });
@@ -144,7 +154,9 @@ async function generatePages() {
 							const thumbnail = item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'thumbnail')[0]?.getAttribute('url') || 'No thumbnail URL';
 		
 							const itemInfo = extractParts(title);
-							let thumbnailFile = getFilename(thumbnail);
+							console.log(thumbnail)
+							let thumbnailFile = getFilename(thumbnail.split('?')[0]);
+							console.log(thumbnailFile)
 		
 							// Download and compress media item
 							downloadImage(thumbnail, thumbnailFile, path);
@@ -155,14 +167,14 @@ async function generatePages() {
 									"client": itemInfo,
 									"project": '',
 									"video-url": video.replace(/^http:/, "https:"),
-									"thumbnail": `thumbnail-${thumbnailFile}`
+									"thumbnail": replaceExtensionWithJPG(`thumbnail-${thumbnailFile}`)
 								});
 							} else {
 								media.push({
 									"client": itemInfo[0],
 									"project": itemInfo[1],
 									"video-url": video,
-									"thumbnail": `thumbnail-${thumbnailFile}`
+									"thumbnail": replaceExtensionWithJPG(`thumbnail-${thumbnailFile}`)
 								});
 							}
 						}
@@ -171,6 +183,8 @@ async function generatePages() {
 						
 						// Generate individual page
 						generateDirectorPortfolioPage(slug);
+
+						console.log(slug + " finished!");
 					
 						resolve();
 					})
@@ -179,6 +193,8 @@ async function generatePages() {
 	}
 
 	await Promise.all(tasks); // Wait for all tasks to finish
+
+	console.log('all directors finished!');
 
 	// Convert object to JS file
 	fs.writeFile(`./assets/scripts/directors-media.js`, "const directorsMedia = " + JSON.stringify(directorsMedia), err => {
@@ -937,7 +953,7 @@ function generateHomePage() {
 							<div></div>
 							<div>WHAT WE DO</div>
 							<div></div>
-							<div>We make work for brands, business</div>
+							<div>We make films for brands, business</div>
 							<div>and anyone with a story to tell.</div>
 						</div>
 						<div class="home-cell-text">
@@ -1229,7 +1245,7 @@ function generateHomePage() {
 					<div class="home-mobile-text home-mobile-span">
 						<div>WHAT WE DO</div>
 						<div></div>
-						<div>We make work for brands, business and</div>
+						<div>We make films for brands, business and</div>
 						<div>anyone with a story to tell.</div>
 						<div></div>
 					</div>
