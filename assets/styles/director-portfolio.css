@@ -202,7 +202,6 @@
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
-	min-height: 160px;
 }
 .director-portfolio-lightbox-media-video {
 	position: absolute;
@@ -435,8 +434,8 @@
 	.director-portfolio-lightbox[data-active="1"] {
 		display: flex;
 		flex-direction: column;
-		top: calc(calc(var(--padding) * 2) + var(--line-height));
-		padding-top: calc(var(--line-height) * 3.35);
+		top: calc(calc(calc(var(--padding) * 2) + var(--line-height)) - 2px);
+		padding-top: calc(var(--line-height) * 3.5);
 	}
 	.director-portfolio-lightbox-right {
 		flex-direction: row;
@@ -472,5 +471,10 @@
 	}
 	.director-portfolio-lightbox-controls-fullscreen-desktop {
 		display: none;
+	}
+}
+@media only screen and (max-height: 500px) {
+	.director-portfolio-lightbox-media {
+		min-height: 320px;
 	}
 }
