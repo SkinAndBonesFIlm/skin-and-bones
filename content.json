@@ -219,10 +219,10 @@
       "home-video": "/assets/uploads/thumbnail-matt-rhodes.mp4",
       "home-image": "/assets/uploads/thumbnail-matt-rhodes.jpg",
       "awards": [
-        "D&AD Awards, Best Performance, 2016",
-        "Kinsale Shark Awards, Best Performance, 2016",
-        "Kinsale Shark Awards, Winner of Over 40 Awards, 2016",
-        "Promax Awards, Winner of Over 40 Awards, 2016"
+        "D&AD Awards, Best Performance, 2022",
+        "Kinsale Shark Awards, Best Performance, 2022",
+        "Kinsale Shark Awards, Winner of Over 40 Awards",
+        "Promax Awards, Winner of Over 40 Awards"
       ]
     },
     {
@@ -236,6 +236,7 @@
       "home-image": "/assets/uploads/thumbnail-matthew-swanson.jpg",
       "awards": [
         "Kinsale Shark Advertising Festival, Bronze, 2024",
+        "ADCC Awards, Best Direction, Bronze, 2022",
         "British Arrows, Gold, 2022",
         "Campaign Big Awards, Winner, 2022",
         "Advertising Creative Circle Awards, Bronze, 2022",
@@ -246,7 +247,9 @@
         "Art Directors Club of Europe, Silver, 2020",
         "D&AD Awards, Wood Pencil, 2020",
         "The One Show, Bronze, 2020",
-        "AICP Show, 2020"
+        "AICP Show, 2020",
+        "Shots Awards Americas, Commercial of the Year (Spotify), Gold, 2020",
+        "Ciclope, Best Direction (Spotify), Silver, 2019"
       ]
     },
     {
@@ -281,18 +284,19 @@
     {
       "sorting": "nolan-sarner",
       "active": true,
-      "bio": "Nolan can make just about any story a beautiful story. The lead character could be a little kid or a big name, but Nolan’s ability to get authentic performances is always consistent. Paired with beautiful cinematography and a naturally fluid pace, his work feels like real life even when it’s not. His experience directing real people of all ages has kept him nimble and creative on the fly. Nolan comes from directing real people in candid situations, so he can also think creatively on the fly.",
+      "bio": "Nolan can make just about any story a beautiful story. The lead character could be a little kid or a big name, but Nolan’s ability to get authentic performances is always consistent. Paired with beautiful cinematography and a naturally fluid pace, his work feels like real-life even when it’s not.",
       "simian-id": "5409",
       "name": "Nolan Sarner",
       "slug": "nolan-sarner",
       "home-video": "/assets/uploads/thumbnail-nolan-sarner.mp4",
       "home-image": "/assets/uploads/thumbnail-nolan-sarner.jpg",
       "awards": [
-        "Canadian Screen Awards, Recognized for Excellence, 2018, for Nolan Sarner",
-        "ADCC, Shortlist, 2019, for Nolan Sarner",
-        "1.4, Shortlist, 2019, for Nolan Sarner",
-        "Berlin Commercial Awards, Shortlist, 2019, for Nolan Sarner",
-        "Vimeo, Staff Pick, 2019, for Nolan Sarner"
+        "Canadian Screen Award Winner, 2018",
+        "Canadian Screen Award Nominee, 2019",
+        "ADCC, Shortlist, 2024",
+        "1.4, Shortlist, 2021 & 2022",
+        "Berlin Commercial Awards, Shortlist, 2021 & 2022",
+        "Vimeo, Staff Pick"
       ]
     },
     {

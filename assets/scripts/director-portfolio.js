@@ -59,8 +59,23 @@ function openLightbox(videoURL, client, project) {
 
 	const progress = document.querySelector('.director-portfolio-lightbox-media-playbar-meter-progress');
 	progress.style.width = '0%';
+	
+	history.pushState(null, document.title, window.location.href);
 }
 function closeLightbox() {
+	// const nav = document.querySelector('.nav');
+	// nav.dataset.lightbox = 0;
+
+	// const lightbox = document.querySelector('.director-portfolio-lightbox');
+	// lightbox.dataset.active = 0;
+	// const videoSource = document.querySelector('.director-portfolio-lightbox-media-video source');
+	// videoSource.src = "";
+	// const video = document.querySelector('.director-portfolio-lightbox-media-video');
+	// video.load();
+
+	window.history.back();
+}
+function closeLightboxAlt() {
 	const nav = document.querySelector('.nav');
 	nav.dataset.lightbox = 0;
 
@@ -285,3 +300,19 @@ function toggleFullscreen() {
 function checkFullscreen() {
 	return document.fullscreenElement === video;
 }
+
+// Page navigation override
+window.addEventListener("popstate", (e) => {
+	const lightbox = document.querySelector('.director-portfolio-lightbox');
+	console.log(1)
+	if (parseInt(lightbox.dataset.active) == 1) {
+		console.log(2)
+		e.preventDefault();
+		closeLightboxAlt();
+		setTimeout(() => {
+			history.pushState(null, "", window.location.href);
+		}, 0);
+	} else {
+		window.history.back();
+	}
+});
