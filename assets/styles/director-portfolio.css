@@ -116,10 +116,10 @@
 	border-radius: unset;
 	z-index: 1;
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	top: 0px;
+	left: 0px;
+	right: -.5px;
+	bottom: -.5px;
 	align-items: center;
 	justify-content: center;
 }
