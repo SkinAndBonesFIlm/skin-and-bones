@@ -192,11 +192,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -236,7 +234,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -246,6 +244,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -358,6 +357,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['https://skinandbonesfilm.gosimian.com/assets/videos/EXPRESS-40D.mp4?mrss=true', 'Transpennine Express', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/ciao--Original-.mp4?mrss=true', 'Ciao', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/b--1080p-.mp4?mrss=true', 'Bepathen', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/wimbledon--1080p-.mp4?mrss=true', 'Wimbledon', ''],['http://skinandbonesfilm.gosimian.com/assets/videos/ColesBackendFade_vanish___matt_rhodes--720p-.mp4?mrss=true', 'Love for Longer', 'Vanish'],['http://skinandbonesfilm.gosimian.com/assets/videos/ColesBackendCut_ct_cakeDC--1080p-.mp4?mrss=true', 'Canadian Tire Tested', 'Cake Pan'],['http://skinandbonesfilm.gosimian.com/assets/videos/bbc_eastenders_trail__-_sharon-s_back--720p-.mp4?mrss=true', 'BBC Eastenders', 'Storm'],['https://skinandbonesfilm.gosimian.com/assets/videos/child_soldier_-_d-ad_winner_2021--1080p-.mp4?mrss=true', 'Child Soldier', ''],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

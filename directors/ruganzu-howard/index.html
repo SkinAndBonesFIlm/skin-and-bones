@@ -72,14 +72,25 @@
 
 					<section class="director-portfolio-work">
 						
-			<figure class="director-portfolio-work-item" onclick="openLightbox('http://skinandbonesfilm.gosimian.com/assets/videos/Little-Caesars-Volleyball-DC-30.mp4?mrss=true', 'Little Caesars', 'Volleyball');">
-				<div class="director-portfolio-work-item-thumbnail" style="background-image: url('thumbnail-th_1722450714.jpg');">
+			<figure class="director-portfolio-work-item" onclick="openLightbox('http://skinandbonesfilm.gosimian.com/assets/videos/VCF_DC.mp4?mrss=true', 'Value City Furniture', 'Furniture Regret');">
+				<div class="director-portfolio-work-item-thumbnail" style="background-image: url('thumbnail-th_1739371110.jpg');">
 					<div class="director-portfolio-work-item-thumbnail-hover">PLAY</div>
 				</div>
 				<figcaption class="director-portfolio-work-item-caption">
 					<div class="director-portfolio-work-item-caption-line"></div>
-					<h3 class="director-portfolio-work-item-caption-title">Little Caesars</h3>
-					<p class="director-portfolio-work-item-caption-text">Volleyball</p>
+					<h3 class="director-portfolio-work-item-caption-title">Value City Furniture</h3>
+					<p class="director-portfolio-work-item-caption-text">Furniture Regret</p>
+				</figcaption>
+			</figure>
+		
+			<figure class="director-portfolio-work-item" onclick="openLightbox('http://skinandbonesfilm.gosimian.com/assets/videos/PGOC4451000H-Old-Spice-MHST4-How-Could-You-TV-30-GENERIC_mov.mp4?mrss=true', 'OLD SPICE', 'How Could You');">
+				<div class="director-portfolio-work-item-thumbnail" style="background-image: url('thumbnail-th_1706802195.jpg');">
+					<div class="director-portfolio-work-item-thumbnail-hover">PLAY</div>
+				</div>
+				<figcaption class="director-portfolio-work-item-caption">
+					<div class="director-portfolio-work-item-caption-line"></div>
+					<h3 class="director-portfolio-work-item-caption-title">OLD SPICE</h3>
+					<p class="director-portfolio-work-item-caption-text">How Could You</p>
 				</figcaption>
 			</figure>
 		
@@ -94,14 +105,14 @@
 				</figcaption>
 			</figure>
 		
-			<figure class="director-portfolio-work-item" onclick="openLightbox('http://skinandbonesfilm.gosimian.com/assets/videos/PGOC4451000H-Old-Spice-MHST4-How-Could-You-TV-30-GENERIC_mov.mp4?mrss=true', 'OLD SPICE', 'How Could You');">
-				<div class="director-portfolio-work-item-thumbnail" style="background-image: url('thumbnail-th_1706802195.jpg');">
+			<figure class="director-portfolio-work-item" onclick="openLightbox('http://skinandbonesfilm.gosimian.com/assets/videos/Simply-Spiked--Juicy-Calls--DC.mp4?mrss=true', 'Simply Spiked', 'Juicy Calls');">
+				<div class="director-portfolio-work-item-thumbnail" style="background-image: url('thumbnail-th_1704310025.jpg');">
 					<div class="director-portfolio-work-item-thumbnail-hover">PLAY</div>
 				</div>
 				<figcaption class="director-portfolio-work-item-caption">
 					<div class="director-portfolio-work-item-caption-line"></div>
-					<h3 class="director-portfolio-work-item-caption-title">OLD SPICE</h3>
-					<p class="director-portfolio-work-item-caption-text">How Could You</p>
+					<h3 class="director-portfolio-work-item-caption-title">Simply Spiked</h3>
+					<p class="director-portfolio-work-item-caption-text">Juicy Calls</p>
 				</figcaption>
 			</figure>
 		
@@ -149,17 +160,6 @@
 				</figcaption>
 			</figure>
 		
-			<figure class="director-portfolio-work-item" onclick="openLightbox('http://skinandbonesfilm.gosimian.com/assets/videos/Simply-Spiked--Juicy-Calls--DC.mp4?mrss=true', 'Simply Spiked', 'Juicy Calls');">
-				<div class="director-portfolio-work-item-thumbnail" style="background-image: url('thumbnail-th_1704310025.jpg');">
-					<div class="director-portfolio-work-item-thumbnail-hover">PLAY</div>
-				</div>
-				<figcaption class="director-portfolio-work-item-caption">
-					<div class="director-portfolio-work-item-caption-line"></div>
-					<h3 class="director-portfolio-work-item-caption-title">Simply Spiked</h3>
-					<p class="director-portfolio-work-item-caption-text">Juicy Calls</p>
-				</figcaption>
-			</figure>
-		
 					</section>
 
 					<div class="director-portfolio-info-mobile">
@@ -192,11 +192,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -236,7 +234,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -246,6 +244,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -358,6 +357,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['http://skinandbonesfilm.gosimian.com/assets/videos/VCF_DC.mp4?mrss=true', 'Value City Furniture', 'Furniture Regret'],['http://skinandbonesfilm.gosimian.com/assets/videos/PGOC4451000H-Old-Spice-MHST4-How-Could-You-TV-30-GENERIC_mov.mp4?mrss=true', 'OLD SPICE', 'How Could You'],['http://skinandbonesfilm.gosimian.com/assets/videos/Airheads-Piano-DC-35.mp4?mrss=true', 'Airheads', 'Piano'],['http://skinandbonesfilm.gosimian.com/assets/videos/Simply-Spiked--Juicy-Calls--DC.mp4?mrss=true', 'Simply Spiked', 'Juicy Calls'],['http://skinandbonesfilm.gosimian.com/assets/videos/Blue-Moon--Mini-Mini-Golf--DC.mp4?mrss=true', 'Blue Moon', 'Mini Mini Golf'],['http://skinandbonesfilm.gosimian.com/assets/videos/Brach-s--Snap-.mp4?mrss=true', 'Brach\'s', 'Snap'],['http://skinandbonesfilm.gosimian.com/assets/videos/Zelle--Homework-Mitochondria-.mp4?mrss=true', 'Zelle', 'Homework Mitochondria'],['http://skinandbonesfilm.gosimian.com/assets/videos/Benjamin-Moore--Grow-On-Us-.mp4?mrss=true', 'Benjamin Moore', 'Grow On Us'],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

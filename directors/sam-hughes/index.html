@@ -156,11 +156,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -200,7 +198,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -210,6 +208,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -322,6 +321,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['http://skinandbonesfilm.gosimian.com/assets/videos/kfc_movingday_30e_16x9_unslated_web.mp4?mrss=true', 'KFC', 'Moving Day'],['https://skinandbonesfilm.gosimian.com/assets/videos/Director-s-Cut---Forno-x-East-Room-16x9_mov.mp4?mrss=true', 'Eastroom x Forno Cultura', ''],['http://skinandbonesfilm.gosimian.com/assets/videos/BATHER_60.mp4?mrss=true', 'Bather', 'The Pool Hoppers'],['https://skinandbonesfilm.gosimian.com/assets/videos/ATHELTICO-PARKDALE-WORLD-CHAMPS-A.mp4?mrss=true', 'Athletico Parkdale', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/BATHER_SUNSETSWIM_AFTERNOONNAP.mp4?mrss=true', 'Bather Resort 2024', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/BANDANA-BS-AA.mp4?mrss=true', 'Swag 2023', ''],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

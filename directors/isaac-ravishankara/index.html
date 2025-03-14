@@ -64,7 +64,7 @@
 			<div class="director-portfolio-info-awards director-portfolio-info-awards-desktop">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-					<li>Clio Awards, Silver, 2017</li><li>Booooooom TV Awards, Runner-Up, 2019</li><li>Burbank International Film Festival, Best Short Film Nomination, 2014</li>
+					<li>Booooooom TV Awards, Runner-Up, 2019</li><li>Clio Awards, Silver, 2017</li><li>Burbank International Film Festival, Best Short Film Nomination, 2014</li>
 				</ul>
 			</div>
 		
@@ -156,7 +156,7 @@
 			<div class="director-portfolio-info-awards">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-				<li>Clio Awards, Silver, 2017</li><li>Booooooom TV Awards, Runner-Up, 2019</li><li>Burbank International Film Festival, Best Short Film Nomination, 2014</li>
+				<li>Booooooom TV Awards, Runner-Up, 2019</li><li>Clio Awards, Silver, 2017</li><li>Burbank International Film Festival, Best Short Film Nomination, 2014</li>
 				</ul>
 			</div>
 		
@@ -181,11 +181,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -225,7 +223,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -235,6 +233,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -347,6 +346,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['http://skinandbonesfilm.gosimian.com/assets/videos/Volunteers-of-America--The-War-Inside-.mp4?mrss=true', 'Volunteers of America', 'The War Inside'],['http://skinandbonesfilm.gosimian.com/assets/videos/Bell-Samsung--Dance-Battle--DC1.mp4?mrss=true', 'Bell Samsung', 'Dance Battle'],['http://skinandbonesfilm.gosimian.com/assets/videos/LA-Tourism.mp4?mrss=true', 'LA Tourism', 'Comeback'],['http://skinandbonesfilm.gosimian.com/assets/videos/FINNEAS_CLEATS_CUTDOWN002.mp4?mrss=true', 'FINNEAS', 'Cleats Teaser'],['http://skinandbonesfilm.gosimian.com/assets/videos/VIKOS_COLA_Client_1.mp4?mrss=true', 'Bikos', 'Cola'],['https://skinandbonesfilm.gosimian.com/assets/videos/OnePlus---Director-Cut1.mp4?mrss=true', 'One Plus', ''],['http://skinandbonesfilm.gosimian.com/assets/videos/jockey__feeling_good--540p-.mp4?mrss=true', 'Jockey', 'Feeling Good'],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

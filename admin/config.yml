@@ -18,6 +18,7 @@ collections:
         label: "Edit all site content"
         file: "content.json"
         fields:
+          - { label: "Manually publish site (flip this switch to enable site re-publishing without changing content, e.g. if you’ve updated Simian and need to fetch new director reels)", name: "publish-site", widget: "boolean" }
           - { label: "About | Bio", name: "about-bio", widget: "markdown" }
           - { label: "About | Awards", name: "about-awards", widget: "markdown" }
           - { label: "About | Images", name: "about-images", widget: "list", fields:

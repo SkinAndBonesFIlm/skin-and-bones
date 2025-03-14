@@ -192,11 +192,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -236,7 +234,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -246,6 +244,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -358,6 +357,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['http://skinandbonesfilm.gosimian.com/assets/videos/Knicks2024_30.mp4?mrss=true', 'Knicks', 'Playoffs 2024'],['http://skinandbonesfilm.gosimian.com/assets/videos/PictureDay_30_Final_BROADCAST.mp4?mrss=true', 'SNY', 'Picture Day'],['https://skinandbonesfilm.gosimian.com/assets/videos/popeyes--1080p-.mp4?mrss=true', 'Popeyes', ''],['http://skinandbonesfilm.gosimian.com/assets/videos/shake_shack___different_breed_of_good__30--540p-.mp4?mrss=true', 'Shake Shack', 'Different Breed of Good'],['https://skinandbonesfilm.gosimian.com/assets/videos/DeNiroConTrailer_FINAL_WEB_H264_NoTitles.mp4?mrss=true', 'DeNiro Con', ''],['http://skinandbonesfilm.gosimian.com/assets/videos/google_x_tribeca_-la_bonbonniere---1080p-.mp4?mrss=true', 'Google x Tribeca', 'La Bonbonniere'],['https://skinandbonesfilm.gosimian.com/assets/videos/the_m_jewelers_x_mlb--1080p-.mp4?mrss=true', 'The M Jewelers x MLB', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/mta_x_new_york_nico--Original-.mp4?mrss=true', 'MTA x New York Nico', ''],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

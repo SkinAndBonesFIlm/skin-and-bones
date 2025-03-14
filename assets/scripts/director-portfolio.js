@@ -37,6 +37,15 @@ function formatTime(seconds) {
 
 // Lightbox
 function openLightbox(videoURL, client, project) {
+	// Get current index
+	currentVideoIndex = 0;
+	for (let data of mediaInfo) {
+		if (data[0] == videoURL) {
+			break
+		}
+		currentVideoIndex++;
+	}
+
 	const nav = document.querySelector('.nav');
 	nav.dataset.lightbox = 1;
 
@@ -61,6 +70,41 @@ function openLightbox(videoURL, client, project) {
 	progress.style.width = '0%';
 	
 	history.pushState(null, document.title, window.location.href);
+}
+
+// Open lightbox without affecting history
+function openLightboxAlt(videoURL, client, project) {
+	// Get current index
+	currentVideoIndex = 0;
+	for (let data of mediaInfo) {
+		if (data[0] == videoURL) {
+			break
+		}
+		currentVideoIndex++;
+	}
+
+	const nav = document.querySelector('.nav');
+	nav.dataset.lightbox = 1;
+
+	const lightbox = document.querySelector('.director-portfolio-lightbox');
+	lightbox.dataset.active = 1;
+
+	const videoSource = document.querySelector('.director-portfolio-lightbox-media-video source');
+	videoSource.src = videoURL;
+	const video = document.querySelector('.director-portfolio-lightbox-media-video');
+	video.load();
+	playVideo();
+
+	const captionClient = document.querySelector('#client');
+	captionClient.innerText = client;
+	const captionProject = document.querySelector('#project');
+	captionProject.innerText = project;
+
+	const currentTime = document.querySelector('.director-portfolio-lightbox-controls-time-current');
+	currentTime.innerText = '00:00';
+
+	const progress = document.querySelector('.director-portfolio-lightbox-media-playbar-meter-progress');
+	progress.style.width = '0%';
 }
 function closeLightbox() {
 	// const nav = document.querySelector('.nav');
@@ -304,9 +348,7 @@ function checkFullscreen() {
 // Page navigation override
 window.addEventListener("popstate", (e) => {
 	const lightbox = document.querySelector('.director-portfolio-lightbox');
-	console.log(1)
 	if (parseInt(lightbox.dataset.active) == 1) {
-		console.log(2)
 		e.preventDefault();
 		closeLightboxAlt();
 		setTimeout(() => {
@@ -316,3 +358,16 @@ window.addEventListener("popstate", (e) => {
 		window.history.back();
 	}
 });
+
+// Next video
+let currentVideoIndex = 0;
+let lightboxVideo = document.querySelector('.director-portfolio-lightbox-media-video');
+lightboxVideo.addEventListener('ended', nextVideo);
+function nextVideo() {
+	currentVideoIndex++;
+	if (currentVideoIndex >= mediaInfo.length) {
+		currentVideoIndex = 0;
+	}
+	let videoInfo = mediaInfo[currentVideoIndex];
+	openLightboxAlt(videoInfo[0], videoInfo[1], videoInfo[2])
+}

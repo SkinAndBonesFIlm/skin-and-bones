@@ -1,499 +1,500 @@
 {
-  "about-bio": "Skin and Bones is an award-winning director-representation and production company that calls Toronto, Canada home. We started in 2015 with art in our hearts, business on our minds and a simple goal — help young Canadian directing talent find their voice and grow. Ten years later our directors have grown up and so have we. Skin and Bones exists now as a powerhouse of creativity and craft. We have developed a roster of incredible directors and a network of talented affiliates and partners around the world. Female-owned, we believe the best work is made through real, honest collaboration and frequent high fives.",
-  "about-awards": "[Young Director Award, Young Director Award (Comedy), 2024, “Nine to Five 1995](https://youngdirectoraward.awardsengine.com/?action=ows:entries.details&e=141910&project_year=2024)” for Jackie Abraham.  \n[Marketing Awards, Silver Best Use of Technology, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://mediainnovationawards.strategyonline.ca/winners/winner/2023/?e=163426&u=Public%20Service&n=24+Hours+of+Care)  \n[Marketing Awards, Silver Television Single, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://marketingawards.strategyonline.ca/winners/winner/2023/?e=158125&u=Public%20Service%20Advertising&n=24+Hours+of+Care)  \n[The One Show, Merit UX / UI / Interface Design, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://www.oneclub.org/awards/theoneshow/-award/48599/24-hours-of-care/)  \n[Clio Awards, Gold Award, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://clios.com/winners-gallery/details/1037)  \n[Clio Awards, Silver Award, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://clios.com/winners-gallery/details/1037)  \n[ADCC, Bronze Original Music, 2022, “This Job Can Break You” for YMCA.](https://theadcc.ca/archive/this-job-can-break-you_2022_bronze_original-music)  \n[London International Awards, Silver, Production & Post-Production, New Director, 2021, “A World Without Y” for YMCA.](https://www.liaawards.com/press/press_winners/2021/press_article.cfm?press_id=1188&start=1)  \n[London International Awards, Bronze, Production & Post-Production, Production Design, 2021, “A World Without Y” for YMCA.](https://www.liaawards.com/press/press_winners/2021/press_article.cfm?press_id=1188&start=1)  \n[Shot/The Americas Awards, New Director of the Year, 2021.](https://shotsawards.com/bundles/c10fcf10-52af-4eeb-b431-c6360a95ffad?gold)  \n[ADCC, Silver Film Online Public Service, Single or Series, 2021, “A World Without Y” for YMCA.](https://theadcc.ca/archive/a-world-without-y_2021_silver_online-public-service-single-or-series)  \n[AICP Awards, Best New Director Shortlist, 2020, “A World Without Y” for YMCA.](https://www.shootonline.com/spw/2020-aicp-awards-releases-shortlists-aicp-next-awards-aicp-post-awards-and-aicp-show-moma/)  \n[Marketing Awards, Merit Direction, 2020, “A World Without Y” for YMCA.](https://marketingawards.strategyonline.ca/winners/winner/2020/?e=99625&u=Craft&n=A+World+Without+Y)  \n[Marketing Awards, Merit Copywriting, 2020, “A World Without Y” for YMCA.](https://marketingawards.strategyonline.ca/winners/winner/2020/?e=99625&u=Craft&n=A+World+Without+Y)  \n[ADCC, Silver TV Public Service, Single, 2019, “Game Over Guns” for SickKids Foundation.](https://theadcc.ca/archive/games-over-guns_2019_silver_tv-public-service-single)  \n[ADCC, Gold Creative Effectiveness in Advertising, 2019, “All In” for SickKids Foundation.](https://theadcc.ca/archive/sickkids-vs-all-in_2019_gold_creative-effectiveness-in-advertising)  \n[Cannes, Bronze Lion, 2019, “First Shave” for Gillette.](https://strategyonline.ca/2019/06/21/cannes-2019-grey-wins-bronze-glass-lion/)  \n[Clio Awards, Silver Film Technique (Cinematography), 2019, “Right To Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[Clio Awards, Silver Film Technique (Direction), 2019, “Right To Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[Clio Awards, Silver Film Technique (Direction), 2019, “We Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[Clio Awards, Bronze Film Technique (Cinematography), 2019, “We Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[Clio Awards, Bronze Film Technique (Copywriting), 2019, “We Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[The One Show, Gold Pencil Cross-Platform / Integrated Branding, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31235/sickkids-vs-all-in/)  \n[The One Show, Gold Pencil Film / Long Form, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31262/sickkids-vs-all-in/)  \n[The One Show, Silver Pencil Film / Long Form, 2018, “MomStrong” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31260/sickkids-vs-momstrong/)  \n[The One Show, Silver Pencil Public Relations, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31295/sickkids-vs-all-in/)  \n[The One Show, Merit Craft, Direction/Single, 2018, “MomStrong” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31074/sickkids-vs-momstrong/)  \n[The One Show, Merit Craft, Editing/Single, 2018, “All In” for SickKids Foundation](https://www.oneclub.org/awards/theoneshow/-award/31114/sickkids-vs-all-in/).  \n[The One Show, Merit Craft, Cinematography / Single, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31134/sickkids-vs-all-in/)  \n[The One Show, Merit Craft, Use of Music / Licensed / Adapted Music, Single or Campaign, 2018, “DadStrong” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31189/sickkids-vs-all-in/)  \n[The One Show, Merit Craft, Use of Music / Licensed / Adapted Music, Single or Campaign, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31189/sickkids-vs-all-in/)  \n[The One Show, Merit Film / Longform, 2018, “DadStrong” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31261/sickkids-vs-dadstrong/)  \n[Ciclope Awards, Production Services, 2018, “Stuntman” for Tangerine.](https://www.marklives.com/2018/04/first-ever-ciclope-africa-2018-winners/)  \n[ADCC, Gold Advertising Integrated/Advertising Integrated Campaign, 2017, “Sick Kids VS” for SickKids Foundation.](https://sesler.com/2017/11/06/adcc-awards-2017/)  \n[ADCC, Gold TV Public Service, Single, 2017, “Undeniable” for SickKids Foundation.](https://theadcc.ca/archive/sickkids-vs-undeniable_2017_gold_tv-public-service-single)  \n[ADCC, Merit TV Public Service, Single, 2017, “Ice In Our Veins” for Canadian Olympic Committee.](https://theadcc.ca/archive/ice-in-our-veins_2017_merit_tv-public-service-single)  \n[ADCC, Gold Mick Griffin Best Editing Award, 2017, “SickKids VS Undeniable” for SickKids Foundation.](https://theadcc.ca/archive/sickkids-vs-undeniable_2017_gold_tv-public-service-single)  \n[Cannes, Silver Film, 2017, “VS Undeniable” for SickKids Foundation.](https://strategyonline.ca/2017/06/24/cannes-2017-film-wins-push-canada-to-all-time-best-lions-haul/)  \n[Cannes, Silver Film, 2017, “VS MomStrong” for SickKids Foundation.](https://strategyonline.ca/2017/06/24/cannes-2017-film-wins-push-canada-to-all-time-best-lions-haul/)  \n[Clio Awards, Bronze Film Technique (Direction), 2017, “VS, Undeniable” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Editing), 2017, “VS, Undeniable” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Music), 2017, “VS, Undeniable” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Direction), 2017, “VS, MomStrong” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Cinematography), 2017, “VS, MomStrong” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Music), 2017, “VS, MomStrong” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[D&AD, Graphite Pencil Film Advertising / TV Commercials 61-120 Seconds, 2017, “Undeniable” for SickKids Foundation.](https://www.dandad.org/awards/professional/2017/film-advertising/26103/sickkids-vs-undeniable/)  \n[London International Awards, Bronze, Production & Post-Production, Direction, 2017, “SickKids VS Mom Strong” for SickKids Foundation.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)  \n[London International Awards, Finalist, Production & Post-Production, Direction, 2017, “SickKids VS Undeniable” for SickKids Foundation.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)  \n[London International Awards, Finalist, Production & Post-Production, Editing, 2017, “SickKids VS Undeniable” for SickKids Foundation.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)  \n[London International Awards, Finalist, Production & Post-Production, Editing, 2017, “SickKids VS Mom Strong” for SickKids Foundation.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)  \n[London International Awards, Regional Production Company of the Year, 2017.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)",
-  "about-images": [
-    {
-      "file": "/assets/uploads/Skin_and_Bones_Studio_Team_Toronto.jpg",
-      "caption": "Nick Smith, Joan Bell, Anna Di Giovanni, Cole Strong, Jimmy Hankin, Naomi Baker, and Liane Thomas",
-      "sorting": 1
-    },
-    {
-      "file": "/assets/uploads/Skin_and_Bones_Studio_WorkTable.jpg",
-      "caption": "Cole Strong at the Skin and Bones office in Toronto’s West End",
-      "sorting": 2
-    }
-  ],
-  "contact": [
-    {
-      "name": "General",
-      "phone": "+1 416-639-5920",
-      "email": "info@skinandbonesfilm.com"
-    },
-    {
-      "name": "Liane Thomas, EP",
-      "phone": "+1 416-471-1354",
-      "email": "liane@skinandbonesfilm.com"
-    },
-    {
-      "name": "Joan Bell, EP",
-      "phone": "+1 416-994-8562",
-      "email": "joan@skinandbonesfilm.com"
-    }
-  ],
-  "address": "1028 Queen St. W. #200\\\nToronto, ON M6J 1H6, Canada",
-  "social": "Follow us on [Instagram](https://www.instagram.com/skinandbonesfilm/)",
-  "directors": [
-    {
-      "sorting": "david-quinn",
-      "active": true,
-      "bio": "Quinn grew up in advertising and his innate understanding of the business is part of what makes him such a collaborative and amazing partner. His work is filled with heart, artistry and a little magic. There’s a sincerity baked into the tone of what Quinn does that elevates the emotional impact of his projects. Quinn knows how to make you laugh, make you cry or get you to buy.",
-      "simian-id": "5421",
-      "name": "David Quinn",
-      "slug": "david-quinn",
-      "home-video": "/assets/uploads/thumbnail-david-quinn.mp4",
-      "home-image": "/assets/uploads/thumbnail-david-quinn.jpg",
-      "awards": [
-        "Straight8 Industry ShoutOut Cannes, Audience Choice Award, 2018",
-        "Shots, Young Director Award, 2014"
-      ]
-    },
-    {
-      "sorting": "dugan-gundelfinger",
-      "active": true,
-      "bio": "Dugan Gundelfinger is an award-winning writer/director, occasional actor & musician. Californian all the way down to the accent, Dugan is connected to the universe. His father was a rock and roll photographer, his mother a contemporary dancer and his grandfather an accomplished cartoonist. Creativity runs deep in his genes. At one point was attached to direct the official Vanilla Ice Biopic. Dugan currently resides in the Ojai Valley with his two daughters and many psychedelic cacti.",
-      "simian-id": "5428",
-      "name": "Dugan Gundelfinger",
-      "slug": "dugan-gundelfinger",
-      "home-video": "/assets/uploads/thumbnail-dugan-gundelfinger.mp4",
-      "home-image": "/assets/uploads/thumbnail-dugan-gundelfinger.jpg",
-      "awards": [
-        "Grammy Awards, Best Music Video Nomination, 2011",
-        "Clio Music, Bronze Award, 2024"
-      ]
-    },
-    {
-      "sorting": "isaac-ravishankara",
-      "active": true,
-      "bio": "Iassc Ravishankara views the world through a lens of discovery, which makes sense for the child of a scientist and a doctor. His degree in physics speaks to his pursuit of universal truths, but also his search for new ideas, new people and new stories. A deep believer that art can be a force that drives society forward, Isaac co-founded OMG Everywhere. OMG Everywhere is a non-profit that provides free film and music workshops for kids in LA, NY, Oakland and London. How great is that?",
-      "simian-id": "5397",
-      "name": "Isaac Ravishankara",
-      "slug": "isaac-ravishankara",
-      "home-video": "/assets/uploads/thumbnail-isaac-ravishankara.mp4",
-      "home-image": "/assets/uploads/thumbnail-isaac-ravishankara.jpg",
-      "awards": [
-        "Booooooom TV Awards, Runner-Up, 2019",
-        "Clio Awards, Silver, 2017",
-        "Burbank International Film Festival, Best Short Film Nomination, 2014"
-      ]
-    },
-    {
-      "sorting": "ismael",
-      "active": true,
-      "bio": "Ismael is one of the industry’s leading figures. A master of his craft, with a keen eye for detail, his signature work consistently stands out from the crowd and breaks the mold. As one of the godfathers of emotional storytelling in the commercial scene, he brings a wealth of experience and versatility and is always able to create something beautiful with a rough edge – no matter the brief or genre. His motto? “We only have one chance to do this, so we better do it right!”.",
-      "simian-id": "5398",
-      "name": "Ismael",
-      "slug": "ismael",
-      "home-video": "/assets/uploads/thumbnail-ismael.mp4",
-      "home-image": "/assets/uploads/thumbnail-ismael.jpg",
-      "awards": [
-        "Cannes Lions International Festival of Creativity, Award",
-        "Epica Awards, Award",
-        "ADC Europe Awards, Award",
-        "Dutch Creativity Awards (ADCN Awards), Award"
-      ]
-    },
-    {
-      "sorting": "jackie-abraham",
-      "active": true,
-      "bio": "Starting out as a writer in the creative department armed Jackie’s with an inside perspective on directing commercial work. A writer by discipline he immediately understands his projects in a different way than other directors with a combination of smart, strategic thinking and dumb, funny thinking. He knows how to balance work that works hard and great work that puts smiles on faces. You won’t find a genuine, more passionate director ready to do great things than Jackie Abraham.",
-      "simian-id": "5420",
-      "name": "Jackie Abraham",
-      "slug": "jackie-abraham",
-      "home-video": "/assets/uploads/thumbnail-jackie-abraham.mp4",
-      "home-image": "/assets/uploads/thumbnail-jackie-abraham.jpg",
-      "awards": [
-        "Young Director Award, Young Director Award (Comedy), 2024, “Nine to Five 1995”"
-      ]
-    },
-    {
-      "sorting": "james-lawes",
-      "active": true,
-      "bio": "James is known for his emotive, visceral films and ability to get strong performances from both actors and non-actors alike. His style mixes the authentic with the sometimes otherworldly. Using a distinctive mix of in-camera visual effects and highly considered, cinematic style, he brings a touch of the unexpected to the everyday.",
-      "simian-id": "5426",
-      "name": "James Lawes",
-      "slug": "james-lawes",
-      "home-video": "/assets/uploads/thumbnail-james-lawes.mp4",
-      "home-image": "/assets/uploads/thumbnail-james-lawes.jpg",
-      "awards": [
-        "The Drum Roses, Silver, Best Commercial ‘A Little Bit’ Scottish Government, 2021",
-        "EvCom, Gold, Best Health and Safety Film ‘Look Up, Look Out’ ENA, 2020",
-        "New York Festival, Gold ‘Look Up, Look Out’ ENA, 2020",
-        "British Horror Film Festival, Best Director ‘Be Good’, 2019",
-        "Misty Moon International Film Festival, Judges Award ‘Be Good’, 2019",
-        "Misty Moon International Film Festival, Audience Award ‘Be Good’, 2019",
-        "Misty Moon International Film Festival, Fenella Fielding Award ‘Be Good’, 2019",
-        "Cannes Media, Silver, Best Informational ‘The Accident’ ENA, 2019",
-        "EvCom, Silver, Best Health and Safety Film ‘Home in One Piece’ Infineum, 2019",
-        "New York Film Festival, Gold, Best Event Film ‘Graffiti’ McDonalds, 2019",
-        "New York Film Festival, Bronze, Best Visual Effects ‘Graffiti’ McDonalds, 2019",
-        "Brand Film Festival, Bronze, Best Non-Profit ‘Graffiti’ McDonalds, 2019"
-      ]
-    },
-    {
-      "sorting": "jeremi-durand",
-      "active": true,
-      "bio": "Jeremi’s background specializing in design-fiction means he knows what it takes to create a world and maximize your imagination. An award winning film director & photographer, Jeremi’s work is on the edge of cutting edge. His exceptional taste, aesthetic and style oozes out of his film. He’s a creative guy who loves to work, he’s currently developing films - both short and feature - as well as photography work.",
-      "simian-id": "5430",
-      "name": "Jeremi Durand",
-      "slug": "jeremi-durand",
-      "home-video": "/assets/uploads/thumbnail-jeremi-durand.mp4",
-      "home-image": "/assets/uploads/thumbnail-jeremi-durand.jpg",
-      "awards": [
-        "LIA Awards, Winner GOLD x2 for Best Direction & Best Cinematography, 2024",
-        "UKMVAs, Best Rock Video UK, 2023",
-        "1.4, Best Music Video x2 for “Flying High”, 2023",
-        "Berlin MVAs, 6 Awards including Best Director, Best Music Video, Best Cinematography & Best VFX, 2023",
-        "WEBBY Awards, Best Music Video, 2023",
-        "Shark Awards, including Best Director, Best Concept & Best Cinematography, 2023",
-        "Club Des D.A., including Best Director & Winner Bronze for Best Cinematography, 2023",
-        "EyeCandy Awards, Directors of the Year & Best Features - Honorable Mention x2, 2024",
-        "Berlin Commercial, 4 Awards including Best Director & Best Music Video, 2023",
-        "Young Director Awards (Cannes Lions), Winner Silver Screen for Best Music Video, 2023",
-        "Shiny Awards, Winner Best Music Video at Saatchi London, 2023",
-        "V.O.T.D, Winner x3, 2023",
-        "BAMVFest, Best Music Video, 2023",
-        "Austin MVAs, Best Music Video, 2023",
-        "Vimeo, Staff Pick, 2023",
-        "Creativepool, Features x10, 2023",
-        "NOWNESS, Picks & Premieres x3, 2023",
-        "Directors Library, Features x2, 2023",
-        "GENERO TV, Finalist, 2023",
-        "London Fashion Week Festival, Official Selection, 2023",
-        "Les Arts Décoratifs Paris, 6 months Exhibition, 2023"
-      ]
-    },
-    {
-      "sorting": "kate-hollowell",
-      "active": true,
-      "bio": "Kate is a dancer, musician, actor, photographer and director, sometimes all at once. Her blend of uninhibited style and comedy pushes her work to become an art all its own. Big world’s or small, Kate builds them with craft and care and then populates them with unforgettable characters and great comedic timing. In 2024 her short film ‘Say Hi After You Die' won BEST U.S. SHORT FILM at Sundance in 2024 and SXSW. Go Kate!",
-      "simian-id": "5401",
-      "name": "Kate Hollowell",
-      "slug": "kate-hollowell",
-      "home-video": "/assets/uploads/thumbnail-kate-hollowell.mp4",
-      "home-image": "/assets/uploads/thumbnail-kate-hollowell.jpg",
-      "awards": [
-        "Sundance Film Festival, Short Film Jury Award for U.S. Fiction, 2024",
-        "HollyShorts Film Festival, Best Director Award, 2024",
-        "Young Director Award, Shortlisted for Commercial Category for “How She Rolls”, 2023"
-      ]
-    },
-    {
-      "sorting": "leo-zuckerman",
-      "active": true,
-      "bio": "Leo is all about movement. Filming extreme sports with his brothers in Whistler is where he trained his eye to capture movement like a pro. Leo's ability to make the everyday seem epic is incredible, you can feel the energy in everything he does. With rich, contrasting visuals, his work is unmistakable. An award winning and technical director who geeks out on gear, rigs and drones, Leo is a high-powered visual storyteller with a style all his own.",
-      "simian-id": "5403",
-      "name": "Leo Zuckerman",
-      "slug": "leo-zuckerman",
-      "home-video": "/assets/uploads/thumbnail-leo-zuckerman.mp4",
-      "home-image": "/assets/uploads/thumbnail-leo-zuckerman.jpg",
-      "awards": [
-        "Vimeo, Staff Picks, 2013",
-        "Canadian Tourism Commission, Award for “Dear Mum” Campaign"
-      ]
-    },
-    {
-      "sorting": "mapp",
-      "active": true,
-      "bio": "Not many directors have won a Grand Prix in Cannes in their past lives as an agency creative, but Steve Mapp has. Over the years Steve has been a few different things, Art Director, Creative Director and now just Director. A vigorously trained and tested creative mind, Steve knows what it takes to make the best work in the world. He’s always honing his craft by tackling a wide variety of projects, all with a cinematic approach.",
-      "simian-id": "5422",
-      "name": "Mapp",
-      "slug": "mapp",
-      "home-video": "/assets/uploads/thumbnail-mapp.mp4",
-      "home-image": "/assets/uploads/thumbnail-mapp.jpg",
-      "awards": [
-        "Cannes Lions International Festival of Creativity, Grand Prix for IKEA “Lamp” Commercial",
-        "Clio Awards, Grand Clio for IKEA",
-        "Anvil Awards, Winner for PlayAlberta Campaign, 2023",
-        "Creative Marketing Awards, Winner for PlayAlberta Campaign, 2023",
-        "Effie Awards, 3x Winner for PlayAlberta Campaign, 2023",
-        "Ciclope, Gold Winner for Work with Peelz, 2022",
-        "Anvil Awards, Winner for Western Canada Lottery Campaign, 2021",
-        "Anvil Awards, Winner for Western Canada Lottery Campaign, 2020",
-        "Clio Awards, Winner for The Marvelous Mrs. Maisel/Amazon Prime, 2019",
-        "Marketing Dive Awards, Campaign of the Year, 2018",
-        "The One Show, Automobile Advertising of the Year Awards, Recognized for Work with MINI, 2015"
-      ]
-    },
-    {
-      "sorting": "matt-rhodes",
-      "active": true,
-      "bio": "Matt knows how to make you feel things. His love of film comes from watching movies in his father’s video store as a kid growing up. He brings a warmth to his work that draws the viewer deep into the worlds he creates and then the performances he gets from actors does the rest. Clever, emotive and visually arresting film, with the occasional famous face like Gillian Anderson or Kit Harrington. This is all to say there isn’t much Matt can’t do.",
-      "simian-id": "5427",
-      "name": "Matt Rhodes",
-      "slug": "matt-rhodes",
-      "home-video": "/assets/uploads/thumbnail-matt-rhodes.mp4",
-      "home-image": "/assets/uploads/thumbnail-matt-rhodes.jpg",
-      "awards": [
-        "D&AD Awards, Best Performance, 2022",
-        "Kinsale Shark Awards, Best Performance, 2022",
-        "Kinsale Shark Awards, Winner of Over 40 Awards",
-        "Promax Awards, Winner of Over 40 Awards"
-      ]
-    },
-    {
-      "sorting": "matthew-swanson",
-      "active": true,
-      "bio": "You know when you’re watching a Matthew Swanson spot because your eyes start to open a little wider. A signature visual style, combined with Impeccable casting and pitch-perfect comedy. That pretty much sums up the Matthew Swanson trifecta. When 9 out of 10 people see one thing, Matthew will be the one seeing something completely different. He brings his quirky comedic sensibility to all of his work and his spots are all the better for it.",
-      "simian-id": "5406",
-      "name": "Matthew Swanson",
-      "slug": "matthew-swanson",
-      "home-video": "/assets/uploads/thumbnail-matthew-swanson.mp4",
-      "home-image": "/assets/uploads/thumbnail-matthew-swanson.jpg",
-      "awards": [
-        "Kinsale Shark Advertising Festival, Bronze, 2024",
-        "ADCC Awards, Best Direction, Bronze, 2022",
-        "British Arrows, Gold, 2022",
-        "Campaign Big Awards, Winner, 2022",
-        "Advertising Creative Circle Awards, Bronze, 2022",
-        "Cannes Lions International Festival of Creativity, Silver Lion, 2021",
-        "Cannes Lions International Festival of Creativity, Bronze Lion, 2021",
-        "CLIO Awards, Bronze, 2021",
-        "ADC Annual Awards, Silver Cube, 2020",
-        "Art Directors Club of Europe, Silver, 2020",
-        "D&AD Awards, Wood Pencil, 2020",
-        "The One Show, Bronze, 2020",
-        "AICP Show, 2020",
-        "Shots Awards Americas, Commercial of the Year, Gold, 2020",
-        "Ciclope, Best Direction, Silver, 2019"
-      ]
-    },
-    {
-      "sorting": "new-york-nico",
-      "active": true,
-      "bio": "Nicolas Heller is a commercial director and documentarian better known to his 3 million social media followers as @newyorknico. Heller loves NYC. As The New York Times’ “Unofficial Talent Scout of New York,” Heller is driven by authentic human stories, best known for creating content that documents the real, one-of-a-kind people and places in his native City.",
-      "simian-id": "5408",
-      "name": "New York Nico",
-      "slug": "new-york-nico",
-      "home-video": "/assets/uploads/thumbnail-new-york-nico.mp4",
-      "home-image": "/assets/uploads/thumbnail-new-york-nico.jpg",
-      "awards": [
-        "CLIO Awards: Heller has won his first CLIO Awards, acknowledging his excellence in advertising and creative work.",
-        "President's Lifetime Achievement Award: In 2021, President Joe Biden recognized Heller's work by presenting him with this prestigious award, honoring his significant contributions to the community.",
-        "Publications: Heller's work and influence have been featured in various publications, including a profile in PRINT Magazine's “Design Matters” podcast."
-      ]
-    },
-    {
-      "sorting": "nikki-ross",
-      "active": true,
-      "bio": "Nikki brings an undeniable energy and lightness to her work and has an extraordinary ability to invite anyone in front of her lens and authentically capture the essence of who they are. A quirky tom-boy at heart, her playful childlike energy shines through in her work. She prides herself in creating a lively and energetic set, making it a whimsical and exciting experience.",
-      "simian-id": "5431",
-      "name": "Nikki Ross",
-      "slug": "nikki-ross",
-      "home-video": "/assets/uploads/thumbnail-nikki-ross.mp4",
-      "home-image": "/assets/uploads/thumbnail-nikki-ross.jpg",
-      "awards": [
-        "Applied Arts Magazine, The Maker of Men, 2024, for Nikki Ross",
-        "The Kit, Best Dressed Canadians, 2024, for Nikki Ross"
-      ]
-    },
-    {
-      "sorting": "nolan-sarner",
-      "active": true,
-      "bio": "Nolan can make just about any story a beautiful story. The lead character could be a little kid or a big name, but Nolan’s ability to get authentic performances is always consistent. Paired with beautiful cinematography and a naturally fluid pace, his work feels like real-life even when it’s not.",
-      "simian-id": "5409",
-      "name": "Nolan Sarner",
-      "slug": "nolan-sarner",
-      "home-video": "/assets/uploads/thumbnail-nolan-sarner.mp4",
-      "home-image": "/assets/uploads/thumbnail-nolan-sarner.jpg",
-      "awards": [
-        "Canadian Screen Award Winner, 2018",
-        "Canadian Screen Award Nominee, 2019",
-        "ADCC, Shortlist, 2024",
-        "1.4, Shortlist, 2021 & 2022",
-        "Berlin Commercial Awards, Shortlist, 2021 & 2022",
-        "Vimeo, Staff Pick"
-      ]
-    },
-    {
-      "sorting": "renee-mao",
-      "active": true,
-      "bio": "Having lived in Australia, China and the United States, Renée Mao brings a unique global perspective and visual power to her narrative driven stories. A graduate of NYU’s Tisch School of the Arts, Renée has a classically trained eye that she uses to amplify the craft in her work. She is passionate about creating meaningful work that has a positive social impact and loves collaborating closely with everyone on the team.",
-      "simian-id": "5424",
-      "name": "Renée Mao",
-      "slug": "renee-mao",
-      "home-video": "/assets/uploads/thumbnail-renee-mao.mp4",
-      "home-image": "/assets/uploads/thumbnail-renee-mao.jpg",
-      "awards": [
-        "AACTA Awards, Best Digital Series, 2022",
-        "Vimeo, Staff Picks",
-        "Webby Awards, Honoree, 2020"
-      ]
-    },
-    {
-      "sorting": "rob-fiocca",
-      "active": true,
-      "bio": "How can anyone this nice devote so much attention to detail? Rob Fiocca, arguably Canada’s best food director, has an eye for beauty that is unparalleled. He consistently raises the bar for how we shoot food in this country with his mastery of light, texture and motion, not to mention his avant-garde styling choices and quest for surprising new angles. And let’s not even get started on his food plating. (In a word, delightful.)",
-      "simian-id": "5411",
-      "name": "Rob Fiocca",
-      "slug": "rob-fiocca",
-      "home-video": "/assets/uploads/thumbnail-rob-fiocca.mp4",
-      "home-image": "/assets/uploads/thumbnail-rob-fiocca.jpg",
-      "awards": [
-        "International ANDY Awards, Printed Materials Gold, 2016",
-        "Kinsale Sharks Awards, Design Bronze Winner, 2015",
-        "Kinsale Sharks Awards, Design Bronze Winner, 2015",
-        "LIA (London International Awards), Design Gold Winner, 2015",
-        "LIA (London International Awards), Design Gold Winner, 2015",
-        "Applied Arts Magazine, Award Winner, 2008",
-        "Graphis Photography Annual, Inclusion, 2008",
-        "International Photography Awards, Award Winner, 2007"
-      ]
-    },
-    {
-      "sorting": "rodney-lucas",
-      "active": true,
-      "bio": "Hailing from the South Side of Chicago and now calling Brooklyn home Rodney, captures real life wherever he goes. As a documentary filmmaker Rodney has traveled the world creating short documentaries and branded content and made a whole lot of friends along the way. He’s known for his high level of sensitivity, care, artistic expression, and emotional depth.",
-      "simian-id": "5429",
-      "name": "Rodney Lucas",
-      "slug": "rodney-lucas",
-      "home-video": "/assets/uploads/thumbnail-rodney-lucas.mp4",
-      "home-image": "/assets/uploads/thumbnail-rodney-lucas.jpg",
-      "awards": [
-        "Tribeca Film Festival, Official Selection, 2024",
-        "Tribeca X Award, Best Episodic, 2021",
-        "Webby Award, Best Diversity & Inclusion, 2021",
-        "Telly Awards, 13 awards including four bronze, four silver, and three gold, 2021",
-        "AdStar Awards, Three awards, 2021",
-        "Cannes Lions, Shortlist recognition, 2021"
-      ]
-    },
-    {
-      "sorting": "ruganzu-howard",
-      "active": true,
-      "bio": "Before becoming a comedy director, Ruganzu “Riggs” Howard worked as an Executive Producer for some of the best and funniest advertising agencies in the world, like BBDO, TBWA, and Barton F. Graf and Translation. Prior to that, he was an assistant editor and post-producer. Prior, prior to that, Ruganzu was a Baltimore City Police Detective (no, really), where he served as a violent crimes investigator, hostage negotiator and police department spokesperson. Take all that experience and what do you get? An excellent collaborator with creative and client alike. And a sense of comedic timing and obsession with cinematic craft that always serve the script above all else.",
-      "simian-id": "5412",
-      "name": "Ruganzu Howard",
-      "slug": "ruganzu-howard",
-      "home-video": "/assets/uploads/thumbnail-ruganzu-howard.mp4",
-      "home-image": "/assets/uploads/thumbnail-ruganzu-howard.jpg",
-      "awards": [
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Direct Marketing - Consumer Campaign",
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Film - Commercials",
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Digital - Social Media",
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Mobile - App/Utility",
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Design - Packaging"
-      ]
-    },
-    {
-      "sorting": "sam-hughes",
-      "active": true,
-      "bio": "Sam grew up on the Skin & Bones team. He learned the craft from the inside out by working with directors on building their treatments, tracking down references or helping define the visual language of a spot. Toronto born and raised, he is part of a new generation of boundary pushing directors keeping things inventive and fresh.",
-      "simian-id": "5432",
-      "name": "Sam Hughes",
-      "slug": "sam-hughes",
-      "home-video": "/assets/uploads/thumbnail-sam-hughes.mp4",
-      "home-image": "/assets/uploads/thumbnail-sam-hughes.jpg",
-      "awards": []
-    },
-    {
-      "sorting": "sebastian-hill-esbrand",
-      "active": true,
-      "bio": "Sebastian is a director of Caribbean and Australian heritage. His international upbringing taught Sebastian the power in diversity, as well as the importance of having intersectionality displayed on screen. His experience is threaded into the DNA of his work. Bringing outsiders and unexpected characters to the front of the frame and making them shine. His latest film ‘Family’ won the Gold Lion in the Young Director Award in Cannes.",
-      "simian-id": "5425",
-      "name": "Sebastian Hill-Esbrand",
-      "slug": "sebastian-hill-esbrand",
-      "home-video": "/assets/uploads/thumbnail-sebastian-hill-esbrand.mp4",
-      "home-image": "/assets/uploads/thumbnail-sebastian-hill-esbrand.jpg",
-      "awards": [
-        "Young Director Award, Gold Screen, 2022",
-        "Shots Awards, Recognition, 2022",
-        "Director's Notes, Recognition, Year 2022",
-        "1.4 Awards, Recognition, 2022",
-        "Young Guns 20, Finalist, 2022"
-      ]
-    },
-    {
-      "sorting": "shawn-zeytinoglu",
-      "active": true,
-      "bio": "Shawn’s combination of curiosity and creativity creates work with a unique tone that sets itself apart. From his beginnings as a cinematographer, Shawn's eye for light and framing add a style to his comedic language that elevates his films. He is precise, focused and detailed in every aspect of each shot and holistic in how he brings it all together. Grounded in natural, engaging performances, each scene is anchored in reality even if set in a more heightened one. A dry sense of humour and quick wit, Shawn is great to work with and great to hang out with.",
-      "simian-id": "5414",
-      "name": "Shawn Zeytinoglu",
-      "slug": "shawn-zeytinoglu",
-      "home-video": "/assets/uploads/thumbnail-shawn-zeytinoglu.mp4",
-      "home-image": "/assets/uploads/thumbnail-shawn-zeytinoglu.jpg",
-      "awards": [
-        "Tool of NA, Featured Director",
-        "Sterntag Film, Featured Director",
-        "LBBOnline, Profiled Director, Year 2024",
-        "Promo! Awards, Bronze, Best New Product Launch, 2015, for Audi – A3 Launch"
-      ]
-    },
-    {
-      "sorting": "stuart-langfield",
-      "active": true,
-      "bio": "Everything Stuart creates bears the signature of his attention to detail. Powerful visuals, carefully framed shots and consideration to lighting give an abstract cinematic beauty to all of Stuart’s films. His authentic yet uplifting visual narratives and his emphasis on score and sound to create atmospheric moods, lift the otherwise ordinary subject matter of his films to create moments of beauty, intensity, abstraction and emotion.",
-      "simian-id": "5415",
-      "name": "Stuart Langfield",
-      "slug": "stuart-langfield",
-      "home-video": "/assets/uploads/thumbnail-stuart-langfield.mp4",
-      "home-image": "/assets/uploads/thumbnail-stuart-langfield.jpg",
-      "awards": [
-        "OFFF, Speaker, 2022",
-        "1.4 Awards, Silver Medalist",
-        "Berlin Commercial, Shortlist",
-        "Shots, Featured",
-        "Webby, Honoree",
-        "Vimeo, Staff Pick",
-        "Leo Awards, 7 Nominations (1 win)",
-        "Boston Sci-Fi Festival, Award",
-        "Philip K. Dick Festival, Award",
-        "Boooooom, Feature",
-        "IFLScience, Feature",
-        "NY Times, Feature"
-      ]
-    },
-    {
-      "sorting": "stuart-mcintyre",
-      "active": true,
-      "bio": "Stuart has a special touch, a fiery passion and a reverent approach to filmmaking. He infuses every frame of his work with electric energy and soulful intensity. He blends raw authenticity and an elevated aesthetic to create work that feels meticulously crafted and perfectly composed. His background as an editor has sharpened his narrative eye, he captures something great in every story he tells.",
-      "simian-id": "5416",
-      "name": "Stuart McIntyre",
-      "slug": "stuart-mcintyre",
-      "home-video": "/assets/uploads/thumbnail-stuart-mcintyre.mp4",
-      "home-image": "/assets/uploads/thumbnail-stuart-mcintyre.jpg",
-      "awards": [
-        "Young Director Award, Short Film (6 to 30 minutes), 2022, for “If I Go Will They Miss Me”",
-        "Toronto International Film Festival, Official Selection, 2019, for “Carl’s Motel”",
-        "Montréal Festival du Nouveau Cinéma, Official Selection, 2019, for “Carl’s Motel”",
-        "Madrid International Film Festival, Official Selection, 2019, for “Carl’s Motel”"
-      ]
-    }
-  ],
-  "news": [
-    {
-      "title": "Our New Identity",
-      "date": "[03.01.2025]",
-      "body": "We’re getting rid of the old Skin & Bones and starting fresh. It’s more than just a new look (but we love the new look), it’s a new way forward. Give the rebrand a spin on our site.",
-      "active": true,
-      "sorting": 0
-    },
-    {
-      "title": "David Reviews",
-      "date": "[02.21.2025]",
-      "body": "Always a good day when one of our favourite directors gets a five-star review. “People Watching” Stuart Mcintyre’s gorgeous and artful music video for Sam Fender gets top marks from team at David Reviews check it out [here](https://www.davidreviews.com/Reviews/2025/Sam_Fender_People_Watching/).",
-      "active": true,
-      "sorting": 1
-    },
-    {
-      "title": "New Bathroom Wallpaper",
-      "date": "[02.18.2025]",
-      "body": "We want to make sure everyone who comes to the office has the best experience, no matter what room they are in. That’s why we’ve got this beautiful new Toronto “Toile du Jouy” in the two rooms where we all spend so much time texting.",
-      "active": true,
-      "sorting": 3
-    },
-    {
-      "title": "Nolan McD’s",
-      "date": "[02.11.2025]",
-      "body": "Decision fatigue is depicted at its most delicious in this new McDonald’s spot from the lovely Nolan Sarner. It’s inviting and yummy, just like a box of McDonald’s french fries fresh out of the fryer. Are you hungry? Give it a [watch](https://www.instagram.com/p/DF8kwRQSajg/).",
-      "active": true,
-      "sorting": 4
-    },
-    {
-      "title": "EyeCandy",
-      "date": "[02.04.2025]",
-      "body": "The sharp eyes at EyeCandy @eyecannndy have spotted Jeremi Durand’s @_jeremidurand new music video for Nina Chuba @ninachuba. Surreal and simple, artful and wild we’re not surprised to see Jeremi’s work is turning heads. Check out the video here and the eye candy link [here](https://www.instagram.com/p/DFqY7qYS_Kj/?img_index=1).",
-      "active": true,
-      "sorting": 5
-    }
-  ]
+	"publish-site": false,
+	"about-bio": "Skin and Bones is an award-winning director-representation and production company that calls Toronto, Canada home. We started in 2015 with art in our hearts, business on our minds and a simple goal — help young Canadian directing talent find their voice and grow. Ten years later our directors have grown up and so have we. Skin and Bones exists now as a powerhouse of creativity and craft. We have developed a roster of incredible directors and a network of talented affiliates and partners around the world. Female-owned, we believe the best work is made through real, honest collaboration and frequent high fives.",
+	"about-awards": "[Young Director Award, Young Director Award (Comedy), 2024, “Nine to Five 1995](https://youngdirectoraward.awardsengine.com/?action=ows:entries.details&e=141910&project_year=2024)” for Jackie Abraham.  \n[Marketing Awards, Silver Best Use of Technology, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://mediainnovationawards.strategyonline.ca/winners/winner/2023/?e=163426&u=Public%20Service&n=24+Hours+of+Care)  \n[Marketing Awards, Silver Television Single, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://marketingawards.strategyonline.ca/winners/winner/2023/?e=158125&u=Public%20Service%20Advertising&n=24+Hours+of+Care)  \n[The One Show, Merit UX / UI / Interface Design, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://www.oneclub.org/awards/theoneshow/-award/48599/24-hours-of-care/)  \n[Clio Awards, Gold Award, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://clios.com/winners-gallery/details/1037)  \n[Clio Awards, Silver Award, 2023, “24 Hours of Care” for Petro-Canada CareMakers Foundation.](https://clios.com/winners-gallery/details/1037)  \n[ADCC, Bronze Original Music, 2022, “This Job Can Break You” for YMCA.](https://theadcc.ca/archive/this-job-can-break-you_2022_bronze_original-music)  \n[London International Awards, Silver, Production & Post-Production, New Director, 2021, “A World Without Y” for YMCA.](https://www.liaawards.com/press/press_winners/2021/press_article.cfm?press_id=1188&start=1)  \n[London International Awards, Bronze, Production & Post-Production, Production Design, 2021, “A World Without Y” for YMCA.](https://www.liaawards.com/press/press_winners/2021/press_article.cfm?press_id=1188&start=1)  \n[Shot/The Americas Awards, New Director of the Year, 2021.](https://shotsawards.com/bundles/c10fcf10-52af-4eeb-b431-c6360a95ffad?gold)  \n[ADCC, Silver Film Online Public Service, Single or Series, 2021, “A World Without Y” for YMCA.](https://theadcc.ca/archive/a-world-without-y_2021_silver_online-public-service-single-or-series)  \n[AICP Awards, Best New Director Shortlist, 2020, “A World Without Y” for YMCA.](https://www.shootonline.com/spw/2020-aicp-awards-releases-shortlists-aicp-next-awards-aicp-post-awards-and-aicp-show-moma/)  \n[Marketing Awards, Merit Direction, 2020, “A World Without Y” for YMCA.](https://marketingawards.strategyonline.ca/winners/winner/2020/?e=99625&u=Craft&n=A+World+Without+Y)  \n[Marketing Awards, Merit Copywriting, 2020, “A World Without Y” for YMCA.](https://marketingawards.strategyonline.ca/winners/winner/2020/?e=99625&u=Craft&n=A+World+Without+Y)  \n[ADCC, Silver TV Public Service, Single, 2019, “Game Over Guns” for SickKids Foundation.](https://theadcc.ca/archive/games-over-guns_2019_silver_tv-public-service-single)  \n[ADCC, Gold Creative Effectiveness in Advertising, 2019, “All In” for SickKids Foundation.](https://theadcc.ca/archive/sickkids-vs-all-in_2019_gold_creative-effectiveness-in-advertising)  \n[Cannes, Bronze Lion, 2019, “First Shave” for Gillette.](https://strategyonline.ca/2019/06/21/cannes-2019-grey-wins-bronze-glass-lion/)  \n[Clio Awards, Silver Film Technique (Cinematography), 2019, “Right To Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[Clio Awards, Silver Film Technique (Direction), 2019, “Right To Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[Clio Awards, Silver Film Technique (Direction), 2019, “We Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[Clio Awards, Bronze Film Technique (Cinematography), 2019, “We Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[Clio Awards, Bronze Film Technique (Copywriting), 2019, “We Rise” for Right to Play.](https://strategyonline.ca/2019/09/04/clio-awards-a-dozen-canadian-shops/)  \n[The One Show, Gold Pencil Cross-Platform / Integrated Branding, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31235/sickkids-vs-all-in/)  \n[The One Show, Gold Pencil Film / Long Form, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31262/sickkids-vs-all-in/)  \n[The One Show, Silver Pencil Film / Long Form, 2018, “MomStrong” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31260/sickkids-vs-momstrong/)  \n[The One Show, Silver Pencil Public Relations, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31295/sickkids-vs-all-in/)  \n[The One Show, Merit Craft, Direction/Single, 2018, “MomStrong” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31074/sickkids-vs-momstrong/)  \n[The One Show, Merit Craft, Editing/Single, 2018, “All In” for SickKids Foundation](https://www.oneclub.org/awards/theoneshow/-award/31114/sickkids-vs-all-in/).  \n[The One Show, Merit Craft, Cinematography / Single, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31134/sickkids-vs-all-in/)  \n[The One Show, Merit Craft, Use of Music / Licensed / Adapted Music, Single or Campaign, 2018, “DadStrong” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31189/sickkids-vs-all-in/)  \n[The One Show, Merit Craft, Use of Music / Licensed / Adapted Music, Single or Campaign, 2018, “All In” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31189/sickkids-vs-all-in/)  \n[The One Show, Merit Film / Longform, 2018, “DadStrong” for SickKids Foundation.](https://www.oneclub.org/awards/theoneshow/-award/31261/sickkids-vs-dadstrong/)  \n[Ciclope Awards, Production Services, 2018, “Stuntman” for Tangerine.](https://www.marklives.com/2018/04/first-ever-ciclope-africa-2018-winners/)  \n[ADCC, Gold Advertising Integrated/Advertising Integrated Campaign, 2017, “Sick Kids VS” for SickKids Foundation.](https://sesler.com/2017/11/06/adcc-awards-2017/)  \n[ADCC, Gold TV Public Service, Single, 2017, “Undeniable” for SickKids Foundation.](https://theadcc.ca/archive/sickkids-vs-undeniable_2017_gold_tv-public-service-single)  \n[ADCC, Merit TV Public Service, Single, 2017, “Ice In Our Veins” for Canadian Olympic Committee.](https://theadcc.ca/archive/ice-in-our-veins_2017_merit_tv-public-service-single)  \n[ADCC, Gold Mick Griffin Best Editing Award, 2017, “SickKids VS Undeniable” for SickKids Foundation.](https://theadcc.ca/archive/sickkids-vs-undeniable_2017_gold_tv-public-service-single)  \n[Cannes, Silver Film, 2017, “VS Undeniable” for SickKids Foundation.](https://strategyonline.ca/2017/06/24/cannes-2017-film-wins-push-canada-to-all-time-best-lions-haul/)  \n[Cannes, Silver Film, 2017, “VS MomStrong” for SickKids Foundation.](https://strategyonline.ca/2017/06/24/cannes-2017-film-wins-push-canada-to-all-time-best-lions-haul/)  \n[Clio Awards, Bronze Film Technique (Direction), 2017, “VS, Undeniable” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Editing), 2017, “VS, Undeniable” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Music), 2017, “VS, Undeniable” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Direction), 2017, “VS, MomStrong” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Cinematography), 2017, “VS, MomStrong” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[Clio Awards, Bronze Film Technique (Music), 2017, “VS, MomStrong” for SickKids Foundation.](https://strategyonline.ca/2017/09/12/fcb-big-winner-at-the-clios/)  \n[D&AD, Graphite Pencil Film Advertising / TV Commercials 61-120 Seconds, 2017, “Undeniable” for SickKids Foundation.](https://www.dandad.org/awards/professional/2017/film-advertising/26103/sickkids-vs-undeniable/)  \n[London International Awards, Bronze, Production & Post-Production, Direction, 2017, “SickKids VS Mom Strong” for SickKids Foundation.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)  \n[London International Awards, Finalist, Production & Post-Production, Direction, 2017, “SickKids VS Undeniable” for SickKids Foundation.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)  \n[London International Awards, Finalist, Production & Post-Production, Editing, 2017, “SickKids VS Undeniable” for SickKids Foundation.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)  \n[London International Awards, Finalist, Production & Post-Production, Editing, 2017, “SickKids VS Mom Strong” for SickKids Foundation.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)  \n[London International Awards, Regional Production Company of the Year, 2017.](https://www.liaawards.com/press/press_winners/2017/press_article.cfm?press_id=708&start=1)",
+	"about-images": [
+		{
+			"file": "/assets/uploads/Skin_and_Bones_Studio_Team_Toronto.jpg",
+			"caption": "Nick Smith, Joan Bell, Anna Di Giovanni, Cole Strong, Jimmy Hankin, Naomi Baker, and Liane Thomas",
+			"sorting": 1
+		},
+		{
+			"file": "/assets/uploads/Skin_and_Bones_Studio_WorkTable.jpg",
+			"caption": "Cole Strong at the Skin and Bones office in Toronto’s West End",
+			"sorting": 2
+		}
+	],
+	"contact": [
+		{
+			"name": "General",
+			"phone": "+1 416-639-5920",
+			"email": "info@skinandbonesfilm.com"
+		},
+		{
+			"name": "Liane Thomas, EP",
+			"phone": "+1 416-471-1354",
+			"email": "liane@skinandbonesfilm.com"
+		},
+		{
+			"name": "Joan Bell, EP",
+			"phone": "+1 416-994-8562",
+			"email": "joan@skinandbonesfilm.com"
+		}
+	],
+	"address": "1028 Queen St. W. #200\\\nToronto, ON M6J 1H6, Canada",
+	"social": "Follow us on [Instagram](https://www.instagram.com/skinandbonesfilm/)",
+	"directors": [
+		{
+			"sorting": "david-quinn",
+			"active": true,
+			"bio": "Quinn grew up in advertising and his innate understanding of the business is part of what makes him such a collaborative and amazing partner. His work is filled with heart, artistry and a little magic. There’s a sincerity baked into the tone of what Quinn does that elevates the emotional impact of his projects. Quinn knows how to make you laugh, make you cry or get you to buy.",
+			"simian-id": "5421",
+			"name": "David Quinn",
+			"slug": "david-quinn",
+			"home-video": "/assets/uploads/thumbnail-david-quinn.mp4",
+			"home-image": "/assets/uploads/thumbnail-david-quinn.jpg",
+			"awards": [
+				"Straight8 Industry ShoutOut Cannes, Audience Choice Award, 2018",
+				"Shots, Young Director Award, 2014"
+			]
+		},
+		{
+			"sorting": "dugan-gundelfinger",
+			"active": true,
+			"bio": "Dugan Gundelfinger is an award-winning writer/director, occasional actor & musician. Californian all the way down to the accent, Dugan is connected to the universe. His father was a rock and roll photographer, his mother a contemporary dancer and his grandfather an accomplished cartoonist. Creativity runs deep in his genes. At one point was attached to direct the official Vanilla Ice Biopic. Dugan currently resides in the Ojai Valley with his two daughters and many psychedelic cacti.",
+			"simian-id": "5428",
+			"name": "Dugan Gundelfinger",
+			"slug": "dugan-gundelfinger",
+			"home-video": "/assets/uploads/thumbnail-dugan-gundelfinger.mp4",
+			"home-image": "/assets/uploads/thumbnail-dugan-gundelfinger.jpg",
+			"awards": [
+				"Grammy Awards, Best Music Video Nomination, 2011",
+				"Clio Music, Bronze Award, 2024"
+			]
+		},
+		{
+			"sorting": "isaac-ravishankara",
+			"active": true,
+			"bio": "Iassc Ravishankara views the world through a lens of discovery, which makes sense for the child of a scientist and a doctor. His degree in physics speaks to his pursuit of universal truths, but also his search for new ideas, new people and new stories. A deep believer that art can be a force that drives society forward, Isaac co-founded OMG Everywhere. OMG Everywhere is a non-profit that provides free film and music workshops for kids in LA, NY, Oakland and London. How great is that?",
+			"simian-id": "5397",
+			"name": "Isaac Ravishankara",
+			"slug": "isaac-ravishankara",
+			"home-video": "/assets/uploads/thumbnail-isaac-ravishankara.mp4",
+			"home-image": "/assets/uploads/thumbnail-isaac-ravishankara.jpg",
+			"awards": [
+				"Booooooom TV Awards, Runner-Up, 2019",
+				"Clio Awards, Silver, 2017",
+				"Burbank International Film Festival, Best Short Film Nomination, 2014"
+			]
+		},
+		{
+			"sorting": "ismael",
+			"active": true,
+			"bio": "Ismael is one of the industry’s leading figures. A master of his craft, with a keen eye for detail, his signature work consistently stands out from the crowd and breaks the mold. As one of the godfathers of emotional storytelling in the commercial scene, he brings a wealth of experience and versatility and is always able to create something beautiful with a rough edge – no matter the brief or genre. His motto? “We only have one chance to do this, so we better do it right!”.",
+			"simian-id": "5398",
+			"name": "Ismael",
+			"slug": "ismael",
+			"home-video": "/assets/uploads/thumbnail-ismael.mp4",
+			"home-image": "/assets/uploads/thumbnail-ismael.jpg",
+			"awards": [
+				"Cannes Lions International Festival of Creativity, Award",
+				"Epica Awards, Award",
+				"ADC Europe Awards, Award",
+				"Dutch Creativity Awards (ADCN Awards), Award"
+			]
+		},
+		{
+			"sorting": "jackie-abraham",
+			"active": true,
+			"bio": "Starting out as a writer in the creative department armed Jackie’s with an inside perspective on directing commercial work. A writer by discipline he immediately understands his projects in a different way than other directors with a combination of smart, strategic thinking and dumb, funny thinking. He knows how to balance work that works hard and great work that puts smiles on faces. You won’t find a genuine, more passionate director ready to do great things than Jackie Abraham.",
+			"simian-id": "5420",
+			"name": "Jackie Abraham",
+			"slug": "jackie-abraham",
+			"home-video": "/assets/uploads/thumbnail-jackie-abraham.mp4",
+			"home-image": "/assets/uploads/thumbnail-jackie-abraham.jpg",
+			"awards": [
+				"Young Director Award, Young Director Award (Comedy), 2024, “Nine to Five 1995”"
+			]
+		},
+		{
+			"sorting": "james-lawes",
+			"active": true,
+			"bio": "James is known for his emotive, visceral films and ability to get strong performances from both actors and non-actors alike. His style mixes the authentic with the sometimes otherworldly. Using a distinctive mix of in-camera visual effects and highly considered, cinematic style, he brings a touch of the unexpected to the everyday.",
+			"simian-id": "5426",
+			"name": "James Lawes",
+			"slug": "james-lawes",
+			"home-video": "/assets/uploads/thumbnail-james-lawes.mp4",
+			"home-image": "/assets/uploads/thumbnail-james-lawes.jpg",
+			"awards": [
+				"The Drum Roses, Silver, Best Commercial ‘A Little Bit’ Scottish Government, 2021",
+				"EvCom, Gold, Best Health and Safety Film ‘Look Up, Look Out’ ENA, 2020",
+				"New York Festival, Gold ‘Look Up, Look Out’ ENA, 2020",
+				"British Horror Film Festival, Best Director ‘Be Good’, 2019",
+				"Misty Moon International Film Festival, Judges Award ‘Be Good’, 2019",
+				"Misty Moon International Film Festival, Audience Award ‘Be Good’, 2019",
+				"Misty Moon International Film Festival, Fenella Fielding Award ‘Be Good’, 2019",
+				"Cannes Media, Silver, Best Informational ‘The Accident’ ENA, 2019",
+				"EvCom, Silver, Best Health and Safety Film ‘Home in One Piece’ Infineum, 2019",
+				"New York Film Festival, Gold, Best Event Film ‘Graffiti’ McDonalds, 2019",
+				"New York Film Festival, Bronze, Best Visual Effects ‘Graffiti’ McDonalds, 2019",
+				"Brand Film Festival, Bronze, Best Non-Profit ‘Graffiti’ McDonalds, 2019"
+			]
+		},
+		{
+			"sorting": "jeremi-durand",
+			"active": true,
+			"bio": "Jeremi’s background specializing in design-fiction means he knows what it takes to create a world and maximize your imagination. An award winning film director & photographer, Jeremi’s work is on the edge of cutting edge. His exceptional taste, aesthetic and style oozes out of his film. He’s a creative guy who loves to work, he’s currently developing films - both short and feature - as well as photography work.",
+			"simian-id": "5430",
+			"name": "Jeremi Durand",
+			"slug": "jeremi-durand",
+			"home-video": "/assets/uploads/thumbnail-jeremi-durand.mp4",
+			"home-image": "/assets/uploads/thumbnail-jeremi-durand.jpg",
+			"awards": [
+				"LIA Awards, Winner GOLD x2 for Best Direction & Best Cinematography, 2024",
+				"UKMVAs, Best Rock Video UK, 2023",
+				"1.4, Best Music Video x2 for “Flying High”, 2023",
+				"Berlin MVAs, 6 Awards including Best Director, Best Music Video, Best Cinematography & Best VFX, 2023",
+				"WEBBY Awards, Best Music Video, 2023",
+				"Shark Awards, including Best Director, Best Concept & Best Cinematography, 2023",
+				"Club Des D.A., including Best Director & Winner Bronze for Best Cinematography, 2023",
+				"EyeCandy Awards, Directors of the Year & Best Features - Honorable Mention x2, 2024",
+				"Berlin Commercial, 4 Awards including Best Director & Best Music Video, 2023",
+				"Young Director Awards (Cannes Lions), Winner Silver Screen for Best Music Video, 2023",
+				"Shiny Awards, Winner Best Music Video at Saatchi London, 2023",
+				"V.O.T.D, Winner x3, 2023",
+				"BAMVFest, Best Music Video, 2023",
+				"Austin MVAs, Best Music Video, 2023",
+				"Vimeo, Staff Pick, 2023",
+				"Creativepool, Features x10, 2023",
+				"NOWNESS, Picks & Premieres x3, 2023",
+				"Directors Library, Features x2, 2023",
+				"GENERO TV, Finalist, 2023",
+				"London Fashion Week Festival, Official Selection, 2023",
+				"Les Arts Décoratifs Paris, 6 months Exhibition, 2023"
+			]
+		},
+		{
+			"sorting": "kate-hollowell",
+			"active": true,
+			"bio": "Kate is a dancer, musician, actor, photographer and director, sometimes all at once. Her blend of uninhibited style and comedy pushes her work to become an art all its own. Big world’s or small, Kate builds them with craft and care and then populates them with unforgettable characters and great comedic timing. In 2024 her short film ‘Say Hi After You Die' won BEST U.S. SHORT FILM at Sundance in 2024 and SXSW. Go Kate!",
+			"simian-id": "5401",
+			"name": "Kate Hollowell",
+			"slug": "kate-hollowell",
+			"home-video": "/assets/uploads/thumbnail-kate-hollowell.mp4",
+			"home-image": "/assets/uploads/thumbnail-kate-hollowell.jpg",
+			"awards": [
+				"Sundance Film Festival, Short Film Jury Award for U.S. Fiction, 2024",
+				"HollyShorts Film Festival, Best Director Award, 2024",
+				"Young Director Award, Shortlisted for Commercial Category for “How She Rolls”, 2023"
+			]
+		},
+		{
+			"sorting": "leo-zuckerman",
+			"active": true,
+			"bio": "Leo is all about movement. Filming extreme sports with his brothers in Whistler is where he trained his eye to capture movement like a pro. Leo's ability to make the everyday seem epic is incredible, you can feel the energy in everything he does. With rich, contrasting visuals, his work is unmistakable. An award winning and technical director who geeks out on gear, rigs and drones, Leo is a high-powered visual storyteller with a style all his own.",
+			"simian-id": "5403",
+			"name": "Leo Zuckerman",
+			"slug": "leo-zuckerman",
+			"home-video": "/assets/uploads/thumbnail-leo-zuckerman.mp4",
+			"home-image": "/assets/uploads/thumbnail-leo-zuckerman.jpg",
+			"awards": [
+				"Vimeo, Staff Picks, 2013",
+				"Canadian Tourism Commission, Award for “Dear Mum” Campaign"
+			]
+		},
+		{
+			"sorting": "mapp",
+			"active": true,
+			"bio": "Not many directors have won a Grand Prix in Cannes in their past lives as an agency creative, but Steve Mapp has. Over the years Steve has been a few different things, Art Director, Creative Director and now just Director. A vigorously trained and tested creative mind, Steve knows what it takes to make the best work in the world. He’s always honing his craft by tackling a wide variety of projects, all with a cinematic approach.",
+			"simian-id": "5422",
+			"name": "Mapp",
+			"slug": "mapp",
+			"home-video": "/assets/uploads/thumbnail-mapp.mp4",
+			"home-image": "/assets/uploads/thumbnail-mapp.jpg",
+			"awards": [
+				"Cannes Lions International Festival of Creativity, Grand Prix for IKEA “Lamp” Commercial",
+				"Clio Awards, Grand Clio for IKEA",
+				"Anvil Awards, Winner for PlayAlberta Campaign, 2023",
+				"Creative Marketing Awards, Winner for PlayAlberta Campaign, 2023",
+				"Effie Awards, 3x Winner for PlayAlberta Campaign, 2023",
+				"Ciclope, Gold Winner for Work with Peelz, 2022",
+				"Anvil Awards, Winner for Western Canada Lottery Campaign, 2021",
+				"Anvil Awards, Winner for Western Canada Lottery Campaign, 2020",
+				"Clio Awards, Winner for The Marvelous Mrs. Maisel/Amazon Prime, 2019",
+				"Marketing Dive Awards, Campaign of the Year, 2018",
+				"The One Show, Automobile Advertising of the Year Awards, Recognized for Work with MINI, 2015"
+			]
+		},
+		{
+			"sorting": "matt-rhodes",
+			"active": true,
+			"bio": "Matt knows how to make you feel things. His love of film comes from watching movies in his father’s video store as a kid growing up. He brings a warmth to his work that draws the viewer deep into the worlds he creates and then the performances he gets from actors does the rest. Clever, emotive and visually arresting film, with the occasional famous face like Gillian Anderson or Kit Harrington. This is all to say there isn’t much Matt can’t do.",
+			"simian-id": "5427",
+			"name": "Matt Rhodes",
+			"slug": "matt-rhodes",
+			"home-video": "/assets/uploads/thumbnail-matt-rhodes.mp4",
+			"home-image": "/assets/uploads/thumbnail-matt-rhodes.jpg",
+			"awards": [
+				"D&AD Awards, Best Performance, 2022",
+				"Kinsale Shark Awards, Best Performance, 2022",
+				"Kinsale Shark Awards, Winner of Over 40 Awards",
+				"Promax Awards, Winner of Over 40 Awards"
+			]
+		},
+		{
+			"sorting": "matthew-swanson",
+			"active": true,
+			"bio": "You know when you’re watching a Matthew Swanson spot because your eyes start to open a little wider. A signature visual style, combined with Impeccable casting and pitch-perfect comedy. That pretty much sums up the Matthew Swanson trifecta. When 9 out of 10 people see one thing, Matthew will be the one seeing something completely different. He brings his quirky comedic sensibility to all of his work and his spots are all the better for it.",
+			"simian-id": "5406",
+			"name": "Matthew Swanson",
+			"slug": "matthew-swanson",
+			"home-video": "/assets/uploads/thumbnail-matthew-swanson.mp4",
+			"home-image": "/assets/uploads/thumbnail-matthew-swanson.jpg",
+			"awards": [
+				"Kinsale Shark Advertising Festival, Bronze, 2024",
+				"ADCC Awards, Best Direction, Bronze, 2022",
+				"British Arrows, Gold, 2022",
+				"Campaign Big Awards, Winner, 2022",
+				"Advertising Creative Circle Awards, Bronze, 2022",
+				"Cannes Lions International Festival of Creativity, Silver Lion, 2021",
+				"Cannes Lions International Festival of Creativity, Bronze Lion, 2021",
+				"CLIO Awards, Bronze, 2021",
+				"ADC Annual Awards, Silver Cube, 2020",
+				"Art Directors Club of Europe, Silver, 2020",
+				"D&AD Awards, Wood Pencil, 2020",
+				"The One Show, Bronze, 2020",
+				"AICP Show, 2020",
+				"Shots Awards Americas, Commercial of the Year, Gold, 2020",
+				"Ciclope, Best Direction, Silver, 2019"
+			]
+		},
+		{
+			"sorting": "new-york-nico",
+			"active": true,
+			"bio": "Nicolas Heller is a commercial director and documentarian better known to his 3 million social media followers as @newyorknico. Heller loves NYC. As The New York Times’ “Unofficial Talent Scout of New York,” Heller is driven by authentic human stories, best known for creating content that documents the real, one-of-a-kind people and places in his native City.",
+			"simian-id": "5408",
+			"name": "New York Nico",
+			"slug": "new-york-nico",
+			"home-video": "/assets/uploads/thumbnail-new-york-nico.mp4",
+			"home-image": "/assets/uploads/thumbnail-new-york-nico.jpg",
+			"awards": [
+				"CLIO Awards: Heller has won his first CLIO Awards, acknowledging his excellence in advertising and creative work.",
+				"President's Lifetime Achievement Award: In 2021, President Joe Biden recognized Heller's work by presenting him with this prestigious award, honoring his significant contributions to the community.",
+				"Publications: Heller's work and influence have been featured in various publications, including a profile in PRINT Magazine's “Design Matters” podcast."
+			]
+		},
+		{
+			"sorting": "nikki-ross",
+			"active": true,
+			"bio": "Nikki brings an undeniable energy and lightness to her work and has an extraordinary ability to invite anyone in front of her lens and authentically capture the essence of who they are. A quirky tom-boy at heart, her playful childlike energy shines through in her work. She prides herself in creating a lively and energetic set, making it a whimsical and exciting experience.",
+			"simian-id": "5431",
+			"name": "Nikki Ross",
+			"slug": "nikki-ross",
+			"home-video": "/assets/uploads/thumbnail-nikki-ross.mp4",
+			"home-image": "/assets/uploads/thumbnail-nikki-ross.jpg",
+			"awards": [
+				"Applied Arts Magazine, The Maker of Men, 2024, for Nikki Ross",
+				"The Kit, Best Dressed Canadians, 2024, for Nikki Ross"
+			]
+		},
+		{
+			"sorting": "nolan-sarner",
+			"active": true,
+			"bio": "Nolan can make just about any story a beautiful story. The lead character could be a little kid or a big name, but Nolan’s ability to get authentic performances is always consistent. Paired with beautiful cinematography and a naturally fluid pace, his work feels like real-life even when it’s not.",
+			"simian-id": "5409",
+			"name": "Nolan Sarner",
+			"slug": "nolan-sarner",
+			"home-video": "/assets/uploads/thumbnail-nolan-sarner.mp4",
+			"home-image": "/assets/uploads/thumbnail-nolan-sarner.jpg",
+			"awards": [
+				"Canadian Screen Award Winner, 2018",
+				"Canadian Screen Award Nominee, 2019",
+				"ADCC, Shortlist, 2024",
+				"1.4, Shortlist, 2021 & 2022",
+				"Berlin Commercial Awards, Shortlist, 2021 & 2022",
+				"Vimeo, Staff Pick"
+			]
+		},
+		{
+			"sorting": "renee-mao",
+			"active": true,
+			"bio": "Having lived in Australia, China and the United States, Renée Mao brings a unique global perspective and visual power to her narrative driven stories. A graduate of NYU’s Tisch School of the Arts, Renée has a classically trained eye that she uses to amplify the craft in her work. She is passionate about creating meaningful work that has a positive social impact and loves collaborating closely with everyone on the team.",
+			"simian-id": "5424",
+			"name": "Renée Mao",
+			"slug": "renee-mao",
+			"home-video": "/assets/uploads/thumbnail-renee-mao.mp4",
+			"home-image": "/assets/uploads/thumbnail-renee-mao.jpg",
+			"awards": [
+				"AACTA Awards, Best Digital Series, 2022",
+				"Vimeo, Staff Picks",
+				"Webby Awards, Honoree, 2020"
+			]
+		},
+		{
+			"sorting": "rob-fiocca",
+			"active": true,
+			"bio": "How can anyone this nice devote so much attention to detail? Rob Fiocca, arguably Canada’s best food director, has an eye for beauty that is unparalleled. He consistently raises the bar for how we shoot food in this country with his mastery of light, texture and motion, not to mention his avant-garde styling choices and quest for surprising new angles. And let’s not even get started on his food plating. (In a word, delightful.)",
+			"simian-id": "5411",
+			"name": "Rob Fiocca",
+			"slug": "rob-fiocca",
+			"home-video": "/assets/uploads/thumbnail-rob-fiocca.mp4",
+			"home-image": "/assets/uploads/thumbnail-rob-fiocca.jpg",
+			"awards": [
+				"International ANDY Awards, Printed Materials Gold, 2016",
+				"Kinsale Sharks Awards, Design Bronze Winner, 2015",
+				"Kinsale Sharks Awards, Design Bronze Winner, 2015",
+				"LIA (London International Awards), Design Gold Winner, 2015",
+				"LIA (London International Awards), Design Gold Winner, 2015",
+				"Applied Arts Magazine, Award Winner, 2008",
+				"Graphis Photography Annual, Inclusion, 2008",
+				"International Photography Awards, Award Winner, 2007"
+			]
+		},
+		{
+			"sorting": "rodney-lucas",
+			"active": true,
+			"bio": "Hailing from the South Side of Chicago and now calling Brooklyn home Rodney, captures real life wherever he goes. As a documentary filmmaker Rodney has traveled the world creating short documentaries and branded content and made a whole lot of friends along the way. He’s known for his high level of sensitivity, care, artistic expression, and emotional depth.",
+			"simian-id": "5429",
+			"name": "Rodney Lucas",
+			"slug": "rodney-lucas",
+			"home-video": "/assets/uploads/thumbnail-rodney-lucas.mp4",
+			"home-image": "/assets/uploads/thumbnail-rodney-lucas.jpg",
+			"awards": [
+				"Tribeca Film Festival, Official Selection, 2024",
+				"Tribeca X Award, Best Episodic, 2021",
+				"Webby Award, Best Diversity & Inclusion, 2021",
+				"Telly Awards, 13 awards including four bronze, four silver, and three gold, 2021",
+				"AdStar Awards, Three awards, 2021",
+				"Cannes Lions, Shortlist recognition, 2021"
+			]
+		},
+		{
+			"sorting": "ruganzu-howard",
+			"active": true,
+			"bio": "Before becoming a comedy director, Ruganzu “Riggs” Howard worked as an Executive Producer for some of the best and funniest advertising agencies in the world, like BBDO, TBWA, and Barton F. Graf and Translation. Prior to that, he was an assistant editor and post-producer. Prior, prior to that, Ruganzu was a Baltimore City Police Detective (no, really), where he served as a violent crimes investigator, hostage negotiator and police department spokesperson. Take all that experience and what do you get? An excellent collaborator with creative and client alike. And a sense of comedic timing and obsession with cinematic craft that always serve the script above all else.",
+			"simian-id": "5412",
+			"name": "Ruganzu Howard",
+			"slug": "ruganzu-howard",
+			"home-video": "/assets/uploads/thumbnail-ruganzu-howard.mp4",
+			"home-image": "/assets/uploads/thumbnail-ruganzu-howard.jpg",
+			"awards": [
+				"One Show, Bronze Award, 2018, “Zelle® Family” campaign, Direct Marketing - Consumer Campaign",
+				"One Show, Bronze Award, 2018, “Zelle® Family” campaign, Film - Commercials",
+				"One Show, Bronze Award, 2018, “Zelle® Family” campaign, Digital - Social Media",
+				"One Show, Bronze Award, 2018, “Zelle® Family” campaign, Mobile - App/Utility",
+				"One Show, Bronze Award, 2018, “Zelle® Family” campaign, Design - Packaging"
+			]
+		},
+		{
+			"sorting": "sam-hughes",
+			"active": true,
+			"bio": "Sam grew up on the Skin & Bones team. He learned the craft from the inside out by working with directors on building their treatments, tracking down references or helping define the visual language of a spot. Toronto born and raised, he is part of a new generation of boundary pushing directors keeping things inventive and fresh.",
+			"simian-id": "5432",
+			"name": "Sam Hughes",
+			"slug": "sam-hughes",
+			"home-video": "/assets/uploads/thumbnail-sam-hughes.mp4",
+			"home-image": "/assets/uploads/thumbnail-sam-hughes.jpg",
+			"awards": []
+		},
+		{
+			"sorting": "sebastian-hill-esbrand",
+			"active": true,
+			"bio": "Sebastian is a director of Caribbean and Australian heritage. His international upbringing taught Sebastian the power in diversity, as well as the importance of having intersectionality displayed on screen. His experience is threaded into the DNA of his work. Bringing outsiders and unexpected characters to the front of the frame and making them shine. His latest film ‘Family’ won the Gold Lion in the Young Director Award in Cannes.",
+			"simian-id": "5425",
+			"name": "Sebastian Hill-Esbrand",
+			"slug": "sebastian-hill-esbrand",
+			"home-video": "/assets/uploads/thumbnail-sebastian-hill-esbrand.mp4",
+			"home-image": "/assets/uploads/thumbnail-sebastian-hill-esbrand.jpg",
+			"awards": [
+				"Young Director Award, Gold Screen, 2022",
+				"Shots Awards, Recognition, 2022",
+				"Director's Notes, Recognition, Year 2022",
+				"1.4 Awards, Recognition, 2022",
+				"Young Guns 20, Finalist, 2022"
+			]
+		},
+		{
+			"sorting": "shawn-zeytinoglu",
+			"active": true,
+			"bio": "Shawn’s combination of curiosity and creativity creates work with a unique tone that sets itself apart. From his beginnings as a cinematographer, Shawn's eye for light and framing add a style to his comedic language that elevates his films. He is precise, focused and detailed in every aspect of each shot and holistic in how he brings it all together. Grounded in natural, engaging performances, each scene is anchored in reality even if set in a more heightened one. A dry sense of humour and quick wit, Shawn is great to work with and great to hang out with.",
+			"simian-id": "5414",
+			"name": "Shawn Zeytinoglu",
+			"slug": "shawn-zeytinoglu",
+			"home-video": "/assets/uploads/thumbnail-shawn-zeytinoglu.mp4",
+			"home-image": "/assets/uploads/thumbnail-shawn-zeytinoglu.jpg",
+			"awards": [
+				"Tool of NA, Featured Director",
+				"Sterntag Film, Featured Director",
+				"LBBOnline, Profiled Director, Year 2024",
+				"Promo! Awards, Bronze, Best New Product Launch, 2015, for Audi – A3 Launch"
+			]
+		},
+		{
+			"sorting": "stuart-langfield",
+			"active": true,
+			"bio": "Everything Stuart creates bears the signature of his attention to detail. Powerful visuals, carefully framed shots and consideration to lighting give an abstract cinematic beauty to all of Stuart’s films. His authentic yet uplifting visual narratives and his emphasis on score and sound to create atmospheric moods, lift the otherwise ordinary subject matter of his films to create moments of beauty, intensity, abstraction and emotion.",
+			"simian-id": "5415",
+			"name": "Stuart Langfield",
+			"slug": "stuart-langfield",
+			"home-video": "/assets/uploads/thumbnail-stuart-langfield.mp4",
+			"home-image": "/assets/uploads/thumbnail-stuart-langfield.jpg",
+			"awards": [
+				"OFFF, Speaker, 2022",
+				"1.4 Awards, Silver Medalist",
+				"Berlin Commercial, Shortlist",
+				"Shots, Featured",
+				"Webby, Honoree",
+				"Vimeo, Staff Pick",
+				"Leo Awards, 7 Nominations (1 win)",
+				"Boston Sci-Fi Festival, Award",
+				"Philip K. Dick Festival, Award",
+				"Boooooom, Feature",
+				"IFLScience, Feature",
+				"NY Times, Feature"
+			]
+		},
+		{
+			"sorting": "stuart-mcintyre",
+			"active": true,
+			"bio": "Stuart has a special touch, a fiery passion and a reverent approach to filmmaking. He infuses every frame of his work with electric energy and soulful intensity. He blends raw authenticity and an elevated aesthetic to create work that feels meticulously crafted and perfectly composed. His background as an editor has sharpened his narrative eye, he captures something great in every story he tells.",
+			"simian-id": "5416",
+			"name": "Stuart McIntyre",
+			"slug": "stuart-mcintyre",
+			"home-video": "/assets/uploads/thumbnail-stuart-mcintyre.mp4",
+			"home-image": "/assets/uploads/thumbnail-stuart-mcintyre.jpg",
+			"awards": [
+				"Young Director Award, Short Film (6 to 30 minutes), 2022, for “If I Go Will They Miss Me”",
+				"Toronto International Film Festival, Official Selection, 2019, for “Carl’s Motel”",
+				"Montréal Festival du Nouveau Cinéma, Official Selection, 2019, for “Carl’s Motel”",
+				"Madrid International Film Festival, Official Selection, 2019, for “Carl’s Motel”"
+			]
+		}
+	],
+	"news": [
+		{
+			"title": "Our New Identity",
+			"date": "[03.01.2025]",
+			"body": "We’re getting rid of the old Skin & Bones and starting fresh. It’s more than just a new look (but we love the new look), it’s a new way forward. Give the rebrand a spin on our site.",
+			"active": true,
+			"sorting": 0
+		},
+		{
+			"title": "David Reviews",
+			"date": "[02.21.2025]",
+			"body": "Always a good day when one of our favourite directors gets a five-star review. “People Watching” Stuart Mcintyre’s gorgeous and artful music video for Sam Fender gets top marks from team at David Reviews check it out [here](https://www.davidreviews.com/Reviews/2025/Sam_Fender_People_Watching/).",
+			"active": true,
+			"sorting": 1
+		},
+		{
+			"title": "New Bathroom Wallpaper",
+			"date": "[02.18.2025]",
+			"body": "We want to make sure everyone who comes to the office has the best experience, no matter what room they are in. That’s why we’ve got this beautiful new Toronto “Toile du Jouy” in the two rooms where we all spend so much time texting.",
+			"active": true,
+			"sorting": 3
+		},
+		{
+			"title": "Nolan McD’s",
+			"date": "[02.11.2025]",
+			"body": "Decision fatigue is depicted at its most delicious in this new McDonald’s spot from the lovely Nolan Sarner. It’s inviting and yummy, just like a box of McDonald’s french fries fresh out of the fryer. Are you hungry? Give it a [watch](https://www.instagram.com/p/DF8kwRQSajg/).",
+			"active": true,
+			"sorting": 4
+		},
+		{
+			"title": "EyeCandy",
+			"date": "[02.04.2025]",
+			"body": "The sharp eyes at EyeCandy @eyecannndy have spotted Jeremi Durand’s @_jeremidurand new music video for Nina Chuba @ninachuba. Surreal and simple, artful and wild we’re not surprised to see Jeremi’s work is turning heads. Check out the video here and the eye candy link [here](https://www.instagram.com/p/DFqY7qYS_Kj/?img_index=1).",
+			"active": true,
+			"sorting": 5
+		}
+	]
 }

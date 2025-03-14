@@ -58,13 +58,13 @@
 				<main class="director-portfolio">
 					<section class="director-portfolio-info">
 						<h1 class="director-portfolio-info-title">Mapp</h1>
-						<p>Not many directors have won a Grand Prix in Cannes in their past lives as an agency creatives, but Steve Mapp has. Over the years Steve has been a few different things, art director, Creative Director and now just Director. A vigorously trained and tested creative mind, Steve knows what it takes to make the best work in the world. He’s always honing his craft by tackling a wide variety of projects, all with a cinematic approach.</p>
+						<p>Not many directors have won a Grand Prix in Cannes in their past lives as an agency creative, but Steve Mapp has. Over the years Steve has been a few different things, Art Director, Creative Director and now just Director. A vigorously trained and tested creative mind, Steve knows what it takes to make the best work in the world. He’s always honing his craft by tackling a wide variety of projects, all with a cinematic approach.</p>
 
 						
 			<div class="director-portfolio-info-awards director-portfolio-info-awards-desktop">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-					<li>Cannes Lions International Festival of Creativity, Grand Prix for IKEA “Lamp” Commercial, 2003</li><li>Anvil Awards, Winner for PlayAlberta Campaign, 2003</li><li>The One Show, Recognized for Work with adidas, 2003</li><li>ANDY Awards, Honored for Contributions to Advertising, 2003</li><li>AICP, Awarded for Excellence in Commercial Production, 2003</li><li>London International Awards (LIA), Recognized for Outstanding Advertising Work, 2003</li>
+					<li>Cannes Lions International Festival of Creativity, Grand Prix for IKEA “Lamp” Commercial</li><li>Clio Awards, Grand Clio for IKEA</li><li>Anvil Awards, Winner for PlayAlberta Campaign, 2023</li><li>Creative Marketing Awards, Winner for PlayAlberta Campaign, 2023</li><li>Effie Awards, 3x Winner for PlayAlberta Campaign, 2023</li><li>Ciclope, Gold Winner for Work with Peelz, 2022</li><li>Anvil Awards, Winner for Western Canada Lottery Campaign, 2021</li><li>Anvil Awards, Winner for Western Canada Lottery Campaign, 2020</li><li>Clio Awards, Winner for The Marvelous Mrs. Maisel/Amazon Prime, 2019</li><li>Marketing Dive Awards, Campaign of the Year, 2018</li><li>The One Show, Automobile Advertising of the Year Awards, Recognized for Work with MINI, 2015</li>
 				</ul>
 			</div>
 		
@@ -167,7 +167,7 @@
 			<div class="director-portfolio-info-awards">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-				<li>Cannes Lions International Festival of Creativity, Grand Prix for IKEA “Lamp” Commercial, 2003</li><li>Anvil Awards, Winner for PlayAlberta Campaign, 2003</li><li>The One Show, Recognized for Work with adidas, 2003</li><li>ANDY Awards, Honored for Contributions to Advertising, 2003</li><li>AICP, Awarded for Excellence in Commercial Production, 2003</li><li>London International Awards (LIA), Recognized for Outstanding Advertising Work, 2003</li>
+				<li>Cannes Lions International Festival of Creativity, Grand Prix for IKEA “Lamp” Commercial</li><li>Clio Awards, Grand Clio for IKEA</li><li>Anvil Awards, Winner for PlayAlberta Campaign, 2023</li><li>Creative Marketing Awards, Winner for PlayAlberta Campaign, 2023</li><li>Effie Awards, 3x Winner for PlayAlberta Campaign, 2023</li><li>Ciclope, Gold Winner for Work with Peelz, 2022</li><li>Anvil Awards, Winner for Western Canada Lottery Campaign, 2021</li><li>Anvil Awards, Winner for Western Canada Lottery Campaign, 2020</li><li>Clio Awards, Winner for The Marvelous Mrs. Maisel/Amazon Prime, 2019</li><li>Marketing Dive Awards, Campaign of the Year, 2018</li><li>The One Show, Automobile Advertising of the Year Awards, Recognized for Work with MINI, 2015</li>
 				</ul>
 			</div>
 		
@@ -192,11 +192,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -236,7 +234,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -246,6 +244,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -358,6 +357,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['https://skinandbonesfilm.gosimian.com/assets/videos/driveway_-_happy_place__doe_--1080p-.mp4?mrss=true', 'Driveway', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/reliant__weather_machine_--1080p-.mp4?mrss=true', 'Reliant', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/little_caesars__world-s_greatest_combination_---_no_no_no-___30--1080p-.mp4?mrss=true', 'Little Caesars', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/Deliciously_Satisfying_30_16x9_NFA.mp4?mrss=true', 'ALOHA', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/BLK_lifebridge_health_-__i-m_fine_--1080p-.mp4?mrss=true', 'Lifebridge Health', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/mars_-__ghosting___15--1080p-.mp4?mrss=true', 'Mars', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/_double_up__-_clif_energy_granola--1080p-.mp4?mrss=true', 'CLIF Energy Granola', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/peelz__john_birk__-agency_longform---1080p-.mp4?mrss=true', 'Peelz', ''],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

@@ -58,12 +58,13 @@
 				<main class="director-portfolio">
 					<section class="director-portfolio-info">
 						<h1 class="director-portfolio-info-title">David Quinn</h1>
-						<p>Quinn grew up in advertising and his innate understanding of the business is part of what makes him such a collaborative and amazing partner. His work is filled with heart, artistry and a little magic. There’s a sincerity baked into the tone of what Quinn does that elevates the emotional impact of his projects. Quinn knows how to make you laugh, make you cry or get you to buy.
+						<p>Quinn grew up in advertising and his innate understanding of the business is part of what makes him such a collaborative and amazing partner. His work is filled with heart, artistry and a little magic. There’s a sincerity baked into the tone of what Quinn does that elevates the emotional impact of his projects. Quinn knows how to make you laugh, make you cry or get you to buy.</p>
+
 						
 			<div class="director-portfolio-info-awards director-portfolio-info-awards-desktop">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-					<li>Shots, Young Director Award, 2014</li><li>Straight8 Industry ShoutOut Cannes, Audience Choice Award, 2018</li>
+					<li>Straight8 Industry ShoutOut Cannes, Audience Choice Award, 2018</li><li>Shots, Young Director Award, 2014</li>
 				</ul>
 			</div>
 		
@@ -166,7 +167,7 @@
 			<div class="director-portfolio-info-awards">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-				<li>Shots, Young Director Award, 2014</li><li>Straight8 Industry ShoutOut Cannes, Audience Choice Award, 2018</li>
+				<li>Straight8 Industry ShoutOut Cannes, Audience Choice Award, 2018</li><li>Shots, Young Director Award, 2014</li>
 				</ul>
 			</div>
 		
@@ -191,11 +192,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -235,7 +234,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -245,6 +244,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -357,6 +357,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['http://skinandbonesfilm.gosimian.com/assets/videos/NewHorizons_ThisIs_Cargiving_Marissa_DIRCUT_SOUND-BOOST_mov.mp4?mrss=true', 'New Horizons', 'This Is Caregiving - Marissa'],['http://skinandbonesfilm.gosimian.com/assets/videos/VALVOLINE-DC-FINAL.mp4?mrss=true', 'Valvoline', 'Oil Change-xi-ety'],['http://skinandbonesfilm.gosimian.com/assets/videos/JON-ANIK---S-PITCH-IDEA-FOR-TOYO-TIRES-_-UFC.mp4?mrss=true', 'Toyo Tires', 'Jon Anik\'s Pitch Idea'],['http://skinandbonesfilm.gosimian.com/assets/videos/CPP---Grease-Lightning-DC.mp4?mrss=true', 'CPP', 'Grease Lightning'],['http://skinandbonesfilm.gosimian.com/assets/videos/Interac---Moustache-15-DC.mp4?mrss=true', 'Interac ', 'Moustache'],['http://skinandbonesfilm.gosimian.com/assets/videos/Kijiji-DC.mp4?mrss=true', 'Kijiji', 'Shake On It'],['http://skinandbonesfilm.gosimian.com/assets/videos/Glad-DC-Final1.mp4?mrss=true', 'Glad', 'Glad for Change'],['http://skinandbonesfilm.gosimian.com/assets/videos/NewHorizons_ThisIs_CareAndIndependence_Paul_DIRCUT-v.mp4?mrss=true', 'New Horizons', 'This Is Care And Independence - Paul'],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

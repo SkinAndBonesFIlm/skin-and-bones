@@ -64,7 +64,7 @@
 			<div class="director-portfolio-info-awards director-portfolio-info-awards-desktop">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-					<li>Applied Arts Magazine, Award Winner, 2008</li><li>Graphis Photography Annual, Inclusion, 2008</li><li>International Photography Awards, Award Winner, 2007</li><li>Kinsale Sharks Awards, Design Bronze Winner, 2015</li><li>Kinsale Sharks Awards, Design Bronze Winner, 2015</li><li>LIA (London International Awards), Design Gold Winner, 2015</li><li>LIA (London International Awards), Design Gold Winner, 2015</li><li>International ANDY Awards, Printed Materials Gold, 2016</li>
+					<li>International ANDY Awards, Printed Materials Gold, 2016</li><li>Kinsale Sharks Awards, Design Bronze Winner, 2015</li><li>Kinsale Sharks Awards, Design Bronze Winner, 2015</li><li>LIA (London International Awards), Design Gold Winner, 2015</li><li>LIA (London International Awards), Design Gold Winner, 2015</li><li>Applied Arts Magazine, Award Winner, 2008</li><li>Graphis Photography Annual, Inclusion, 2008</li><li>International Photography Awards, Award Winner, 2007</li>
 				</ul>
 			</div>
 		
@@ -167,7 +167,7 @@
 			<div class="director-portfolio-info-awards">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-				<li>Applied Arts Magazine, Award Winner, 2008</li><li>Graphis Photography Annual, Inclusion, 2008</li><li>International Photography Awards, Award Winner, 2007</li><li>Kinsale Sharks Awards, Design Bronze Winner, 2015</li><li>Kinsale Sharks Awards, Design Bronze Winner, 2015</li><li>LIA (London International Awards), Design Gold Winner, 2015</li><li>LIA (London International Awards), Design Gold Winner, 2015</li><li>International ANDY Awards, Printed Materials Gold, 2016</li>
+				<li>International ANDY Awards, Printed Materials Gold, 2016</li><li>Kinsale Sharks Awards, Design Bronze Winner, 2015</li><li>Kinsale Sharks Awards, Design Bronze Winner, 2015</li><li>LIA (London International Awards), Design Gold Winner, 2015</li><li>LIA (London International Awards), Design Gold Winner, 2015</li><li>Applied Arts Magazine, Award Winner, 2008</li><li>Graphis Photography Annual, Inclusion, 2008</li><li>International Photography Awards, Award Winner, 2007</li>
 				</ul>
 			</div>
 		
@@ -192,11 +192,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -236,7 +234,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -246,6 +244,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -358,6 +357,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['http://skinandbonesfilm.gosimian.com/assets/videos/Schneiders--Bacon--30-.mp4?mrss=true', 'Schneiders', 'Bacon'],['http://skinandbonesfilm.gosimian.com/assets/videos/Cracker-Barrel---Cheese-Board.mp4?mrss=true', 'Cracker Barrel', 'Cheese Board'],['http://skinandbonesfilm.gosimian.com/assets/videos/WEBH264-----McDs-Breakfast-Wrap-Layers.mp4?mrss=true', 'McDonalds', 'Breakfast Wrap'],['http://skinandbonesfilm.gosimian.com/assets/videos/Smuckers---Mighty-and-Humble-30.mp4?mrss=true', 'Smuckers', 'Mighty and Humble'],['http://skinandbonesfilm.gosimian.com/assets/videos/Schneiders---Sausage1.mp4?mrss=true', 'Schneiders', 'Sausage'],['https://skinandbonesfilm.gosimian.com/assets/videos/Cracker-Barrel---Lasagna.mp4?mrss=true', 'Cracker Barrel Lasagna', ''],['http://skinandbonesfilm.gosimian.com/assets/videos/Longhorn--Legendary-Flavors--301.mp4?mrss=true', 'Longhorn', 'Legendary Flavours'],['https://skinandbonesfilm.gosimian.com/assets/videos/FioccaStudio_Showreel_2024_S-B.mp4?mrss=true', 'Rob Fiocca Showreel', ''],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

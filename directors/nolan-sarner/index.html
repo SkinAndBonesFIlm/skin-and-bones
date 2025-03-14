@@ -214,11 +214,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -258,7 +256,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -268,6 +266,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -380,6 +379,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['https://skinandbonesfilm.gosimian.com/assets/videos/Intact_60s_ENG_Mix-Approved-Crea.mp4?mrss=true', 'Intact', ''],['http://skinandbonesfilm.gosimian.com/assets/videos/Canada-Post--Grandpa--DC.mp4?mrss=true', 'Canada Post', 'Grandpa'],['http://skinandbonesfilm.gosimian.com/assets/videos/McDonald-s--From-The-Ground-Up-1.mp4?mrss=true', 'McDonald\'s', 'From the Ground Up'],['http://skinandbonesfilm.gosimian.com/assets/videos/RBC_NEWCOMERS_75_DC_mov.mp4?mrss=true', 'RBC', 'Newcomers'],['http://skinandbonesfilm.gosimian.com/assets/videos/McValue_StudentLunch_DC.mp4?mrss=true', 'McValue', 'Study Break'],['http://skinandbonesfilm.gosimian.com/assets/videos/Intact_Insurance_DC_WEB.mp4?mrss=true', 'Intact', 'Ride to Remember'],['http://skinandbonesfilm.gosimian.com/assets/videos/McDonalds--McDelivery-Loves---------------.mp4?mrss=true', 'McDonald\'s', 'McDelivery Loves'],['http://skinandbonesfilm.gosimian.com/assets/videos/McValue_StepBack_DC.mp4?mrss=true', 'McValue', 'Step Back'],['http://skinandbonesfilm.gosimian.com/assets/videos/Nature-Valley----Anthem1.mp4?mrss=true', 'Nature Valley', 'Anthem'],['https://skinandbonesfilm.gosimian.com/assets/videos/Jack_RC07_4k_Web.mp4?mrss=true', 'My Name is Jack', ''],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

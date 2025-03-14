@@ -376,8 +376,10 @@ function generateDirectorPortfolioPage(director) {
 
 	// Generate portfolio items
 	let portfolio = '';
+	let mediaInfo = '';
 	for (let media of directorsMedia[director]) {
 		// console.log(media);
+		mediaInfo += `['${media['video-url']}', '${media['client'].replace(/'/g, "\\'")}', '${media['project'].replace(/'/g, "\\'")}'],`;
 		portfolio += `
 			<figure class="director-portfolio-work-item" onclick="openLightbox('${media['video-url']}', '${media['client'].replace(/'/g, "\\'")}', '${media['project'].replace(/'/g, "\\'")}');">
 				<div class="director-portfolio-work-item-thumbnail" style="background-image: url('${media['thumbnail']}');">
@@ -475,11 +477,9 @@ function generateDirectorPortfolioPage(director) {
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -519,7 +519,7 @@ function generateDirectorPortfolioPage(director) {
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -529,6 +529,7 @@ function generateDirectorPortfolioPage(director) {
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -557,6 +558,10 @@ function generateDirectorPortfolioPage(director) {
 
 				${contact}
 			</div>
+
+			<script>
+				let mediaInfo = [${mediaInfo}];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

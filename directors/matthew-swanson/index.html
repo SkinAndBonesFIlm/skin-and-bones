@@ -64,7 +64,7 @@
 			<div class="director-portfolio-info-awards director-portfolio-info-awards-desktop">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-					<li>Kinsale Shark Advertising Festival, Bronze, 2024</li><li>ADCC Awards, Best Direction, Bronze, 2022</li><li>British Arrows, Gold, 2022</li><li>Campaign Big Awards, Winner, 2022</li><li>Advertising Creative Circle Awards, Bronze, 2022</li><li>Cannes Lions International Festival of Creativity, Silver Lion, 2021</li><li>Cannes Lions International Festival of Creativity, Bronze Lion, 2021</li><li>CLIO Awards, Bronze, 2021</li><li>ADC Annual Awards, Silver Cube, 2020</li><li>Art Directors Club of Europe, Silver, 2020</li><li>D&AD Awards, Wood Pencil, 2020</li><li>The One Show, Bronze, 2020</li><li>AICP Show, 2020</li><li>Shots Awards Americas, Commercial of the Year (Spotify), Gold, 2020</li><li>Ciclope, Best Direction (Spotify), Silver, 2019</li>
+					<li>Kinsale Shark Advertising Festival, Bronze, 2024</li><li>ADCC Awards, Best Direction, Bronze, 2022</li><li>British Arrows, Gold, 2022</li><li>Campaign Big Awards, Winner, 2022</li><li>Advertising Creative Circle Awards, Bronze, 2022</li><li>Cannes Lions International Festival of Creativity, Silver Lion, 2021</li><li>Cannes Lions International Festival of Creativity, Bronze Lion, 2021</li><li>CLIO Awards, Bronze, 2021</li><li>ADC Annual Awards, Silver Cube, 2020</li><li>Art Directors Club of Europe, Silver, 2020</li><li>D&AD Awards, Wood Pencil, 2020</li><li>The One Show, Bronze, 2020</li><li>AICP Show, 2020</li><li>Shots Awards Americas, Commercial of the Year, Gold, 2020</li><li>Ciclope, Best Direction, Silver, 2019</li>
 				</ul>
 			</div>
 		
@@ -178,7 +178,7 @@
 			<div class="director-portfolio-info-awards">
 				<h2 class="director-portfolio-info-awards-title">Awards</h2>
 				<ul class="director-portfolio-info-awards-list">
-				<li>Kinsale Shark Advertising Festival, Bronze, 2024</li><li>ADCC Awards, Best Direction, Bronze, 2022</li><li>British Arrows, Gold, 2022</li><li>Campaign Big Awards, Winner, 2022</li><li>Advertising Creative Circle Awards, Bronze, 2022</li><li>Cannes Lions International Festival of Creativity, Silver Lion, 2021</li><li>Cannes Lions International Festival of Creativity, Bronze Lion, 2021</li><li>CLIO Awards, Bronze, 2021</li><li>ADC Annual Awards, Silver Cube, 2020</li><li>Art Directors Club of Europe, Silver, 2020</li><li>D&AD Awards, Wood Pencil, 2020</li><li>The One Show, Bronze, 2020</li><li>AICP Show, 2020</li><li>Shots Awards Americas, Commercial of the Year (Spotify), Gold, 2020</li><li>Ciclope, Best Direction (Spotify), Silver, 2019</li>
+				<li>Kinsale Shark Advertising Festival, Bronze, 2024</li><li>ADCC Awards, Best Direction, Bronze, 2022</li><li>British Arrows, Gold, 2022</li><li>Campaign Big Awards, Winner, 2022</li><li>Advertising Creative Circle Awards, Bronze, 2022</li><li>Cannes Lions International Festival of Creativity, Silver Lion, 2021</li><li>Cannes Lions International Festival of Creativity, Bronze Lion, 2021</li><li>CLIO Awards, Bronze, 2021</li><li>ADC Annual Awards, Silver Cube, 2020</li><li>Art Directors Club of Europe, Silver, 2020</li><li>D&AD Awards, Wood Pencil, 2020</li><li>The One Show, Bronze, 2020</li><li>AICP Show, 2020</li><li>Shots Awards Americas, Commercial of the Year, Gold, 2020</li><li>Ciclope, Best Direction, Silver, 2019</li>
 				</ul>
 			</div>
 		
@@ -203,11 +203,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -247,7 +245,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -257,6 +255,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -369,6 +368,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['http://skinandbonesfilm.gosimian.com/assets/videos/Spotify--Let-the-Song-Play-.mp4?mrss=true', 'Spotify', 'Let the Song Play'],['http://skinandbonesfilm.gosimian.com/assets/videos/Mattress-Firm-Socks-DC_mov.mp4?mrss=true', 'Mattress Firm', 'Socks'],['http://skinandbonesfilm.gosimian.com/assets/videos/HACKS_DC_V4_4x3_mov.mp4?mrss=true', 'Current', 'Hacks'],['http://skinandbonesfilm.gosimian.com/assets/videos/Trainline-New-Realisations-Film-16x9-Vimeo-4K_mov.mp4?mrss=true', 'Trainline', 'Realisations'],['http://skinandbonesfilm.gosimian.com/assets/videos/Wealthsimple--Alive--55-DC.mp4?mrss=true', 'Wealthsimple', 'Alive'],['http://skinandbonesfilm.gosimian.com/assets/videos/Trainline-New-Friendships-Film-16x9-Vimeo-4K_mov.mp4?mrss=true', 'Trainline', 'Friendships'],['http://skinandbonesfilm.gosimian.com/assets/videos/Zillow--Ride--DC.mp4?mrss=true', 'Zillow', 'Ride'],['http://skinandbonesfilm.gosimian.com/assets/videos/Radio-Shack---Laundry-Cat.mp4?mrss=true', 'Radio Shack', 'Laundry Cat'],['http://skinandbonesfilm.gosimian.com/assets/videos/Bosch_AeroTwins_Lama_80s_v011_191023_11.mp4?mrss=true', 'Bosch', 'Aero Twins'],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

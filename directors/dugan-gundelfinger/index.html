@@ -203,11 +203,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -247,7 +245,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -257,6 +255,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -369,6 +368,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['http://skinandbonesfilm.gosimian.com/assets/videos/Bud-Light-Grunts-15.mp4?mrss=true', 'Bud Light', 'Grunts'],['http://skinandbonesfilm.gosimian.com/assets/videos/Dominos-You-Tip-We-Tip-DC-60.mp4?mrss=true', 'Dominos', 'You Tip We Tip'],['http://skinandbonesfilm.gosimian.com/assets/videos/QFCG8996000H_FRM_FY21_KNIGHT_30S_BROADCAST_OG.mp4?mrss=true', 'Farmer\'s Insurance', 'Knight'],['http://skinandbonesfilm.gosimian.com/assets/videos/Planters-Talker-DC-30.mp4?mrss=true', 'Planters', ' Cashew Talker'],['http://skinandbonesfilm.gosimian.com/assets/videos/Smoke-Show-3004-Agency_rev.mp4?mrss=true', 'Bud Light', 'Smoke Show'],['http://skinandbonesfilm.gosimian.com/assets/videos/Hims-Getting-Help-DC-30.mp4?mrss=true', 'Hims', 'Getting Help'],['http://skinandbonesfilm.gosimian.com/assets/videos/Silk-Home-Gym-15.mp4?mrss=true', 'Silk', 'Home Gym'],['http://skinandbonesfilm.gosimian.com/assets/videos/GAME-30-dir-cut.mp4?mrss=true', 'Coors', 'Not Going into The Game'],['http://skinandbonesfilm.gosimian.com/assets/videos/EARGO-Country-Weekend.mp4?mrss=true', 'EARGO', 'Overheard'],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>

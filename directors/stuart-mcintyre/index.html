@@ -149,14 +149,14 @@
 				</figcaption>
 			</figure>
 		
-			<figure class="director-portfolio-work-item" onclick="openLightbox('http://skinandbonesfilm.gosimian.com/assets/videos/Deem_Spencer_Shorty_Pt_3_v27_CONFORM.mp4?mrss=true', 'Deem Spencer', 'Shorty Pt 3');">
-				<div class="director-portfolio-work-item-thumbnail" style="background-image: url('thumbnail-th_1705440509.jpg');">
+			<figure class="director-portfolio-work-item" onclick="openLightbox('http://skinandbonesfilm.gosimian.com/assets/videos/250128_SAM-FENDER-MV_250121-4_CONFORM_FROM_CABIN_H264.mp4?mrss=true', 'Sam Fender', 'People Watching');">
+				<div class="director-portfolio-work-item-thumbnail" style="background-image: url('thumbnail-th_1738098787.jpg');">
 					<div class="director-portfolio-work-item-thumbnail-hover">PLAY</div>
 				</div>
 				<figcaption class="director-portfolio-work-item-caption">
 					<div class="director-portfolio-work-item-caption-line"></div>
-					<h3 class="director-portfolio-work-item-caption-title">Deem Spencer</h3>
-					<p class="director-portfolio-work-item-caption-text">Shorty Pt 3</p>
+					<h3 class="director-portfolio-work-item-caption-title">Sam Fender</h3>
+					<p class="director-portfolio-work-item-caption-text">People Watching</p>
 				</figcaption>
 			</figure>
 		
@@ -192,11 +192,9 @@
 						</div>
 					</div>
 					<div class="director-portfolio-lightbox-right">
-						<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-mobile" onclick="toggleFullscreen();">
-							<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
-							<div>FULL SCREEN</div>
-						</div>
 						<button class="director-portfolio-lightbox-close" onclick="closeLightbox();">[CLOSE]</button>
+						<button class="director-portfolio-lightbox-next" onclick="nextVideo();">NEXT &gt;</button>
+						<div class="director-portfolio-lightbox-right-spacer"></div>
 						<div class="director-portfolio-lightbox-volume">
 							<div class="director-portfolio-lightbox-volume-levels" onmousedown="setVolume(event);" ontouchstart="setVolume(event);">
 								<div data-active="1"></div>
@@ -236,7 +234,7 @@
 							</div>
 						</div>
 						<div class="director-portfolio-lightbox-controls">
-							<div class="director-portfolio-lightbox-controls-fullscreen director-portfolio-lightbox-controls-fullscreen-desktop" onclick="toggleFullscreen();">
+							<div class="director-portfolio-lightbox-controls-fullscreen" onclick="toggleFullscreen();">
 								<div class="director-portfolio-lightbox-controls-fullscreen-circle"></div>
 								<div>FULL SCREEN</div>
 							</div>
@@ -246,6 +244,7 @@
 							<div class="director-portfolio-lightbox-controls-pause" data-active="0" onclick="pauseVideo();">
 								<svg width="9" height="12" viewBox="0 0 9 12"><line x1="1.95801" y1="0.794922" x2="1.95801" y2="11.1108" stroke-width="2"/><line x1="7.94189" y1="0.794922" x2="7.94189" y2="11.1108" stroke-width="2"/></svg>
 							</div>
+							<div class="director-portfolio-lightbox-controls-spacer"></div>
 							<div class="director-portfolio-lightbox-controls-time">
 								[<span class="director-portfolio-lightbox-controls-time-current">00:00</span> – <span class="director-portfolio-lightbox-controls-time-total">00:00</span>]
 							</div>
@@ -358,6 +357,10 @@
 	</div>
 
 			</div>
+
+			<script>
+				let mediaInfo = [['https://skinandbonesfilm.gosimian.com/assets/videos/HumberRiverHealth_145EN_16x9_DirectorsCut_HighRes.mp4?mrss=true', 'Humber River Hospital', ''],['https://skinandbonesfilm.gosimian.com/assets/videos/AM_SBHTS_Trailer_16x9_Platform_60.mp4?mrss=true', 'Apple Music', ''],['http://skinandbonesfilm.gosimian.com/assets/videos/EXPEDIA_SCOTLAND_EDIT_V04_60s_No_Subs_mov.mp4?mrss=true', 'Expedia', 'Scotland'],['http://skinandbonesfilm.gosimian.com/assets/videos/Adidas--Waves--DC.mp4?mrss=true', 'Adidas', 'Waves'],['http://skinandbonesfilm.gosimian.com/assets/videos/01_Toronto_Raptors_-_We_The_North.mp4?mrss=true', 'Toronto Raptors', 'We The North'],['https://skinandbonesfilm.gosimian.com/assets/videos/240619_DECATHLON_DC.mp4?mrss=true', 'DECATHLON', ''],['http://skinandbonesfilm.gosimian.com/assets/videos/Samsung_DirCut-60E.mp4?mrss=true', 'Samsung', 'Mario Gotze'],['http://skinandbonesfilm.gosimian.com/assets/videos/250128_SAM-FENDER-MV_250121-4_CONFORM_FROM_CABIN_H264.mp4?mrss=true', 'Sam Fender', 'People Watching'],];
+			</script>
 
 			<script src="/assets/scripts/director-portfolio.js"></script>
 			<script src="/assets/scripts/nav.js"></script>
