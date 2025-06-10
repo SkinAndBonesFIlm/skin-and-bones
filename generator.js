@@ -352,26 +352,28 @@ function generateDirectorPortfolioPage(director) {
 	let awards = ''
 	let awardsDesktop = '';
 	let awardsMobile = '';
-	for (let award of directorData['awards']) {
-		awards += `<li>${award}</li>`;
-	}
-	if (awards.length > 0) {
-		awardsDesktop = `
-			<div class="director-portfolio-info-awards director-portfolio-info-awards-desktop">
-				<h2 class="director-portfolio-info-awards-title">Awards</h2>
-				<ul class="director-portfolio-info-awards-list">
+	if (directorData['awards'] != null) {
+		if (directorData['awards'].length > 0) {
+			for (let award of directorData['awards']) {
+				awards += `<li>${award}</li>`;
+			}
+			awardsDesktop = `
+				<div class="director-portfolio-info-awards director-portfolio-info-awards-desktop">
+					<h2 class="director-portfolio-info-awards-title">Awards</h2>
+					<ul class="director-portfolio-info-awards-list">
+						${awards}
+					</ul>
+				</div>
+			`;
+			awardsMobile = `
+				<div class="director-portfolio-info-awards">
+					<h2 class="director-portfolio-info-awards-title">Awards</h2>
+					<ul class="director-portfolio-info-awards-list">
 					${awards}
-				</ul>
-			</div>
-		`;
-		awardsMobile = `
-			<div class="director-portfolio-info-awards">
-				<h2 class="director-portfolio-info-awards-title">Awards</h2>
-				<ul class="director-portfolio-info-awards-list">
-				${awards}
-				</ul>
-			</div>
-		`;
+					</ul>
+				</div>
+			`;
+		}
 	}
 
 	// Generate portfolio items
