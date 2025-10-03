@@ -602,7 +602,7 @@ function generateAboutPage() {
 	for (let image of imageData) {
 		aboutImages += `
 			{
-				"file": "${image['file']}",
+				"file": "/${image['file']}",
 				"text": "${image['caption']}"
 			},
 		`;
@@ -660,8 +660,8 @@ function generateAboutPage() {
 				<main class="about">
 					<div class="about-media">
 						<div class="about-media-images">
-							<img class="about-media-big" src="${content['about-images'][0]['file']}">
-							<img class="about-media-small" src="${content['about-images'][1]['file']}" onclick="nextImage();">
+							<img class="about-media-big" src="/${content['about-images'][0]['file']}">
+							<img class="about-media-small" src="/${content['about-images'][1]['file']}" onclick="nextImage();">
 						</div>
 						<div class="about-media-caption">
 							<div class="about-media-caption-line"></div>
