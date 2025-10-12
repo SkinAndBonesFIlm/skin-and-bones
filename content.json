@@ -63,7 +63,7 @@
     },
     {
       "sorting": "ismael",
-      "active": false,
+      "active": true,
       "bio": "Ismael is one of the industry’s leading figures. A master of his craft, with a keen eye for detail, his signature work consistently stands out from the crowd and breaks the mold. As one of the godfathers of emotional storytelling in the commercial scene, he brings a wealth of experience and versatility and is always able to create something beautiful with a rough edge – no matter the brief or genre. His motto? “We only have one chance to do this, so we better do it right!”.",
       "simian-id": "5398",
       "name": "Ismael",
@@ -183,7 +183,7 @@
     },
     {
       "sorting": "luke-jaden",
-      "active": true,
+      "active": false,
       "bio": "Luke Jaden is a writer and director drawn to the electric pulse of human complexity. His work—raw, poetic, and visceral—leaves the audience feeling the story long after its cut to black. From festival runs to global acclaim, Jaden’s stories live where intimacy meets intensity, always reaching for the marrow of what makes us human. His visual language is rich and atmospheric, crafting worlds that the audience actually wants to be a part of.",
       "simian-id": "5433",
       "name": "Luke Jaden",
