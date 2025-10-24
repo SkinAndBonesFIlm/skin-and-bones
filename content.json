@@ -238,7 +238,7 @@
     },
     {
       "sorting": "matthew-swanson",
-      "active": true,
+      "active": false,
       "bio": "Swanson is funny. He is one of the comedy directors that has a visual approach, yes, scenes are lit. Equally important, he veers away from the low-hanging fruit, opting for humour that’s unexpected and also insightful. Whether it’s a Llama spitting at a bank teller, or a delivery guy sitting in his car until the song finishes, he understands human behaviour. And it’s prevalent in every story he tells.",
       "simian-id": "5406",
       "name": "Matthew Swanson",
@@ -367,7 +367,7 @@
     },
     {
       "sorting": "ruganzu-howard",
-      "active": true,
+      "active": false,
       "bio": "Ruganzu “Riggs” Howard started on this road to the chair as an Executive Producer working agency-side for the likes of BBDO, TBWA, and Barton F. Graf. Prior to that, Riggs was a Baltimore City Police Detective (no, really), where he served as a violent crimes investigator and hostage negotiator. Try arguing that line-by-line budget now, hm? He’s been behind the lensing of Old Spice, Airheads, and has had his work recognized by the One Show.",
       "simian-id": "5412",
       "name": "Ruganzu Howard",
