@@ -237,33 +237,6 @@
       ]
     },
     {
-      "sorting": "matthew-swanson",
-      "active": false,
-      "bio": "Swanson is funny. He is one of the comedy directors that has a visual approach, yes, scenes are lit. Equally important, he veers away from the low-hanging fruit, opting for humour that’s unexpected and also insightful. Whether it’s a Llama spitting at a bank teller, or a delivery guy sitting in his car until the song finishes, he understands human behaviour. And it’s prevalent in every story he tells.",
-      "simian-id": "5406",
-      "name": "Matthew Swanson",
-      "slug": "matthew-swanson",
-      "home-video": "/assets/uploads/thumbnail-matthew-swanson.mp4",
-      "home-image": "/assets/uploads/thumbnail-matthew-swanson.jpg",
-      "awards": [
-        "Kinsale Shark Advertising Festival, Bronze, 2024",
-        "ADCC Awards, Best Direction, Bronze, 2022",
-        "British Arrows, Gold, 2022",
-        "Campaign Big Awards, Winner, 2022",
-        "Advertising Creative Circle Awards, Bronze, 2022",
-        "Cannes Lions International Festival of Creativity, Silver Lion, 2021",
-        "Cannes Lions International Festival of Creativity, Bronze Lion, 2021",
-        "CLIO Awards, Bronze, 2021",
-        "ADC Annual Awards, Silver Cube, 2020",
-        "Art Directors Club of Europe, Silver, 2020",
-        "D&AD Awards, Wood Pencil, 2020",
-        "The One Show, Bronze, 2020",
-        "AICP Show, 2020",
-        "Shots Awards Americas, Commercial of the Year, Gold, 2020",
-        "Ciclope, Best Direction, Silver, 2019"
-      ]
-    },
-    {
       "sorting": "new-york-nico",
       "active": true,
       "bio": "Nicolas Heller successfully blurs the line between content creator and commercial director, which at present date, is a huge plus. The work he’s done on his platform has given him the tools to tell compelling stories in the digital age. With over 3 million social media followers flocking to his page (@newyorknico) for daily updates on everything New York, Nico knows exactly how to capture personality, no matter what lens he’s using. \n\nHe’s been showcased in The New York Times, awarded at the Clios, and honoured by President Biden with the Lifetime Achievement Award.",
@@ -363,23 +336,6 @@
         "Telly Awards, 13 awards including four bronze, four silver, and three gold, 2021",
         "AdStar Awards, Three awards, 2021",
         "Cannes Lions, Shortlist recognition, 2021"
-      ]
-    },
-    {
-      "sorting": "ruganzu-howard",
-      "active": false,
-      "bio": "Ruganzu “Riggs” Howard started on this road to the chair as an Executive Producer working agency-side for the likes of BBDO, TBWA, and Barton F. Graf. Prior to that, Riggs was a Baltimore City Police Detective (no, really), where he served as a violent crimes investigator and hostage negotiator. Try arguing that line-by-line budget now, hm? He’s been behind the lensing of Old Spice, Airheads, and has had his work recognized by the One Show.",
-      "simian-id": "5412",
-      "name": "Ruganzu Howard",
-      "slug": "ruganzu-howard",
-      "home-video": "/assets/uploads/thumbnail-ruganzu-howard.mp4",
-      "home-image": "/assets/uploads/thumbnail-ruganzu-howard.jpg",
-      "awards": [
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Direct Marketing - Consumer Campaign",
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Film - Commercials",
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Digital - Social Media",
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Mobile - App/Utility",
-        "One Show, Bronze Award, 2018, “Zelle® Family” campaign, Design - Packaging"
       ]
     },
     {
