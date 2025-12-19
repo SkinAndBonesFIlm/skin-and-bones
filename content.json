@@ -19,6 +19,7 @@
   "publish-site": false,
   "directors": [
     {
+      "direct-link-url": "",
       "sorting": "david-quinn",
       "active": true,
       "bio": "Quinn's 15 years of experience in the ad industry has given him a firm understanding of the business, from the perspective of both client and agency, and it’s why he insists on a collaborative process. Emotive storytelling, filled with heart and artistry is what best defines his output. There’s a sincerity baked into the tone of Quinn’s work. Whether he’s setting out to make you laugh, cry or buy - you’re going to feel it.",
@@ -27,14 +28,14 @@
       "slug": "david-quinn",
       "home-video": "/assets/uploads/thumbnail-david-quinn.mp4",
       "home-image": "/assets/uploads/thumbnail-david-quinn.jpg",
+      "direct-link-active": false,
       "awards": [
         "Straight8 Industry ShoutOut Cannes, Audience Choice Award, 2018",
         "Shots, Young Director Award, 2014"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "dugan-gundelfinger",
       "active": true,
       "bio": "Dugan Gundelfinger is not your conventional director. Fresh off the release of his award-winning short, *Heroic Dose* (to much internet-acclaim, BTW) *,* he also just dropped a full-length album of psychedelic-dadcore entitled ‘infinity casual’. Right. His comedic sensibilities lend themselves to a tone that’s consistently warm, friendly and outlandish. And he’s used these sensibilities to helm campaigns for Bud Light, Hims, and Dominos. Oh, and also, his work has been recognized at the Grammy Awards and The Clios.",
@@ -43,14 +44,14 @@
       "slug": "dugan-gundelfinger",
       "home-video": "/assets/uploads/thumbnail-dugan-gundelfinger.mp4",
       "home-image": "/assets/uploads/thumbnail-dugan-gundelfinger.jpg",
+      "direct-link-active": false,
       "awards": [
         "Grammy Awards, Best Music Video Nomination, 2011",
         "Clio Music, Bronze Award, 2024"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "isaac-ravishankara",
       "active": true,
       "bio": "Isaacc Ravishankara is a technically sound filmmaker. His work is methodical, and painstakingly detailed. His use of camera language, blocking and choreography are tools he’s sharpened with films for Finneas, Samsung and LA Tourism. A deep believer that art can be a force that drives society forward, Isaac co-founded OMG Everywhere, a non-profit that provides free film and music workshops for kids in LA, NY, Oakland and London.",
@@ -59,15 +60,15 @@
       "slug": "isaac-ravishankara",
       "home-video": "/assets/uploads/thumbnail-isaac-ravishankara.mp4",
       "home-image": "/assets/uploads/thumbnail-isaac-ravishankara.jpg",
+      "direct-link-active": false,
       "awards": [
         "Booooooom TV Awards, Runner-Up, 2019",
         "Clio Awards, Silver, 2017",
         "Burbank International Film Festival, Best Short Film Nomination, 2014"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "ismael",
       "active": true,
       "bio": "Ismael is one of the industry’s leading figures. A master of his craft, with a keen eye for detail, his signature work consistently stands out from the crowd and breaks the mold. As one of the godfathers of emotional storytelling in the commercial scene, he brings a wealth of experience and versatility and is always able to create something beautiful with a rough edge – no matter the brief or genre. His motto? “We only have one chance to do this, so we better do it right!”",
@@ -76,16 +77,16 @@
       "slug": "ismael",
       "home-video": "/assets/uploads/thumbnail-ismael.mp4",
       "home-image": "/assets/uploads/thumbnail-ismael.jpg",
+      "direct-link-active": false,
       "awards": [
         "Cannes Lions International Festival of Creativity, Award",
         "Epica Awards, Award",
         "ADC Europe Awards, Award",
         "Dutch Creativity Awards (ADCN Awards), Award"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "jackie-abraham",
       "active": true,
       "bio": "Jackie started out as a writer working in the creative department - the experience armed him with an inside perspective on directing commercial work. His background informs his understanding of dialogue, pace and performance, and results in work that is irreverent and offbeat. Jackie strives for a visual approach that balances colourful imagery, with dialogue-driven comedy. (If, of course, the agency can afford sound.)",
@@ -94,13 +95,13 @@
       "slug": "jackie-abraham",
       "home-video": "/assets/uploads/thumbnail-jackie-abraham.mp4",
       "home-image": "/assets/uploads/thumbnail-jackie-abraham.jpg",
+      "direct-link-active": false,
       "awards": [
         "Young Director Award, Young Director Award (Comedy), 2024, “Nine to Five 1995”"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "james-lawes",
       "active": false,
       "bio": "Emotive. Visceral. Compelling. All descriptors attributed to the work of James Lawes. With an ability to get strong performances from both actors and non-actors alike. His style mixes the authentic with the otherworldly. Using a distinctive mix of in-camera visual effects and post production VFX, as well as a thoughtful approach to his photography, he mines out work that makes the audience question why they didn’t think of that.",
@@ -109,6 +110,7 @@
       "slug": "james-lawes",
       "home-video": "/assets/uploads/thumbnail-james-lawes.mp4",
       "home-image": "/assets/uploads/thumbnail-james-lawes.jpg",
+      "direct-link-active": false,
       "awards": [
         "The Drum Roses, Silver, Best Commercial ‘A Little Bit’ Scottish Government, 2021",
         "EvCom, Gold, Best Health and Safety Film ‘Look Up, Look Out’ ENA, 2020",
@@ -122,11 +124,10 @@
         "New York Film Festival, Gold, Best Event Film ‘Graffiti’ McDonalds, 2019",
         "New York Film Festival, Bronze, Best Visual Effects ‘Graffiti’ McDonalds, 2019",
         "Brand Film Festival, Bronze, Best Non-Profit ‘Graffiti’ McDonalds, 2019"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "jeremi-durand",
       "active": true,
       "bio": "Jeremi has exquisite taste. As he should. Hailing from Paris with a  background in design-fiction means he knows what it takes to create a world and make the audience invest in what’s going on within it. His penchant for aesthetics comes through in every frame, and this is showcased in his collaborations with Levi’s, Travis Scott and Roger Federer. He’s got great hair, and try though as he might, he still cannot understand the people from Quebec.",
@@ -135,6 +136,7 @@
       "slug": "jeremi-durand",
       "home-video": "/assets/uploads/thumbnail-jeremi-durand.mp4",
       "home-image": "/assets/uploads/thumbnail-jeremi-durand.jpg",
+      "direct-link-active": false,
       "awards": [
         "LIA Winner GOLD x2 for Best Direction & Best Cinematography",
         "1.4 Winner GOLD 2025 Shortlists for Best MV & Best Commercial x4 ",
@@ -152,11 +154,10 @@
         "Promonews Director of the Year Shortlist 2024 ",
         "Creativepool Winner Director of the Year 2025",
         "LE BOOK Winner GOLD 2025."
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "kate-hollowell",
       "active": true,
       "bio": "With appearances at SXSW, Sundance, and Cannes Lions - PLUS front wo-manning a band called Number One Popstar, Kate Hollowell is a true multi-hyphenate. Her extensive body of work displays a signature blend of irreverent, heartfelt comedy, and her approach to conceptual thinking is truly stand- out. (Uhm, her best friend dies and gets reincarnated as a toilet, yeah.) She’s currently slated to direct a feature film with AMBLIN Entertainment, and it will most likely, probably, be good.",
@@ -165,27 +166,27 @@
       "slug": "kate-hollowell",
       "home-video": "/assets/uploads/thumbnail-kate-hollowell.mp4",
       "home-image": "/assets/uploads/thumbnail-kate-hollowell.jpg",
+      "direct-link-active": false,
       "awards": [
         "Sundance Film Festival, Short Film Jury Award for U.S. Fiction, 2024",
         "HollyShorts Film Festival, Best Director Award, 2024",
         "Young Director Award, Shortlisted for Commercial Category for “How She Rolls”, 2023"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
-      "name": "Kevin Castanheira",
-      "bio": "Kevin Castanheira is a dynamic director whose work bridges the worlds of art, fashion, and culture. Globally recognized and LA based, Kevin's work is highly visual with a key focus on story and style. He's won several awards including Shots Ad of the Year, Webbys, and Boooooooom Best Doc of the year.",
-      "slug": "kevin-castanheira",
-      "home-image": "assets/uploads/thumbnail-kevin-castanheira.png",
-      "home-video": "assets/uploads/thumbnail-kevin-castanheira.1.mp4",
-      "simian-id": "5434",
-      "active": true,
+      "direct-link-url": "",
       "sorting": "kevin-castanheira",
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      "active": true,
+      "bio": "Kevin Castanheira is a dynamic director whose work bridges the worlds of art, fashion, and culture. Globally recognized and LA based, Kevin's work is highly visual with a key focus on story and style. He's won several awards including Shots Ad of the Year, Webbys, and Boooooooom Best Doc of the year.",
+      "simian-id": "5434",
+      "name": "Kevin Castanheira",
+      "slug": "kevin-castanheira",
+      "home-video": "assets/uploads/thumbnail-kevin-castanheira.1.mp4",
+      "home-image": "assets/uploads/thumbnail-kevin-castanheira.png",
+      "direct-link-active": false
     },
     {
+      "direct-link-url": "",
       "sorting": "leo-zuckerman",
       "active": true,
       "bio": "Leo is a director’s director. A gifted eye, he can find a frame anywhere. His background as a photographer results in imagery that is arresting, emotive and thought provoking. \n\nFrom automotive to financial to athletics, he’s the guy you call when you need to put a helicopter on top of a mountain (or Tiger Woods on the putting green). Technically sound, with a firm grip on the language of light, he’s a visual storyteller that gets the audience to lean in. Every time.",
@@ -194,32 +195,14 @@
       "slug": "leo-zuckerman",
       "home-video": "/assets/uploads/thumbnail-leo-zuckerman.mp4",
       "home-image": "assets/uploads/tm-lz.jpg",
+      "direct-link-active": false,
       "awards": [
         "Vimeo, Staff Picks, 2013",
         "Canadian Tourism Commission, Award for “Dear Mum” Campaign"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
-      "sorting": "luke-jaden",
-      "active": false,
-      "bio": "Luke Jaden is a writer and director drawn to the electric pulse of human complexity. His work—raw, poetic, and visceral—leaves the audience feeling the story long after its cut to black. From festival runs to global acclaim, Jaden’s stories live where intimacy meets intensity, always reaching for the marrow of what makes us human. His visual language is rich and atmospheric, crafting worlds that the audience actually wants to be a part of.",
-      "simian-id": "5433",
-      "name": "Luke Jaden",
-      "slug": "luke-jaden",
-      "home-video": "assets/uploads/lukejaden-thumbnail-dove.mp4",
-      "home-image": "assets/uploads/dove.png",
-      "awards": [
-        "1.4 Award [Hemingway - On the Cusp - Personal - Longlist] - 2025",
-        "Filmsupply - Best New Filmmaker - 2024",
-        "Cannes (YDA) Young Director Award [Hemingway - Documentary Shortlist] - 2024",
-        "SHOOT’s New Directors Showcase [Ford ‘Life Elevated’] - 2023"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
-    },
-    {
+      "direct-link-url": "",
       "sorting": "mapp",
       "active": true,
       "bio": "Starting out on the agency side as an Art Director armed Mapp with a strong understanding of the creative department’s process, as well as the methodology behind visual storytelling. He takes a  playful, ‘out of the box’ approach to his comedy. Whether it’s practical in-camera effects or outlandish VFX work, his spots, complemented by cheeky performance and thoughtful casting, make it easy to crack a smile.",
@@ -228,6 +211,7 @@
       "slug": "mapp",
       "home-video": "/assets/uploads/thumbnail-mapp.mp4",
       "home-image": "/assets/uploads/thumbnail-mapp.jpg",
+      "direct-link-active": false,
       "awards": [
         "Cannes Lions International Festival of Creativity, Grand Prix for IKEA “Lamp” Commercial",
         "Clio Awards, Grand Clio for IKEA",
@@ -240,11 +224,10 @@
         "Clio Awards, Winner for The Marvelous Mrs. Maisel/Amazon Prime Video, 2019",
         "Marketing Dive Awards, Campaign of the Year, Amazon x Jurassic World, 2018",
         "The One Show, Automobile Advertising of the Year Awards, Recognized for Work with MINI, 2015"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "matt-rhodes",
       "active": true,
       "bio": "Matt has a knack for putting the camera in interesting places, and using it to make the audience feel things. He tackles his subject matter, from the lighthearted to the marginalized, with a sensitivity that he executes with class and character. His work can be warm, informative and provocative. Sometimes all at once. (That’s called versatility BTW.)",
@@ -253,16 +236,16 @@
       "slug": "matt-rhodes",
       "home-video": "/assets/uploads/thumbnail-matt-rhodes.mp4",
       "home-image": "/assets/uploads/thumbnail-matt-rhodes.jpg",
+      "direct-link-active": false,
       "awards": [
         "D&AD Awards, Best Performance, 2022",
         "Kinsale Shark Awards, Best Performance, 2022",
         "Kinsale Shark Awards, Winner of Over 40 Awards",
         "Promax Awards, Winner of Over 40 Awards"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "new-york-nico",
       "active": true,
       "bio": "Nicolas Heller successfully blurs the line between content creator and commercial director, which at present date, is a huge plus. The work he’s done on his platform has given him the tools to tell compelling stories in the digital age. With over 3 million social media followers flocking to his page (@newyorknico) for daily updates on everything New York, Nico knows exactly how to capture personality, no matter what lens he’s using. \n\nHe’s been showcased in The New York Times, awarded at the Clios, and honoured by President Biden with the Lifetime Achievement Award.",
@@ -271,15 +254,15 @@
       "slug": "new-york-nico",
       "home-video": "/assets/uploads/thumbnail-new-york-nico.mp4",
       "home-image": "/assets/uploads/thumbnail-new-york-nico.jpg",
+      "direct-link-active": false,
       "awards": [
         "CLIO Awards: Heller has won his first CLIO Awards, acknowledging his excellence in advertising and creative work.",
         "President's Lifetime Achievement Award: In 2021, President Joe Biden recognized Heller's work by presenting him with this prestigious award, honoring his significant contributions to the community.",
         "Publications: Heller's work and influence have been featured in various publications, including a profile in PRINT Magazine's “Design Matters” podcast."
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "nikki-ross",
       "active": true,
       "bio": "Nikki is what one could call, prodigious. She has a gifted eye for capturing her subjects’ softer sides, and this brings an honest energy and lightheartedness to her work, one most directors only achieve after years of experience. With a solid understanding of portraiture, she has helmed campaigns for Nike, and GARAGE, and has been recognized by Applied Arts Magazine.",
@@ -288,14 +271,14 @@
       "slug": "nikki-ross",
       "home-video": "/assets/uploads/thumbnail-nikki-ross.mp4",
       "home-image": "/assets/uploads/thumbnail-nikki-ross.jpg",
+      "direct-link-active": false,
       "awards": [
         "Applied Arts Magazine, The Maker of Men, 2024, for Nikki Ross",
         "The Kit, Best Dressed Canadians, 2024, for Nikki Ross"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "nolan-sarner",
       "active": true,
       "bio": "Sarner has the ability to capture everyday life with an elevated perspective. In other words, it feels like you’ve seen it before, but it looks beautiful. Whether it’s a first-time performer, or a seasoned celebrity talent, he mines authentic performances out of his talent. Nuanced and heartfelt, his work leaves a lasting impression — the mark of an emotive storyteller.",
@@ -304,6 +287,7 @@
       "slug": "nolan-sarner",
       "home-video": "/assets/uploads/thumbnail-nolan-sarner.mp4",
       "home-image": "/assets/uploads/thumbnail-nolan-sarner.jpg",
+      "direct-link-active": false,
       "awards": [
         "Canadian Screen Award Winner, 2018",
         "Canadian Screen Award Nominee, 2019",
@@ -313,11 +297,10 @@
         "Vimeo, Staff Pick",
         "1.4 Shortlist, 2025",
         "YDA Shortlist, 2025 - Results Still Pending"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "renee-mao",
       "active": true,
       "bio": "Renée is one of those increasingly rare talents working in the space, in that she was classically trained. A graduate of NYU Tisch School of The Arts, her work speaks to her process, and exemplifies her as a methodical and thought provoking story teller. With work for Johnnie Walker, Facebook and The Huffington Post under her belt, she can convey a message no matter what the tone might be.",
@@ -326,15 +309,15 @@
       "slug": "renee-mao",
       "home-video": "/assets/uploads/thumbnail-renee-mao.mp4",
       "home-image": "/assets/uploads/thumbnail-renee-mao.jpg",
+      "direct-link-active": false,
       "awards": [
         "AACTA Awards, Best Digital Series, 2022",
         "Vimeo, Staff Picks",
         "Webby Awards, Honoree, 2020"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "rob-fiocca",
       "active": true,
       "bio": "How can anyone this nice devote so much attention to detail? Rob Fiocca, arguably Canada’s best food director, has an eye for beauty that is unparalleled. He consistently raises the bar for how we shoot food in this country. With a firm command on light, texture and motion, he brings an avant-garde approach to the table-top space. His innovative take on styling and camera language, leave the audience satiating not just in the food he’s selling, but the choices he’s making.",
@@ -343,6 +326,7 @@
       "slug": "rob-fiocca",
       "home-video": "/assets/uploads/thumbnail-rob-fiocca.mp4",
       "home-image": "/assets/uploads/thumbnail-rob-fiocca.jpg",
+      "direct-link-active": false,
       "awards": [
         "International ANDY Awards, Printed Materials Gold, 2016",
         "Kinsale Sharks Awards, Design Bronze Winner, 2015",
@@ -352,11 +336,10 @@
         "Applied Arts Magazine, Award Winner, 2008",
         "Graphis Photography Annual, Inclusion, 2008",
         "International Photography Awards, Award Winner, 2007"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "rodney-lucas",
       "active": true,
       "bio": "Rodney has a filmic aesthetic, and it’s perfect for the types of stories he sets out to tell. It’s gritty, real, and showcases a high level of sensitivity, thought, and emotional depth - a welcome refresh in the ad space. His work for Nike, Under Armour and HULU all bear the touch of his compelling visual signature (grainy imperfections juxtaposed with everyday beauty). His filmwork has also been recognized at Tribeca, the Webby’s and Cannes.",
@@ -365,6 +348,7 @@
       "slug": "rodney-lucas",
       "home-video": "/assets/uploads/thumbnail-rodney-lucas.mp4",
       "home-image": "/assets/uploads/thumbnail-rodney-lucas.jpg",
+      "direct-link-active": false,
       "awards": [
         "Tribeca Film Festival, Official Selection, 2024",
         "Tribeca X Award, Best Episodic, 2021",
@@ -372,11 +356,10 @@
         "Telly Awards, 13 awards including four bronze, four silver, and three gold, 2021",
         "AdStar Awards, Three awards, 2021",
         "Cannes Lions, Shortlist recognition, 2021"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "sam-hughes",
       "active": true,
       "bio": "Sam was born and raised within the walls of Skin & Bones. A treatment designer and image puller for the entirety of its roster, Sam learned the craft from the inside out, following directors from the brief to post production. His extensive knowledge of the industry and its processes, has informed his sensibilities and birthed a fledgling talent. He has steered campaign work for clients big and small, from KFC to local brands like the East Room and Linny’s.",
@@ -385,11 +368,11 @@
       "slug": "sam-hughes",
       "home-video": "/assets/uploads/thumbnail-sam-hughes.mp4",
       "home-image": "/assets/uploads/thumbnail-sam-hughes.jpg",
-      "awards": [],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      "direct-link-active": false,
+      "awards": []
     },
     {
+      "direct-link-url": "",
       "sorting": "sebastian-hill-esbrand",
       "active": true,
       "bio": "Sebastian hails from Australia where he cut his teeth making short films and music videos. He takes an inherently artistic approach to his work - vibrant colour palettes, dynamic camera language, and standout casting, he does not go with the expected choice, and it shows. His work has been recognized by Young Guns, SHOTS and the 1.4 Awards. His latest, ‘Family’ just took home the Gold Lion in the Young Director category in Cannes.",
@@ -398,17 +381,17 @@
       "slug": "sebastian-hill-esbrand",
       "home-video": "/assets/uploads/thumbnail-sebastian-hill-esbrand.mp4",
       "home-image": "/assets/uploads/thumbnail-sebastian-hill-esbrand.jpg",
+      "direct-link-active": false,
       "awards": [
         "Young Director Award, Gold Screen, 2022",
         "Shots Awards, Recognition, 2022",
         "Director's Notes, Recognition, Year 2022",
         "1.4 Awards, Recognition, 2022",
         "Young Guns 20, Finalist, 2022"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "shawn-zeytinoglu",
       "active": true,
       "bio": "Shawn started as a cinematographer. This is rare. It gives him a technical understanding of the frame most directors need a cinematographer for. Throw in his penchant for comedic tone, and you’ve got something different. And in a world of people reviewing food items in their cars and GRWM videos, different is good. His signature stems from creating a heightened world whereby grounded, nuanced performances can play. He’s built these worlds for the likes of XBOX, TD Bank and Dell computers.",
@@ -417,16 +400,16 @@
       "slug": "shawn-zeytinoglu",
       "home-video": "/assets/uploads/thumbnail-shawn-zeytinoglu.mp4",
       "home-image": "/assets/uploads/thumbnail-shawn-zeytinoglu.jpg",
+      "direct-link-active": false,
       "awards": [
         "Tool of NA, Featured Director",
         "Sterntag Film, Featured Director",
         "LBBOnline, Profiled Director, Year 2024",
         "Promo! Awards, Bronze, Best New Product Launch, 2015, for Audi – A3 Launch"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "https://www.stoichemaan.com/",
       "sorting": "stchm",
       "active": true,
       "bio": "",
@@ -435,11 +418,11 @@
       "slug": "stchm",
       "home-video": "",
       "home-image": "",
-      "awards": [],
-	  "direct-link-active": true,
-	  "direct-link-url": "https://www.stoichemaan.com/"
+      "direct-link-active": true,
+      "awards": []
     },
     {
+      "direct-link-url": "",
       "sorting": "stuart-langfield",
       "active": true,
       "bio": "Stuart’s choices revolve around using dynamic photography to tell highly emotive stories. This is a director who uses the tools at his disposal to yield a sensory experience. You quite literally feel his work. Whether it’s light, casting or score, everything is intentional, and serves the story he’s telling. And these are often difficult ones to tell. Stuart tackles sensitive subject matter - heartfelt, and at times, like life itself, dark. But Stuart does so with taste, never veering into tone deaf territory. He threads the needle with restraint and poise. His work has been recognized by The New York Times, The Webby’s, 1.4 Awards and SHOTS.",
@@ -448,6 +431,7 @@
       "slug": "stuart-langfield",
       "home-video": "/assets/uploads/thumbnail-stuart-langfield.mp4",
       "home-image": "/assets/uploads/thumbnail-stuart-langfield.jpg",
+      "direct-link-active": false,
       "awards": [
         "OFFF, Speaker, 2022",
         "1.4 Awards, Silver Medalist",
@@ -461,11 +445,10 @@
         "Boooooom, Feature",
         "IFLScience, Feature",
         "NY Times, Feature"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     },
     {
+      "direct-link-url": "",
       "sorting": "stuart-mcintyre",
       "active": false,
       "bio": "Stuart shoots for the cut. His editorial background informs his decisions, and his painstaking attention to detail. You can see it in the wide variety of shots he comes away with on the day. He brings an intense level of creativity to his shot lists, and it’s evident in the work he produces. The wide variety of strong visuals, and the ever-present pace he brings to each project, yield an energy that exemplifies taste and sophistication. Stuart has been screened at TIFF, recognized at Cannes, and most recently wrapped the acclaimed music video for Sam Fender’s People Watching.",
@@ -474,14 +457,13 @@
       "slug": "stuart-mcintyre",
       "home-video": "/assets/uploads/thumbnail-stuart-mcintyre.mp4",
       "home-image": "/assets/uploads/thumbnail-stuart-mcintyre.jpg",
+      "direct-link-active": false,
       "awards": [
         "Young Director Award, Short Film (6 to 30 minutes), 2022, for “If I Go Will They Miss Me”",
         "Toronto International Film Festival, Official Selection, 2019, for “Carl’s Motel”",
         "Montréal Festival du Nouveau Cinéma, Official Selection, 2019, for “Carl’s Motel”",
         "Madrid International Film Festival, Official Selection, 2019, for “Carl’s Motel”"
-      ],
-	  "direct-link-active": false,
-	  "direct-link-url": ""
+      ]
     }
   ],
   "about-bio": "Skin and Bones is an award-winning director-representation and production company that calls Toronto, Canada home. We started in 2015 with art in our hearts, business on our minds and a simple goal — help young Canadian directing talent find their voice and grow. Ten years later our directors have grown up and so have we. Skin and Bones exists now as a powerhouse of creativity and craft. We have developed a roster of incredible directors and a network of talented affiliates and partners around the world. Female-owned, we believe the best work is made through real, honest collaboration and frequent high fives.",
