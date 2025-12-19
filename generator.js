@@ -123,7 +123,7 @@ async function generatePages() {
 	const tasks = [];
 
 	for (let director of directors) {
-		if (!director['active']) {
+		if (!director['active'] || director['direct-link-active']) {
 			continue
 		}
 
@@ -216,9 +216,16 @@ async function generatePages() {
 		if (i < directors.length) {
 			br = '<br>';
 		}
-		navDirectors += `<a href="/directors/${entry['slug']}" data-director="${entry['slug']}">${entry['name']}</a>${br}`;
-		navMobile += `<a class="nav-mobile-links-director" href="/directors/${entry['slug']}">${entry['name']}</a>${br}`;
-		directorsMobile += `${br}<a href="/directors/${entry['slug']}">${entry['name']}</a>`;
+
+		if (entry['direct-link-active'] == true) {
+			navDirectors += `<a href="${entry['direct-link-url']}" data-director="${entry['slug']}" target="_blank">${entry['name']}</a>${br}`;
+			navMobile += `<a class="nav-mobile-links-director" href="${entry['direct-link-url']}" target="_blank">${entry['name']}</a>${br}`;
+			directorsMobile += `${br}<a href="${entry['direct-link-url']}" target="_blank">${entry['name']}</a>`;
+		} else {
+			navDirectors += `<a href="/directors/${entry['slug']}" data-director="${entry['slug']}">${entry['name']}</a>${br}`;
+			navMobile += `<a class="nav-mobile-links-director" href="/directors/${entry['slug']}">${entry['name']}</a>${br}`;
+			directorsMobile += `${br}<a href="/directors/${entry['slug']}">${entry['name']}</a>`;
+		}
 		i++;
 	}
 
@@ -339,9 +346,12 @@ function generateDirectorPortfolioPage(director) {
 		if (i < directors.length-1) {
 			br = '<br>';
 		}
+		
 		if (entry['slug'] == director) {
 			directorData = entry;
 			navMobile += `<a data-underline="1" class="nav-mobile-links-director" href="/directors/${entry['slug']}">${entry['name']}</a>${br}`;
+		} else if (entry['direct-link-active'] == true) {
+			navMobile += `<a class="nav-mobile-links-director" href="${entry['direct-link-url']}" target="_blank">${entry['name']}</a>${br}`;
 		} else {
 			navMobile += `<a class="nav-mobile-links-director" href="/directors/${entry['slug']}">${entry['name']}</a>${br}`;
 		}
@@ -753,13 +763,20 @@ function generateHomePage() {
 			continue
 		}
 
-		homeVideos += `["${entry['home-image']}", "${entry['home-video']}", "${entry['slug']}"], `;
+		if (entry['home-image'] != "" || entry['home-video'] != "") {
+			homeVideos += `["${entry['home-image']}", "${entry['home-video']}", "${entry['slug']}"], `;
+		}
 
 		let br = '';
 		if (i < directors.length-1) {
 			br = '<br>';
 		}
-		navMobile += `<a class="nav-mobile-links-director" href="/directors/${entry['slug']}">${entry['name']}</a>${br}`;
+
+		if (entry['direct-link-active'] == true) {
+			navMobile += `<a class="nav-mobile-links-director" href="${entry['direct-link-url']}" target="_blank">${entry['name']}</a>${br}`;
+		} else {
+			navMobile += `<a class="nav-mobile-links-director" href="/directors/${entry['slug']}">${entry['name']}</a>${br}`;
+		}
 		i++;
 	}
 

@@ -40,6 +40,8 @@ collections:
           - { label: "Directors", name: "directors", widget: "list", fields:
               [
                 { label: "Name", name: "name", widget: "string" },
+                { label: "Link only?", name: "direct-link-active", widget: "boolean" },
+                { label: "Link URL", name: "direct-link-url", widget: "string" },
                 { label: "Slug", name: "slug", widget: "string" },
                 { label: "Homepage | Image", name: "home-image", widget: "image" },
                 { label: "Homepage | Video", name: "home-video", widget: "file" },
