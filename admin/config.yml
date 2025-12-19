@@ -41,12 +41,12 @@ collections:
               [
                 { label: "Name", name: "name", widget: "string" },
                 { label: "Link only?", name: "direct-link-active", widget: "boolean" },
-                { label: "Link URL", name: "direct-link-url", widget: "string" },
+                { label: "Link URL", name: "direct-link-url", widget: "string", required: false },
                 { label: "Slug", name: "slug", widget: "string" },
-                { label: "Homepage | Image", name: "home-image", widget: "image" },
-                { label: "Homepage | Video", name: "home-video", widget: "file" },
-                { label: "Simian ID", name: "simian-id", widget: "string" },
-                { label: "Bio", name: "bio", widget: "markdown" },
+                { label: "Homepage | Image", name: "home-image", widget: "image", required: false },
+                { label: "Homepage | Video", name: "home-video", widget: "file", required: false },
+                { label: "Simian ID", name: "simian-id", widget: "string", required: false },
+                { label: "Bio", name: "bio", widget: "markdown", required: false },
                 { label: "Awards", name: "awards", widget: "list", field:
                   { label: "Award", name: "award", widget: "string" }
                 },

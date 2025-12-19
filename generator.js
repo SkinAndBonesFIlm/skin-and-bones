@@ -123,7 +123,7 @@ async function generatePages() {
 	const tasks = [];
 
 	for (let director of directors) {
-		if (!director['active'] || director['direct-link-active']) {
+		if (!director['active'] || director['direct-link-active'] || director['simian-id'] == "" || director['simian-id'] == undefined) {
 			continue
 		}
 
