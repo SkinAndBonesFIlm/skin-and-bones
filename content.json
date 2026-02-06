@@ -227,14 +227,29 @@
       ]
     },
     {
-      "name": "Mark Gilbert",
-      "slug": "mark-gilbert",
-      "simian-id": "5435",
-      "bio": "Mark Gilbert is an incredible comedic commercial director and cinematic storyteller, recognized for his precise command of casting, performance, and comedic narrative — often regarded as an “actor’s director” who elevates scripts through nuance, tone, and restraint. His work pairs strong visual storytelling with emotional intelligence, resulting in films that feel sharp, culturally relevant, and intentionally crafted for today’s market. From the iconic IKEA “Start the Car” spot that became a cultural touchstone in Canada, to BMW’s “Twins,” the Cannes Lion–winning “Ladyballs” for Ovarian Cancer Canada, and the refreshingly restrained “No Jingles or Mascots” campaign, Mark consistently delivers comedy that is smart, cinematic, and purpose-driven. With a foundation in award-winning photography and editorial storytelling, his performance-first approach has earned international recognition from Cannes, D&AD, CLIOs, ANDYs, and Saatchi & Saatchi’s New Directors Showcase, cementing his voice as a confident, modern force in relevant comedic commercial storytelling.",
       "sorting": "mark-gilbert",
       "active": true,
+      "bio": "Mark Gilbert is an incredible comedic commercial director and cinematic storyteller, recognized for his precise command of casting, performance, and comedic narrative — often regarded as an “actor’s director” who elevates scripts through nuance, tone, and restraint. His work pairs strong visual storytelling with emotional intelligence, resulting in films that feel sharp, culturally relevant, and intentionally crafted for today’s market. From the iconic IKEA “Start the Car” spot that became a cultural touchstone in Canada, to BMW’s “Twins,” the Cannes Lion–winning “Ladyballs” for Ovarian Cancer Canada, and the refreshingly restrained “No Jingles or Mascots” campaign, Mark consistently delivers comedy that is smart, cinematic, and purpose-driven. With a foundation in award-winning photography and editorial storytelling, his performance-first approach has earned international recognition from Cannes, D&AD, CLIOs, ANDYs, and Saatchi & Saatchi’s New Directors Showcase, cementing his voice as a confident, modern force in relevant comedic commercial storytelling.",
+      "simian-id": "5435",
+      "name": "Mark Gilbert",
+      "slug": "mark-gilbert",
       "home-image": "assets/uploads/viff_markgilbert.png",
-      "direct-link-active": false
+      "direct-link-active": false,
+      "awards": [
+        "Cannes Lions Shortlist 2025 for Casey House Stigmavir campaign ",
+        "Gold Winner Health Care Marketing Impact Awards 2024 for Casey House Stigmavir campaign",
+        "Ladyballs for Ovarian Cancer was shortlisted for a 2017 Clio Award",
+        "Ovarian Cancer Canada 'Ladyballs' campaign won Silver and Bronze Cannes Lions 2016",
+        "IKEA ‘Start the Car’ Best Canadian Ad of the 21st Century",
+        "Gold wins at the Philadelphia American Advertising Awards (ADDYs) 'No Jingles or Mascots' campaign",
+        "Little Trees – 'Forest/Ocean/New Car' Gold Campaign ADCC Awards November 2012",
+        "Little Trees – 'Ocean' Broadcast Single Gold Marketing Awards June 2012",
+        "Hockey Canada - 'Hand' Voted to 'Top Spots of the Year' - Globe & Mail, Toronto - 2006",
+        "Pepsi-Minis - Campaign Clios Shortlist 2004",
+        "V.I.F.F. 'Hailstorm' Clios Shortlist 2004",
+        "V.I.F.F. 'Pants' Marketing o/:30 sec Gold 2004",
+        "CMT 'Window' Clios Shortlist 2004"
+      ]
     },
     {
       "direct-link-url": "",
