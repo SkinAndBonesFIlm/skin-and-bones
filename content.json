@@ -16,7 +16,7 @@
       "email": "joan@skinandbonesfilm.com"
     }
   ],
-  "publish-site": false,
+  "publish-site": true,
   "directors": [
     {
       "direct-link-url": "",
