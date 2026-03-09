@@ -618,6 +618,12 @@ function generateAboutPage() {
 		`;
 	}
 
+	// Check if about page has 1 or 2 images
+	let about2 = "";
+	if (content['about-images'][1] != undefined) {
+		about2 = `<img class="about-media-small" src="/${content['about-images'][1]['file']}" onclick="nextImage();">`;
+	}
+
 	let aboutHTML = `
 		<!DOCTYPE html>
 		<html lang="en">
@@ -671,7 +677,7 @@ function generateAboutPage() {
 					<div class="about-media">
 						<div class="about-media-images">
 							<img class="about-media-big" src="/${content['about-images'][0]['file']}">
-							<img class="about-media-small" src="/${content['about-images'][1]['file']}" onclick="nextImage();">
+							${about2}
 						</div>
 						<div class="about-media-caption">
 							<div class="about-media-caption-line"></div>
