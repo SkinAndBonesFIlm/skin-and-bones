@@ -75,8 +75,8 @@
       "simian-id": "5398",
       "name": "Ismael",
       "slug": "ismael",
-      "home-video": "/assets/uploads/thumbnail-ismael.mp4",
-      "home-image": "/assets/uploads/thumbnail-ismael.jpg",
+      "home-video": "assets/uploads/thumbnail-ismael.mp4",
+      "home-image": "assets/uploads/thumbnail-ismael.jpeg",
       "direct-link-active": false,
       "awards": [
         "Cannes Lions International Festival of Creativity, Award",
