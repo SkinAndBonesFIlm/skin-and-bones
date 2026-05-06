@@ -168,9 +168,10 @@
       "home-image": "/assets/uploads/thumbnail-kate-hollowell.jpg",
       "direct-link-active": false,
       "awards": [
+        "1.4 Awards, Gold in Humour for \"Karaoke,\" 2026",
         "Sundance Film Festival, Short Film Jury Award for U.S. Fiction, 2024",
         "HollyShorts Film Festival, Best Director Award, 2024",
-        "Young Director Award, Shortlisted for Commercial Category for “How She Rolls”, 2023"
+        "Young Director Award, Shortlisted for Commercial Category for “How She Rolls,” 2023"
       ]
     },
     {
@@ -639,6 +640,13 @@
       "body": "MAPP and Ice-T have a message for you! Check it out [here](https://www.instagram.com/reel/DW4xXdpjrE6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==).",
       "active": true,
       "sorting": -27
+    },
+    {
+      "title": "Gold for Kate Hollowell at the 1.4 Awards",
+      "body": "Congratulations to Kate, who won Gold in Humour/On the Cusp at this year's 1.4 Awards. Check out the spot [here](https://www.onepointfour.co/entries/kate-hollowell-panda-express-karaoke/)!",
+      "active": true,
+      "sorting": -28,
+      "date": "[05.05.26]"
     }
   ],
   "address": "50 Carroll St. Lower Unit\\\nToronto, ON M4M 3G3, Canada",
