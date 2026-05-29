@@ -274,7 +274,7 @@
       "direct-link-url": "",
       "sorting": "new-york-nico",
       "active": true,
-      "bio": "Nicolas Heller successfully blurs the line between content creator and commercial director, which at present date, is a huge plus. The work he’s done on his platform has given him the tools to tell compelling stories in the digital age. With over 3 million social media followers flocking to his page (@newyorknico) for daily updates on everything New York, Nico knows exactly how to capture personality, no matter what lens he’s using. \n\nHe’s been showcased in The New York Times, awarded at the Clios, and honoured by President Biden with the Lifetime Achievement Award",
+      "bio": "Nicolas Heller successfully blurs the line between content creator and commercial director, which at present date, is a huge plus. The work he’s done on his platform has given him the tools to tell compelling stories in the digital age. With over 3 million social media followers flocking to his page (@newyorknico) for daily updates on everything New York, Nico knows exactly how to capture personality, no matter what lens he’s using. \n\nHe’s been showcased in The New York Times, awarded at the Clios, and honoured by President Biden with the Lifetime Achievement Award.",
       "simian-id": "5408",
       "name": "New York Nico",
       "slug": "new-york-nico",
@@ -481,41 +481,6 @@
   "social": "Follow us on [Instagram.](https://www.instagram.com/skinandbonesfilm/)",
   "news": [
     {
-      "title": "Nolan McD’s",
-      "date": "[02.11.2025]",
-      "body": "Decision fatigue is depicted at its most delicious in this new McDonald’s spot from the lovely Nolan Sarner. It’s inviting and yummy, just like a box of McDonald’s french fries fresh out of the fryer. Are you hungry? Give it a [watch](https://www.instagram.com/p/DF8kwRQSajg/).",
-      "active": true,
-      "sorting": 4
-    },
-    {
-      "title": "EyeCandy",
-      "date": "[02.04.2025]",
-      "body": "The sharp eyes at EyeCandy @eyecannndy have spotted Jeremi Durand’s @_jeremidurand new music video for Nina Chuba @ninachuba. Surreal and simple, artful and wild we’re not surprised to see Jeremi’s work is turning heads. Check out the video here and the eye candy link [here](https://www.instagram.com/p/DFqY7qYS_Kj/?img_index=1).",
-      "active": true,
-      "sorting": 5
-    },
-    {
-      "title": "ROM",
-      "date": "[03.14.2025]",
-      "body": "In 1944, Robert “Bob” Hanf wrote this letter to his family from Auschwitz. At the time, all communication was censored so the outside world wouldn’t know what was really happening. In this film, light becomes a beacon of knowledge—passed from witness to witness, ensuring history is not forgotten and its mistakes are not repeated. “What will be the end?” Check out Jeremi Durand's new spot with the ROM [here.](https://www.instagram.com/reel/DHLyVQuOr1C/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)",
-      "sorting": -1,
-      "active": true
-    },
-    {
-      "title": "Skin and Bones Jackets",
-      "date": "[03.21.2025]",
-      "body": "If you know, you know. The 2017 jacket is back—now in red for our anniversary. Get it before it’s gone (again). Check it out on our instagram [here.](https://www.instagram.com/p/DHeSlKdSlgU/)",
-      "active": true,
-      "sorting": -2
-    },
-    {
-      "title": "Rodney Lucas",
-      "date": "[04.03.2025]",
-      "body": "Rodney Lucas knows a thing or two about good work. New stuff coming soon. See [here](https://www.instagram.com/p/DH_uf02Sqk-/?img_index=1)..",
-      "active": true,
-      "sorting": -5
-    },
-    {
       "body": "New work from Isaac for Steady Holiday. See [here](https://www.instagram.com/p/DICJ73nOKMT/).",
       "date": "[04.04.2025]",
       "title": "Isaac Ravishankara for Steady Holiday",
@@ -647,6 +612,20 @@
       "active": true,
       "sorting": -28,
       "date": "[05.05.26]"
+    },
+    {
+      "title": "Intact BTS",
+      "date": "[05.06.26]",
+      "body": "Nolan Sarner shut down the streets of Toronto for Intact. See some behind-the-scenes shots [here](https://www.instagram.com/p/DYAILFaHBaV/?img_index=1). New work coming soon...",
+      "active": true,
+      "sorting": -29
+    },
+    {
+      "title": "Cause We Care",
+      "date": "[05.10.26]",
+      "body": "Check out our collaboration with Cause We Care Foundation — an incredible organization dedicated to empowering single mothers to overcome challenges, unlock their potential, and positively impact the world. Watch the spot [here](https://www.instagram.com/p/DYKSkUdy8sX/).",
+      "active": true,
+      "sorting": -30
     }
   ],
   "address": "50 Carroll St. Lower Unit\\\nToronto, ON M4M 3G3, Canada",
