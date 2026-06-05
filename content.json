@@ -190,7 +190,7 @@
       "direct-link-url": "",
       "sorting": "leo-zuckerman",
       "active": true,
-      "bio": "Leo is a director’s director. A gifted eye, he can find a frame anywhere. His background as a photographer results in imagery that is arresting, emotive and thought provoking. \n\nFrom automotive to financial to athletics, he’s the guy you call when you need to put a helicopter on top of a mountain (or Tiger Woods on the putting green). Technically sound, with a firm grip on the language of light, he’s a visual storyteller that gets the audience to lean in.  Every time.",
+      "bio": "Leo is a director’s director. A gifted eye, he can find a frame anywhere. His background as a photographer results in imagery that is arresting, emotive and thought provoking. \n\nFrom automotive to financial to athletics, he’s the guy you call when you need to put a helicopter on top of a mountain (or Tiger Woods on the putting green). Technically sound, with a firm grip on the language of light, he’s a visual storyteller that gets the audience to lean in. Every time.",
       "simian-id": "5403",
       "name": "Leo Zuckerman",
       "slug": "leo-zuckerman",
@@ -613,7 +613,7 @@
     {
       "title": "Intact BTS",
       "date": "[05.06.26]",
-      "body": "Nolan Sarner shut down the streets of Toronto for Intact. See some behind-the-scenes shots [here](https://www.instagram.com/p/DYAILFaHBaV/?img_index=1). New work coming soon...",
+      "body": "Nolan Sarner shut down the streets of Toronto for Intact. See some behind-the-scenes shots [here](https://www.instagram.com/p/DYAILFaHBaV/?img_index=1). New work coming soon.",
       "active": true,
       "sorting": -29
     },
@@ -630,6 +630,13 @@
       "sorting": -31,
       "active": true,
       "body": "Congratulations to Nolan Sarner and the team for making it on the [Young Directors Awards Shortlist ](https://www.youngdirectoraward.com/2026-winners/)for Sick Kids 'All It Takes Is A Second.'"
+    },
+    {
+      "title": "Intact Spots",
+      "date": "[06.02.26]",
+      "body": "Check out Nolan Sarner's new spots for Intact [here](https://www.instagram.com/reel/DZDvk-hSGPV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==).",
+      "active": true,
+      "sorting": -30
     }
   ],
   "address": "50 Carroll St. Lower Unit\\\nToronto, ON M4M 3G3, Canada",
