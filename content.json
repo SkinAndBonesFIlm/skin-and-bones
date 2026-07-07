@@ -22,7 +22,7 @@
       "direct-link-url": "",
       "sorting": "david-quinn",
       "active": true,
-      "bio": "Quinn's 15 years of experience in the ad industry has given him a firm understanding of the business, from the perspective of both client and agency, and it’s why he insists on a collaborative process. Emotive storytelling, filled with heart and artistry is what best defines his output. There’s a sincerity baked into the tone of Quinn’s work. Whether he’s setting out to make you laugh, cry or buy - you’re going to feel it",
+      "bio": "Quinn's 15 years of experience in the ad industry has given him a firm understanding of the business, from the perspective of both client and agency, and it’s why he insists on a collaborative process. Emotive storytelling, filled with heart and artistry is what best defines his output. There’s a sincerity baked into the tone of Quinn’s work. Whether he’s setting out to make you laugh, cry or buy - you’re going to feel it.",
       "simian-id": "5421",
       "name": "David Quinn",
       "slug": "david-quinn",
@@ -478,41 +478,6 @@
   "social": "Follow us on [Instagram.](https://www.instagram.com/skinandbonesfilm/)",
   "news": [
     {
-      "title": "Popeyes BTS",
-      "body": "On set with Rodney Lucas last week. See [here](https://www.instagram.com/p/DIKGdymy4sn/?img_index=1).",
-      "date": "[04.07.2025]",
-      "active": true,
-      "sorting": -7
-    },
-    {
-      "title": "Nolan Sarner",
-      "body": "Behind the scenes with Nolan Sarner. Beautiful things in motion. See [here](https://www.instagram.com/p/DIRus4iS_MP/?img_index=1).",
-      "date": "[04.10.2025]",
-      "active": true,
-      "sorting": -8
-    },
-    {
-      "title": "Rob Fiocca",
-      "date": "[04.16.2025]",
-      "body": "Rob Fiocca on set with Dentsu[](https://www.instagram.com/dentsu/) and Subway Canada [](https://www.instagram.com/subwaycanada/)doing what he does best. See [here](https://www.instagram.com/p/DIhQ7Z9TEV0/?img_index=1).",
-      "active": true,
-      "sorting": -9
-    },
-    {
-      "title": "Linny's",
-      "date": "[04.17.2025]",
-      "body": "New work for EastRoom from Sam Hughes[](https://www.instagram.com/sammmhughes/) for Linny’s. See [here](https://www.instagram.com/p/DIkDT8XORVU/).",
-      "active": true,
-      "sorting": -10
-    },
-    {
-      "title": "4/20",
-      "date": "[04.20.2025]",
-      "body": "New work from Sebastian Hill-Esbrand[](https://www.instagram.com/goodneighbour/) for 4/20.\nShot on iPhone. Best paired with.. you know. See [here](https://www.instagram.com/p/DIrf_kPSzjt/).",
-      "active": true,
-      "sorting": -11
-    },
-    {
       "body": "Dugan’s been busy. New work for Butterfinger. See [here](https://www.instagram.com/p/DIzUA_wScbC/).",
       "date": "[04.23.2025]",
       "title": "Dugan Gundelfinger for Butterfinger",
@@ -651,6 +616,13 @@
       "body": "Nolan Sarner's 'Believe' is David Reviews' pick of the day!",
       "active": true,
       "sorting": -35
+    },
+    {
+      "title": "Celebrating Canadian Work",
+      "date": "[07.01.26]",
+      "sorting": -36,
+      "active": true,
+      "body": "Celebrating our Canadian directors. Celebrating Canadian work. Happy Canada Day! Check out our tribute [here](https://www.instagram.com/reel/DaQanGcynEK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)."
     }
   ],
   "address": "50 Carroll St. Lower Unit\\\nToronto, ON M4M 3G3, Canada",
