@@ -472,6 +472,26 @@
         "IFLScience, Feature",
         "NY Times, Feature"
       ]
+    },
+    {
+      "name": "Emma Westenberg",
+      "simian-id": "5437",
+      "slug": "emma-westenberg",
+      "sorting": "emma-westenberg",
+      "active": true,
+      "bio": "Emma brings a multidisciplinary artist’s eye to the commercial world, blending fine art sensibilities with a distinctly pop aesthetic. In other words, her work is highly stylized, yet universally accessible. Drawing from a rich background in painting and theater, she builds vivid, meticulously curated worlds that immediately draw the viewer in. It’s this seamless fusion of classic visual tropes and modern, style-centric storytelling that makes her a go-to director for globally recognized brands.",
+      "home-image": "assets/uploads/thumbnail-emma-westenberg.jpeg",
+      "direct-link-active": false
+    },
+    {
+      "name": "Greg Bray",
+      "slug": "greg-bray",
+      "simian-id": "5438",
+      "home-image": "assets/uploads/greg-bray-thumbnail-2.jpeg",
+      "bio": "Greg’s work is defined by character-based humor and a meticulous dedication to crafting cinematic worlds. He has a distinct ability to capture the idiosyncrasies of human behavior, mining nuanced performances that lean into the awkward, the absurd, and the delightfully bizarre. There is an unmistakable entertainment value baked into his collaborative process. Whether he is challenging conventions or dialing in a subtle comedic beat, Greg ensures that a brand’s message isn't just communicated—it’s genuinely fun to watch. His distinct comedic voice has brought memorable campaigns to life for clients including Old Spice, VW, Subway, Samsung, Veet Men, KFC, and Burger King.",
+      "sorting": "greg-bray",
+      "active": true,
+      "direct-link-active": false
     }
   ],
   "about-bio": "Skin and Bones is an award-winning director-representation and production company that calls Toronto, Canada home. We started in 2015 with art in our hearts, business on our minds and a simple goal — help young Canadian directing talent find their voice and grow. Ten years later our directors have grown up and so have we. Skin and Bones exists now as a powerhouse of creativity and craft. We have developed a roster of incredible directors and a network of talented affiliates and partners around the world. Female-owned, we believe the best work is made through real, honest collaboration and frequent high fives.",
