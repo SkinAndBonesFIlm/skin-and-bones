@@ -130,7 +130,7 @@
       "direct-link-url": "",
       "sorting": "jeremi-durand",
       "active": true,
-      "bio": "Jeremi has exquisite taste. As he should. Hailing from Paris with a background in design-fiction means he knows what it takes to create a world and make the audience invest in what’s going on within it. His penchant for aesthetics comes through in every frame, and this is showcased in his collaborations with Levi’s, Travis Scott and Roger Federer. He’s got great hair, and try though as he might, he still cannot understand the people from Quebec",
+      "bio": "Jeremi has exquisite taste. As he should. Hailing from Paris with a background in design-fiction means he knows what it takes to create a world and make the audience invest in what’s going on within it. His penchant for aesthetics comes through in every frame, and this is showcased in his collaborations with Levi’s, Travis Scott and Roger Federer. He’s got great hair, and try though as he might, he still cannot understand the people from Quebec.",
       "simian-id": "5430",
       "name": "Jeremi Durand",
       "slug": "jeremi-durand",
@@ -664,6 +664,13 @@
       "active": true,
       "sorting": -39,
       "body": "Congratulations to Nicolas Heller, who has been named on the TIME100 Creator list for 2026. Check it out [here](https://time.com/collection/time100-creators/2026/nicolas-heller/)."
+    },
+    {
+      "title": "PetSmart X MAPP",
+      "body": "Check out MAPP's new spot for PetSmart [here](https://www.instagram.com/reel/Da5159DS6Ib/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==).",
+      "date": "[07.17.26]",
+      "active": true,
+      "sorting": -40
     }
   ],
   "address": "50 Carroll St. Lower Unit\\\nToronto, ON M4M 3G3, Canada",
