@@ -671,6 +671,20 @@
       "date": "[07.17.26]",
       "active": true,
       "sorting": -40
+    },
+    {
+      "title": "Greg Bray X Shots",
+      "date": "[07.21.26]",
+      "body": "Check out Greg Bray's new spot for Kayak in Shots [here](https://shots.net/news/view/kayaks-trippy-trip-planning)!",
+      "active": true,
+      "sorting": -41
+    },
+    {
+      "title": "Welcome Emma Westenberg!",
+      "date": "[07.23.26]",
+      "body": "Emma Westenberg has joined the Skin and Bones family! Can't wait for what's to come!",
+      "active": true,
+      "sorting": -42
     }
   ],
   "address": "50 Carroll St. Lower Unit\\\nToronto, ON M4M 3G3, Canada",
