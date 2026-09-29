@@ -278,8 +278,8 @@
       "simian-id": "5408",
       "name": "New York Nico",
       "slug": "new-york-nico",
-      "home-video": "/assets/uploads/thumbnail-new-york-nico.mp4",
-      "home-image": "/assets/uploads/thumbnail-new-york-nico.jpg",
+      "home-video": "assets/uploads/thumbnail-ny-nico-copy.mp4",
+      "home-image": "assets/uploads/thumbnail-ny-nico.jpeg",
       "direct-link-active": false,
       "awards": [
         "CLIO Awards: Heller has won his first CLIO Awards, acknowledging his excellence in advertising and creative work.",
