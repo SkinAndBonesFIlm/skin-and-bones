@@ -94,11 +94,21 @@ function pickVideos() {
 	let i = 0;
 	for (let video of document.querySelectorAll('video')) {
 		videoSource = video.querySelector('source');
-		videoSource.src = randomVideos[i][1];
 		video.poster = randomVideos[i][0];
 		video.style.backgroundImage = `url('${randomVideos[i][0]}')`;
 		video.setAttribute("playsinline", "");
 		video.setAttribute("muted", "");
+
+		// Set video URL
+		video.parentElement.href = '/directors/' + randomVideos[i][2];
+
+		// Some directors only have an image, so show the poster and skip the video
+		if (randomVideos[i][1] == '') {
+			i++;
+			continue
+		}
+		videoSource.src = randomVideos[i][1];
+
 		if (window.innerWidth > 1030 && video.classList.contains('desktop-video')) {
 			if (video.readyState === 4) {
 				video.play();
@@ -115,9 +125,6 @@ function pickVideos() {
 			}
 		}
 
-		// Set video URL
-		video.parentElement.href = '/directors/' + randomVideos[i][2];
-
 		i++;
 	}
 }
@@ -125,6 +132,9 @@ pickVideos();
 
 window.addEventListener('resize', () => {
 	for (let video of document.querySelectorAll('video')) {
+		if (!video.querySelector('source').getAttribute('src')) {
+			continue
+		}
 		if (window.innerWidth > 1030 && video.classList.contains('desktop-video')) {
 			if (video.readyState === 4) {
 				video.play();

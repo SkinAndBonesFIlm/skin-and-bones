@@ -4,6 +4,20 @@ const axios = require('axios'); // download images
 const sharp = require('sharp'); // image compression
 const { marked } = require("marked"); // convert markdown to js
 const { DOMParser } = require('xmldom'); // parse Simian XML data
+const crypto = require('crypto'); // hash media files so we only re-encode when they change
+const { execFile } = require('child_process'); // run ffmpeg
+
+// ffmpeg binary (installed through npm so it also works on Netlify)
+let ffmpegPath = 'ffmpeg';
+try {
+	ffmpegPath = require('ffmpeg-static');
+} catch {}
+if (ffmpegPath != 'ffmpeg' && !fs.existsSync(ffmpegPath)) {
+	ffmpegPath = 'ffmpeg';
+}
+if (ffmpegPath == 'ffmpeg') {
+	console.warn('ffmpeg-static isn’t installed, falling back to system ffmpeg');
+}
 
 // Site content
 const content = require('./content.json');
@@ -72,31 +86,69 @@ for (let newsItem of newsData) {
 	`;
 }
 
+// Retry helper for flaky network requests
+async function withRetries(label, task, attempts = 3) {
+	for (let attempt = 1; attempt <= attempts; attempt++) {
+		try {
+			return await task();
+		} catch (error) {
+			console.warn(`${label} failed (attempt ${attempt} of ${attempts}): ${error.message}`);
+			if (attempt == attempts) {
+				throw new Error(`${label}: ${error.message}`);
+			}
+			await new Promise(resolve => setTimeout(resolve, attempt * 2000)); // wait a bit longer each time
+		}
+	}
+}
+
+// Fetch and parse a director’s Simian feed
+async function fetchSimianFeed(simianID) {
+	const RSS_URL = `https://skinandbonesfilm.gosimian.com/api/simian/mrss/${simianID}`;
+	const response = await fetch(RSS_URL, { signal: AbortSignal.timeout(30000) }); // give up after 30 seconds
+	if (!response.ok) {
+		throw new Error(`Simian responded with ${response.status}`);
+	}
+	const str = await response.text();
+	const data = new DOMParser({ errorHandler: () => {} }).parseFromString(str, "text/xml");
+
+	// An error page or broken XML won’t have a channel, so don’t treat it as an empty feed
+	if (data.getElementsByTagName('channel').length == 0) {
+		throw new Error('Simian didn’t return a valid feed');
+	}
+	return data;
+}
+
 // Function to download an image
 async function downloadImage(url, filename, folder) {
 
 	// Ensure directory exists
 	if (!fs.existsSync(folder)) fs.mkdirSync(folder, { recursive: true });
 
-	let newName = replaceExtensionWithJPG("thumbnail-"+filename);
-
-	// Skip if image already exists
 	const filePath = path.join(folder, filename);
-	if (fs.existsSync(filePath)) {
+	const compressedPath = path.join(folder, replaceExtensionWithJPG("thumbnail-"+filename));
+
+	// Skip if thumbnail already exists
+	if (fs.existsSync(compressedPath)) {
 		return
 	}
 
-	const response = await axios({ url, responseType: 'arraybuffer' });
-	fs.writeFileSync(filePath, response.data);
-	// console.log(`Downloaded: ${filename}`);
+	// Download original (unless a previous build already did)
+	if (!fs.existsSync(filePath)) {
+		const response = await axios({ url, responseType: 'arraybuffer', timeout: 30000 });
+		fs.writeFileSync(filePath, response.data);
+	}
 
-	// Compress file and overwrite original
-	const compressedPath = path.join(folder, newName);
+	// Compress into thumbnail
+	try {
+		await sharp(filePath)
+			.resize(800) // Resize width to 800px (adjust as needed)
+			.toFormat('jpg', { quality: 80 })
+			.toFile(compressedPath);
+	} catch (error) {
+		fs.rmSync(filePath, { force: true }); // original might be broken, so download it again on retry
+		throw error;
+	}
 	console.log(compressedPath);
-	await sharp(filePath)
-		.resize(800) // Resize width to 800px (adjust as needed)
-		.toFormat('jpg', { quality: 80 }) // Convert to WebP with 80% quality
-		.toFile(compressedPath);
 }
 
 // Replace file extension
@@ -117,6 +169,71 @@ const getFilename = (url) => {
     return match ? match[1] : null;
 };
 
+// Fetch a director’s reels from Simian and download their thumbnails
+async function generateDirectorMedia(director) {
+	const slug = director['slug'];
+	const folder = `./directors/${slug}/`;
+
+	console.log(slug + " starting...");
+
+	// Make folder for director
+	if (!fs.existsSync(folder)) fs.mkdirSync(folder, { recursive: true });
+
+	// Fetch XML data from Simian
+	const data = await withRetries(`${slug} (Simian feed)`, () => fetchSimianFeed(director['simian-id']));
+
+	// Navigate through media
+	const items = Array.from(data.getElementsByTagName('item'));
+	let media = [];
+	let downloads = [];
+	for (let item of items) {
+		const title = item.getElementsByTagName('title')[0]?.textContent || 'No title';
+		const video = item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'content')[0]?.getAttribute('url');
+		const thumbnail = item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'thumbnail')[0]?.getAttribute('url');
+
+		// Skip reels without a video
+		if (!video) {
+			console.warn(`${slug}: skipped “${title}” because it has no video`);
+			continue
+		}
+
+		// Download and compress thumbnail (reels without one just show a black box)
+		let thumbnailFile = null;
+		if (thumbnail) {
+			thumbnailFile = getFilename(thumbnail.split('?')[0]);
+			downloads.push(withRetries(`${slug}/${thumbnailFile}`, () => downloadImage(thumbnail, thumbnailFile, folder)));
+		} else {
+			console.warn(`${slug}: “${title}” has no thumbnail`);
+		}
+
+		// Add media item to director’s key in tracking object
+		const itemInfo = extractParts(title);
+		let client = itemInfo;
+		let project = '';
+		if (typeof(itemInfo) != 'string') {
+			client = itemInfo[0];
+			project = itemInfo[1];
+		}
+		media.push({
+			"client": client,
+			"project": project,
+			"video-url": video.replace(/^http:/, "https:"),
+			"thumbnail": thumbnailFile ? replaceExtensionWithJPG(`thumbnail-${thumbnailFile}`) : '',
+			"original": thumbnailFile
+		});
+	}
+
+	// Wait for every thumbnail before writing the page
+	await Promise.all(downloads);
+
+	directorsMedia[slug] = media;
+
+	// Generate individual page
+	generateDirectorPortfolioPage(slug);
+
+	console.log(slug + " finished!");
+}
+
 // Fetch all content from Simian and generate JS object to track data
 let directorsMedia = {};
 async function generatePages() {
@@ -126,75 +243,27 @@ async function generatePages() {
 		if (!director['active'] || director['direct-link-active'] || director['simian-id'] == "" || director['simian-id'] == undefined) {
 			continue
 		}
-
-		tasks.push(
-            new Promise(resolve => {
-
-				const slug = director['slug'];
-				const path = `./directors/${slug}/`;
-
-				console.log(slug + " starting...");
-				
-				// Make folder for director
-				if (!fs.existsSync(path)) fs.mkdirSync(path, { recursive: true });
-		
-				// Fetch XML data from Simian
-				const RSS_URL = `https://skinandbonesfilm.gosimian.com/api/simian/mrss/${director['simian-id']}`;
-				fetch(RSS_URL)
-					.then(response => response.text())
-					.then(str => new DOMParser().parseFromString(str, "text/xml"))
-					.then(data => {
-						// Navigate through media
-						const items = Array.from(data.getElementsByTagName('item'));
-						let media = [];
-						for (let item of items) {
-							
-							const title = item.getElementsByTagName('title')[0]?.textContent || 'No title';
-							const video = item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'content')[0]?.getAttribute('url') || 'No video URL';
-							const thumbnail = item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'thumbnail')[0]?.getAttribute('url') || 'No thumbnail URL';
-		
-							const itemInfo = extractParts(title);
-							console.log(thumbnail)
-							let thumbnailFile = getFilename(thumbnail.split('?')[0]);
-							console.log(thumbnailFile)
-		
-							// Download and compress media item
-							downloadImage(thumbnail, thumbnailFile, path);
-		
-							// Add media item to director’s key in tracking object 
-							if (typeof(itemInfo) == 'string') {
-								media.push({
-									"client": itemInfo,
-									"project": '',
-									"video-url": video.replace(/^http:/, "https:"),
-									"thumbnail": replaceExtensionWithJPG(`thumbnail-${thumbnailFile}`)
-								});
-							} else {
-								media.push({
-									"client": itemInfo[0],
-									"project": itemInfo[1],
-									"video-url": video,
-									"thumbnail": replaceExtensionWithJPG(`thumbnail-${thumbnailFile}`)
-								});
-							}
-						}
-
-						directorsMedia[slug] = media;
-						
-						// Generate individual page
-						generateDirectorPortfolioPage(slug);
-
-						console.log(slug + " finished!");
-					
-						resolve();
-					})
-            })
-        );
+		tasks.push(generateDirectorMedia(director));
 	}
 
-	await Promise.all(tasks); // Wait for all tasks to finish
+	// Wait for all tasks to finish
+	const results = await Promise.allSettled(tasks);
+
+	// If anything from Simian failed, stop the build so Netlify keeps the last working version live
+	const failures = results.filter(result => result.status == 'rejected');
+	if (failures.length > 0) {
+		console.error('\nBUILD STOPPED: couldn’t load everything from Simian, so the live site was left as is.');
+		for (let failure of failures) {
+			console.error(' – ' + failure.reason.message);
+		}
+		console.error('Try publishing again in a few minutes.\n');
+		process.exit(1);
+	}
 
 	console.log('all directors finished!');
+
+	// Delete pages and images for directors that no longer have a page
+	removeOldDirectorFiles();
 
 	// Convert object to JS file
 	fs.writeFile(`./assets/scripts/directors-media.js`, "const directorsMedia = " + JSON.stringify(directorsMedia), err => {
@@ -328,8 +397,160 @@ async function generatePages() {
 	// Generate about page
 	generateAboutPage();
 
-	// Generate home page
+	// Optimize homepage videos and images, then generate home page
+	await optimizeHomeMedia();
 	generateHomePage();
+}
+
+// Settings for homepage media (bump the version to force everything to re-encode)
+const mediaSettings = {
+	"version": 1,
+	"video-width": 960, // homepage cells are never wider than this (2x on retina)
+	"video-quality": 28, // CRF: lower means higher quality and bigger files
+	"image-width": 960,
+	"image-quality": 80
+};
+const optimizedFolder = 'assets/optimized/'; // what the site actually uses
+const mediaCacheFolder = 'node_modules/.cache/skin-and-bones-media/'; // Netlify keeps node_modules between builds
+let optimizedFiles = [];
+
+// Run ffmpeg and wait for it to finish
+function runFFmpeg(args) {
+	return new Promise((resolve, reject) => {
+		execFile(ffmpegPath, args, (error, stdout, stderr) => {
+			if (error) {
+				reject(new Error(stderr.trim() || error.message));
+			} else {
+				resolve();
+			}
+		});
+	});
+}
+
+// Optimize one CMS upload and return the path to use on the site
+async function optimizeMedia(source, type) {
+	if (!source) {
+		return ''
+	}
+	const sourcePath = source.replace(/^\//, ''); // CMS paths sometimes start with a slash and sometimes don’t
+	if (!fs.existsSync(sourcePath)) {
+		console.warn(`Missing media file: ${sourcePath}`);
+		return ''
+	}
+
+	// Name optimized file after the contents of the original, so replacing an upload re-encodes it
+	const hash = crypto.createHash('md5')
+		.update(fs.readFileSync(sourcePath))
+		.update(JSON.stringify(mediaSettings))
+		.digest('hex')
+		.slice(0, 8);
+	const extension = type == 'video' ? '.mp4' : '.jpg';
+	const filename = `${path.parse(sourcePath).name}-${hash}${extension}`;
+	const outputPath = path.join(optimizedFolder, filename);
+	const cachePath = path.join(mediaCacheFolder, filename);
+	optimizedFiles.push(filename);
+
+	// Already optimized in a previous build
+	if (fs.existsSync(outputPath)) {
+		return '/' + outputPath
+	}
+	if (fs.existsSync(cachePath)) {
+		fs.copyFileSync(cachePath, outputPath);
+		return '/' + outputPath
+	}
+
+	// Write to a temporary file first so a failed encode never leaves a broken file behind
+	console.log(`Optimizing ${sourcePath}...`);
+	const tempPath = outputPath + '.tmp' + extension;
+	try {
+		if (type == 'video') {
+			await runFFmpeg([
+				'-v', 'error', '-y',
+				'-i', sourcePath,
+				'-an', // no audio, the homepage videos are muted anyway
+				'-vf', `scale='trunc(min(${mediaSettings['video-width']},iw)/2)*2':-2`, // shrink (never enlarge) to an even width
+				'-c:v', 'libx264', // H.264 plays everywhere (HEVC doesn’t play in Firefox or a lot of Chrome)
+				'-preset', 'medium',
+				'-crf', String(mediaSettings['video-quality']),
+				'-pix_fmt', 'yuv420p',
+				'-movflags', '+faststart', // put the index at the start so the video can play while it downloads
+				tempPath
+			]);
+		} else {
+			await sharp(sourcePath)
+				.resize({ width: mediaSettings['image-width'], withoutEnlargement: true })
+				.jpeg({ quality: mediaSettings['image-quality'] })
+				.toFile(tempPath);
+		}
+	} catch (error) {
+		// Don’t block publishing over one bad upload, just use the original
+		fs.rmSync(tempPath, { force: true });
+		console.warn(`Couldn’t optimize ${sourcePath}, using the original instead: ${error.message}`);
+		return '/' + sourcePath
+	}
+	fs.renameSync(tempPath, outputPath);
+	fs.copyFileSync(outputPath, cachePath);
+
+	const before = (fs.statSync(sourcePath).size / 1e6).toFixed(1);
+	const after = (fs.statSync(outputPath).size / 1e6).toFixed(1);
+	console.log(`Optimized ${sourcePath} (${before}MB → ${after}MB)`);
+	return '/' + outputPath
+}
+
+// Optimize every active director’s homepage image and video
+async function optimizeHomeMedia() {
+	if (!fs.existsSync(optimizedFolder)) fs.mkdirSync(optimizedFolder, { recursive: true });
+	if (!fs.existsSync(mediaCacheFolder)) fs.mkdirSync(mediaCacheFolder, { recursive: true });
+
+	// One at a time, since ffmpeg already uses every CPU core
+	for (let entry of directors) {
+		if (!entry['active']) {
+			continue
+		}
+		entry['home-image-optimized'] = await optimizeMedia(entry['home-image'], 'image');
+		entry['home-video-optimized'] = await optimizeMedia(entry['home-video'], 'video');
+	}
+
+	// Delete optimized files that are no longer used
+	for (let folder of [optimizedFolder, mediaCacheFolder]) {
+		for (let file of fs.readdirSync(folder)) {
+			if (!optimizedFiles.includes(file)) {
+				fs.rmSync(path.join(folder, file), { force: true });
+			}
+		}
+	}
+	console.log('homepage media optimized!');
+}
+
+// Delete files that weren’t part of this build
+function removeOldDirectorFiles() {
+	const directorsFolder = './directors/';
+	for (let folder of fs.readdirSync(directorsFolder, { withFileTypes: true })) {
+		if (!folder.isDirectory()) {
+			continue
+		}
+		const folderPath = path.join(directorsFolder, folder.name);
+
+		// Director was removed, deactivated, or switched to link only
+		if (directorsMedia[folder.name] == undefined) {
+			fs.rmSync(folderPath, { recursive: true, force: true });
+			console.log(folder.name + " removed!");
+			continue
+		}
+
+		// Director still exists, so only remove images for reels that are no longer on Simian
+		let filesToKeep = ['index.html'];
+		for (let media of directorsMedia[folder.name]) {
+			filesToKeep.push(media['thumbnail']); // compressed thumbnail
+			filesToKeep.push(media['original']); // original download (used to skip re-downloading)
+		}
+		for (let file of fs.readdirSync(folderPath)) {
+			if (!filesToKeep.includes(file)) {
+				fs.rmSync(path.join(folderPath, file), { force: true });
+				console.log(folder.name + "/" + file + " removed!");
+			}
+		}
+	}
 }
 
 // Generate individual pages for all directors
@@ -769,8 +990,8 @@ function generateHomePage() {
 			continue
 		}
 
-		if (entry['home-image'] != "" || entry['home-video'] != "") {
-			homeVideos += `["${entry['home-image']}", "${entry['home-video']}", "${entry['slug']}"], `;
+		if (entry['home-image-optimized'] || entry['home-video-optimized']) {
+			homeVideos += `["${entry['home-image-optimized']}", "${entry['home-video-optimized']}", "${entry['slug']}"], `;
 		}
 
 		let br = '';

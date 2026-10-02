@@ -36,7 +36,9 @@ for (let key of Object.keys(directorsMedia)) {
 		link.href = slug;
 		link.classList.add('directors-link');
 		link.dataset.director = key;
-		link.style.backgroundImage = `url('${key}/${entry['thumbnail']}')`;
+		if (entry['thumbnail'] != '') {
+			link.dataset.thumbnail = `${key}/${entry['thumbnail']}`; // loaded later by thumbnailObserver
+		}
 
 		// Add to array for sorting later
 		if (mediaItems[i] != undefined) {
@@ -57,15 +59,44 @@ for (let key of Object.keys(directorsMedia)) {
 		})
 		i++;
 	}
+}
 
-	// Add all links to DOM in order
-	for (let links of mediaItems) {
-		shuffle(links);
-		for (let link of links) {
-			container.appendChild(link);
-		}
+// Add all links to DOM in order
+for (let links of mediaItems) {
+	shuffle(links);
+	for (let link of links) {
+		container.appendChild(link);
 	}
 }
+
+// Only load thumbnails once they’re on screen, so the first screen loads first
+function loadThumbnail(link) {
+	if (link.dataset.thumbnail) {
+		link.style.backgroundImage = `url('${link.dataset.thumbnail}')`;
+		delete link.dataset.thumbnail;
+	}
+}
+const thumbnailObserver = new IntersectionObserver((entries) => {
+	for (let entry of entries) {
+		if (entry.isIntersecting) {
+			loadThumbnail(entry.target);
+			thumbnailObserver.unobserve(entry.target);
+		}
+	}
+}, { rootMargin: '200px' });
+for (let link of document.querySelectorAll('.directors-link')) {
+	thumbnailObserver.observe(link);
+}
+
+// Once the page has loaded, quietly load the rest so scrolling doesn’t show empty cells
+window.addEventListener('load', () => {
+	setTimeout(() => {
+		for (let link of document.querySelectorAll('.directors-link')) {
+			loadThumbnail(link);
+			thumbnailObserver.unobserve(link);
+		}
+	}, 1000);
+});
 
 // Scroll capture (desktop)
 let directorsScrollPos = 0;
