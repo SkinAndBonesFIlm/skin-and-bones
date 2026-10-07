@@ -485,13 +485,14 @@
       "direct-link-active": false
     },
     {
-      "name": "Greg Bray",
-      "slug": "greg-bray",
-      "simian-id": "5438",
-      "home-image": "assets/uploads/greg-bray-thumbnail-2.jpeg",
-      "bio": "Greg’s work is defined by character-based humor and a meticulous dedication to crafting cinematic worlds. He has a distinct ability to capture the idiosyncrasies of human behavior, mining nuanced performances that lean into the awkward, the absurd, and the delightfully bizarre. There is an unmistakable entertainment value baked into his collaborative process. Whether he is challenging conventions or dialing in a subtle comedic beat, Greg ensures that a brand’s message isn't just communicated—it’s genuinely fun to watch. His distinct comedic voice has brought memorable campaigns to life for clients including Old Spice, VW, Subway, Samsung, Veet Men, KFC, and Burger King.",
       "sorting": "greg-bray",
       "active": true,
+      "bio": "Greg’s work is defined by character-based humor and a meticulous dedication to crafting cinematic worlds. He has a distinct ability to capture the idiosyncrasies of human behavior, mining nuanced performances that lean into the awkward, the absurd, and the delightfully bizarre. There is an unmistakable entertainment value baked into his collaborative process. Whether he is challenging conventions or dialing in a subtle comedic beat, Greg ensures that a brand’s message isn't just communicated—it’s genuinely fun to watch. His distinct comedic voice has brought memorable campaigns to life for clients including Old Spice, VW, Subway, Samsung, Veet Men, KFC, and Burger King.",
+      "simian-id": "5438",
+      "name": "Greg Bray",
+      "slug": "greg-bray",
+      "home-video": "assets/uploads/thumbnail-greg-bray.mp4",
+      "home-image": "assets/uploads/greg-bray-thumbnail-2.jpeg",
       "direct-link-active": false
     },
     {
