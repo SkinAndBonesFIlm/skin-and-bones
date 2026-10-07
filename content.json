@@ -474,13 +474,14 @@
       ]
     },
     {
-      "name": "Emma Westenberg",
-      "simian-id": "5437",
-      "slug": "emma-westenberg",
       "sorting": "emma-westenberg",
       "active": true,
       "bio": "Emma brings a multidisciplinary artist’s eye to the commercial world, blending fine art sensibilities with a distinctly pop aesthetic. In other words, her work is highly stylized, yet universally accessible. Drawing from a rich background in painting and theater, she builds vivid, meticulously curated worlds that immediately draw the viewer in. It’s this seamless fusion of classic visual tropes and modern, style-centric storytelling that makes her a go-to director for globally recognized brands.",
-      "home-image": "assets/uploads/thumbnail-emma-westenberg.jpeg",
+      "simian-id": "5437",
+      "name": "Emma Westenberg",
+      "slug": "emma-westenberg",
+      "home-video": "assets/uploads/thumbnail-emma-westenberg.mp4",
+      "home-image": "assets/uploads/thumbnail-emma-westenberg.jpg",
       "direct-link-active": false
     },
     {
